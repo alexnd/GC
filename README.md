@@ -64,5 +64,66 @@ You remember? **"**, than **register**, than operation (**yY dD pP**)
 And yes... Please don’t cut the purple trees!
 
 Wooot!?
+
 ##[PHP]
-```php -r "echo PHP_EOL;" > eol``` is a ```String.fromCharCode(13,10)```
+
+one line terminal
+```php -r "echo PHP_EOL;" > eol```
+
+internally have we equal to this?:
+```String.fromCharCode(13,10)``` or just ```'\n'```
+
+what about this ```\x0A \x0D``` , ```x13 x10``` ?
+
+Blame it on the typewriters - better yet, that lever or button on the right side of them. The one used to start typing on the next line. When you activate it, it causes
+
+    the carriage to 'return' to the right so the hammers are lined up on the left side of the paper (carriage return)
+    the carriage to roll up so the hammers are lined up on the next 'line' down (line feed) 
+
+In the early 1900's teletypwriters were used to relay messages. Teletypwriters were descendants of the telegraph, and used a code similar to ASCII, called Baudot (or Murray) code. An operator could type into the teletypewriter (tty for short) and print a message on another tty far away.
+
+In this Baudot code, two special characters were designated for a Carriage Return(0x02) and a Line Feed(0x08). Baudot code went the way of the dinosaur for reasons outside the scope of this discussion, but the CR and LF characters were adopted by ASCII with different values:
+
+    CR = 0x0D = \015 = \r
+    LF = 0x0A = \012 = \n
+
+historically
+
+    Macintosh: \r
+    Windows  : \r\n
+    Unix     : \n
+
+different operatiing systems interpret a logical newline
+
+    Unix     : \n = \012
+    Macintosh: \n = \015
+    Windows  : \n = \012     if handled as ASCII
+    Windows  : \n = \015\012 if handled as binary
+
+But why ```x13 x10``` ?
+
+```0x0D``` is hexadecimal ```0D``` which is decimal 13 which is octal 15 (or ```015```).
+Similarly, ```0x0A``` is hexadecimal ```0A``` which is decimal 10 which is octal 12 (or ```012```).
+
+Following php docs about strings interpolation:
+
+Double quoted
+
+If the string is enclosed in double-quotes ("), PHP will interpret more escape sequences for special characters:
+
+Escaped characters Sequence 	  Meaning
+
+    \n 	        linefeed (LF or 0x0A (10) in ASCII)
+    \r 	        carriage return (CR or 0x0D (13) in ASCII)
+    \t 	        horizontal tab (HT or 0x09 (9) in ASCII)
+    \v 	        vertical tab (VT or 0x0B (11) in ASCII) (since PHP 5.2.5)
+    \e 	        escape (ESC or 0x1B (27) in ASCII) (since PHP 5.4.4)
+    \f 	        form feed (FF or 0x0C (12) in ASCII) (since PHP 5.2.5)
+    \\ 	        backslash
+    \$ 	        dollar sign
+    \" 	        double-quote
+    \[0-7]{1,3} 	the sequence of characters matching the regular expression is a character in octal notation
+    \x[0-9A-Fa-f]{1,2} 	the sequence of characters matching the regular expression is a character in hexadecimal notation
+
+As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
+The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
