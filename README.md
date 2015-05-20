@@ -65,4 +65,4 @@ And yes... Please don’t cut the purple trees!
 
 Wooot!?
 ##[PHP]
-```php -r "echo PHP_EOL;" > eol```
+```php -r "echo PHP_EOL;" > eol``` is a ```String.fromCharCode(13,10)```
