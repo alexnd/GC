@@ -62,3 +62,7 @@ For example, you could select the text ```hello``` then type ```"ay``` to copy "
 You remember? **"**, than **register**, than operation (**yY dD pP**)
 
 And yes... Please don’t cut the purple trees!
+
+Wooot!?
+##[PHP]
+```php -r "echo PHP_EOL;" > eol```
