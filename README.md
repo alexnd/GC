@@ -63,6 +63,16 @@ You remember? **"**, than **register**, than operation (**yY dD pP**)
 
 And yes... Please don’t cut the purple trees!
 
+##[JS]
+
+First of all just clarify that you on a right toolchain
+
+```
+function log() {
+  console.log.apply(null, Array.prototype.slice.call(arguments));
+}
+```
+
 Wooot!?
 
 ##[PHP]
