@@ -73,9 +73,15 @@ function log() {
 }
 ```
 
-Wooot!?
+##[HTML]
+
+Minimal pic
+
+```<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==">```
 
 ##[PHP]
+
+Wooot!?
 
 one line terminal
 ```php -r "echo PHP_EOL;" > eol```
