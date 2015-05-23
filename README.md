@@ -95,7 +95,7 @@ function dump_to_json(f, o) {
 
 function dump_to_jsonfy(f, o) {
   if (undefined === f || undefined === o) return;
-  app.fs.writeFileSync(f, JSON.stringify(s, null, 2));
+  app.fs.writeFileSync(f, JSON.stringify(o, null, 2));
 }
 ```
 
