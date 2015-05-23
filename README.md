@@ -71,6 +71,32 @@ First of all just clarify that you on a right toolchain
 function log() {
   console.log.apply(null, Array.prototype.slice.call(arguments));
 }
+
+function dump() {
+  var a = Array.prototype.slice.call(arguments), s = '';
+  if (!a.length > 0) return;
+  if (typeof a[0] === 'string') s += (a.shift() + '\n');
+  for (var i = 0; i < a.length; i++) s += (app.util.inspect(a[i]) + '\n');
+  app.fs.writeFileSync('dump.log', s);
+}
+
+function dump_to(f) {
+  if (undefined === f) return;
+  var a = Array.prototype.slice.call(arguments), s = '';
+  if (!a.length > 1) return;
+  for (var i = 1; i < a.length; i++) s += (app.util.inspect(a[i]) + '\n');
+  app.fs.writeFileSync(f, s);
+}
+
+function dump_to_json(f, o) {
+  if (undefined === f || undefined === o) return;
+  app.fs.writeFileSync(f, JSON.stringify(s));
+}
+
+function dump_to_jsonfy(f, o) {
+  if (undefined === f || undefined === o) return;
+  app.fs.writeFileSync(f, JSON.stringify(s, null, 2));
+}
 ```
 
 ##[HTML]
