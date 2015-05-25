@@ -99,6 +99,12 @@ function dump_to_jsonfy(f, o) {
 }
 ```
 
+Backward-loop 
+
+```
+var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { log(a[i]) }
+```
+
 ##[HTML]
 
 Minimal pic
