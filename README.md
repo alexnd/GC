@@ -69,7 +69,23 @@ First of all just clarify that you on a right toolchain
 
 ```
 function log() {
-  console.log.apply(null, Array.prototype.slice.call(arguments));
+  console.log.apply(console || null, Array.prototype.slice.call(arguments));
+}
+
+function trace() {
+  var a = Array.prototype.slice.call(arguments);
+  if (a && 'undefined'!==typeof app && undefined!==app.util && undefined!==app.util.inspect) {
+    for (var i = 0; i < a.length; i++) log(app.util.inspect(a[i]));
+  } else {
+    for (var i = 0; i < a.length; i++) console.trace(a[i]);
+  }
+}
+
+function dbg() {
+  var a = Array.prototype.slice.call(arguments);
+  if (!a.length > 0) return;
+  if (typeof a[0] === 'string') log(a.shift());
+  trace(a);
 }
 
 function dump() {
