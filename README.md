@@ -105,6 +105,14 @@ Backward-loop
 var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { log(a[i]) }
 ```
 
+Reading a -*py* config into js!
+
+```
+var pycfg = require('fs').readFileSync('../config.py').toString();
+pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"');
+log( pycfg.foo )
+```
+
 ##[HTML]
 
 Minimal pic
