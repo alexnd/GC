@@ -199,3 +199,13 @@ Escaped characters Sequence 	  Meaning
 
 As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
 The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
+
+##[SNIPPETS]
+
+[get first line of string]
+
+js: ```s.split('\n')[0]```
+
+php: ```strtok($s, "\n")```
+
+py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
