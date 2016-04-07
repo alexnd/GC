@@ -68,25 +68,10 @@ And yes... Please don’t cut the purple trees!
 First of all just clarify that you on a right toolchain
 
 ```
-function log() {
-  console.log.apply(console || null, Array.prototype.slice.call(arguments));
-}
+var log = console.log;
+var trace = console.trace;
 
-function trace() {
-  var a = Array.prototype.slice.call(arguments);
-  if (a && 'undefined'!==typeof app && undefined!==app.util && undefined!==app.util.inspect) {
-    for (var i = 0; i < a.length; i++) log(app.util.inspect(a[i]));
-  } else {
-    for (var i = 0; i < a.length; i++) console.trace(a[i]);
-  }
-}
-
-function dbg() {
-  var a = Array.prototype.slice.call(arguments);
-  if (!a.length > 0) return;
-  if (typeof a[0] === 'string') log(a.shift());
-  trace(a);
-}
+//for node with app in context (fs linked in app)
 
 function dump() {
   var a = Array.prototype.slice.call(arguments), s = '';
@@ -113,6 +98,12 @@ function dump_to_jsonfy(f, o) {
   if (undefined === f || undefined === o) return;
   app.fs.writeFileSync(f, JSON.stringify(o, null, 2));
 }
+```
+
+"Arraify" function arguments
+
+```
+Array.prototype.slice.call(arguments)
 ```
 
 Backward-loop 
