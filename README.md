@@ -120,6 +120,13 @@ pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"
 log( pycfg.foo )
 ```
 
+Default function value
+
+function test(v) {
+var v = ('undefined' == typeof v) ? 'default' : v;
+// v is 'default' or its own
+}
+
 ##[HTML]
 
 Minimal pic
