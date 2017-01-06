@@ -209,3 +209,7 @@ js: ```s.split('\n')[0]```
 php: ```strtok($s, "\n")```
 
 py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
+
+[sql]
+
+```select from_unixtime(2147483647)``` => ```2038-01-19 05:14:07``` - 32-bit time_t limit (2038-year timestamp overflow)
