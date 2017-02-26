@@ -68,13 +68,7 @@ And yes... Please don’t cut the purple trees!
 First of all just clarify that you on a right toolchain
 
 ```
-var L = console.log.bind(window.console);
-
-//nodejs version
-var L = console.log;
-
-//hoisting version, but without saving line-numbers context in browser developer console
-function L() { console.log.apply(console || null, Array.prototype.slice.call(arguments)); }
+var L = console.log.bind(console);
 ```
 
 Also it can be useful to map console.trace as 'T'
