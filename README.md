@@ -68,7 +68,7 @@ And yes... Please don’t cut the purple trees!
 First of all just clarify that you on a right toolchain
 
 ```
-var L = console.log.bind(console);
+var L = (typeof console == 'object') ? console.log.bind(console) : function(){};
 ```
 
 Also it can be useful to map console.trace as 'T'
