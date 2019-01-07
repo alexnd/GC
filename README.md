@@ -37,13 +37,15 @@ Ok, well, shuffling some another stuff...
 
 ## JS
 
-First of all just clarify that you on a right toolchain
+### L = console.log() helper
 
 ```
 var L = (typeof console == 'object') ? console.log.bind(console) : function(){};
 ```
-
-Also it can be useful to map console.trace as 'T'
+or
+```
+const L = console.log.bind(console)
+```
 
 ### "Arraify" function arguments
 
@@ -107,7 +109,15 @@ $app.init({foo:'Bar'});
 ### Minimal pic
 
 ```
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==">
+
 <img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==">
+```
+
+```
+background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==);
+
+background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
 ## PHP
