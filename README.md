@@ -240,3 +240,21 @@ js: ```s.split('\n')[0]```
 php: ```strtok($s, "\n")```
 
 py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
+
+### SHELL
+
+* pack dir to TAR + GZ
+
+```tar -zcvf name.tgz source```
+
+* copy from your pc over ssh 
+
+```scp source username@host:pathTo```
+
+* copy from host to your pc
+
+```scp username@host:pathFrom pathTo```
+
+* download
+
+```wget URL```
