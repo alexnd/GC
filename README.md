@@ -177,19 +177,17 @@ Double quoted
 
 If the string is enclosed in double-quotes ("), PHP will interpret more escape sequences for special characters:
 
-Escaped characters Sequence 	  Meaning
-
-    \n 	        linefeed (LF or 0x0A (10) in ASCII)
-    \r 	        carriage return (CR or 0x0D (13) in ASCII)
-    \t 	        horizontal tab (HT or 0x09 (9) in ASCII)
-    \v 	        vertical tab (VT or 0x0B (11) in ASCII) (since PHP 5.2.5)
-    \e 	        escape (ESC or 0x1B (27) in ASCII) (since PHP 5.4.4)
-    \f 	        form feed (FF or 0x0C (12) in ASCII) (since PHP 5.2.5)
-    \\ 	        backslash
-    \$ 	        dollar sign
-    \" 	        double-quote
-    \[0-7]{1,3} 	the sequence of characters matching the regular expression is a character in octal notation
-    \x[0-9A-Fa-f]{1,2} 	the sequence of characters matching the regular expression is a character in hexadecimal notation
+\n - linefeed (LF or 0x0A (10) in ASCII)
+\r - carriage return (CR or 0x0D (13) in ASCII)
+\t - horizontal tab (HT or 0x09 (9) in ASCII)
+\v - vertical tab (VT or 0x0B (11) in ASCII)
+\e - escape (ESC or 0x1B (27) in ASCII)
+\f - form feed (FF or 0x0C (12) in ASCII)
+\\ - backslash
+\$ - dollar sign
+\" - double-quote
+\[0-7]{1,3} - the sequence of characters matching the regular expression is a character in octal notation
+\x[0-9A-Fa-f]{1,2} the sequence of characters matching the regular expression is a character in hexadecimal notation
 
 As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
 The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
