@@ -315,9 +315,17 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 
 # SSH
 
-[Add new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent) (prevent `git@gitlab.com: Permission denied (publickey).` error)
 
-* Cannot connect to remote host with message:
+* Prevent `git@gitlab.com: Permission denied (publickey).` connection error
+
+```
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa (or other file)
+```
+
+[How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+
+* Cannot connect to remote host with error:
 
     ```
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
