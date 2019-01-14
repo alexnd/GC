@@ -312,3 +312,7 @@ termcapinfo xterm ti@:te@
 hardstatus alwayslastline
 hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
 ```
+
+# SSH
+
+[Add new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent) (prevent `git@gitlab.com: Permission denied (publickey).` error)
