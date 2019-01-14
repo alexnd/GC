@@ -316,3 +316,21 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 # SSH
 
 [Add new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent) (prevent `git@gitlab.com: Permission denied (publickey).` error)
+
+* Cannot connect to remote host with message:
+
+    ```
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    ```
+
+    edit `.ssh/known_hosts` deleting old cached host fingerprint,
+    than it will be recreated at next attemp
+
+* Tunneling
+
+```ssh -N -L localhost:6379:localhost:6379 example.com```
