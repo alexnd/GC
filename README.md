@@ -258,7 +258,7 @@ done
 
 ## SNIPPETS (MISC)
 
-### get first line of string
+### Get first line of string
 
 js: ```s.split('\n')[0]```
 
@@ -268,26 +268,38 @@ py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
 ### SHELL
 
-* pack dir to TAR + GZ
+* Pack dir to TAR + GZ
 
 ```tar -zcvf name.tgz path```
 
-* pack 1 file (.gz added automatically)
+* Pack 1 file (.gz added automatically)
 
 ```gzip path```
 
-* copy from your pc to host over ssh 
+* Copy from your pc to host over ssh 
 
 ```scp source user@host:pathTo```
 
-* copy from host to your pc over ssh
+* Copy from host to your pc over ssh
 
 ```scp user@host:pathFrom pathTo```
 
-* download
+* Download
 
 ```wget URL```
 
-* advanced download
+* Advanced download
 
 ```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
+
+* Add user to root group
+
+```usermod -aG sudo username```
+
+* Install ubuntu toolset (common dev stuf missing after clean install)
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server nullmailer mailutils screen vim mc
+```
