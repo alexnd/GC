@@ -325,6 +325,8 @@ ssh-add -K ~/.ssh/id_rsa (or other file)
 
 [How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
+[About ssh agent](https://www.ssh.com/ssh/agent)
+
 * Cannot connect to remote host with error:
 
     ```
