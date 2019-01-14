@@ -247,6 +247,10 @@ py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
 ```tar -zcvf name.tgz path```
 
+* pack 1 file (.gz added automatically)
+
+```gzip path```
+
 * copy from your pc to host over ssh 
 
 ```scp source user@host:pathTo```
@@ -258,3 +262,7 @@ py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 * download
 
 ```wget URL```
+
+* advanced download
+
+```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
