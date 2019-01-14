@@ -201,7 +201,7 @@ select from_unixtime(2147483647)
 ``` 
 => ```2038-01-19 05:14:07``` - 32-bit time_t limit (2038-year timestamp overflow)
 
-## vim 
+## VI(M)
 
 Cut and paste:
 
@@ -230,6 +230,31 @@ For example, you could select the text ```hello``` then type ```"ay``` to copy "
 You remember? **"**, than **register**, than operation (**yY dD pP**)
 
 And yes... Please don’t cut the purple trees!
+
+Change the lineendings in the view:
+
+```
+:e ++ff=dos
+:e ++ff=mac
+:e ++ff=unix
+```
+
+This can also be used as saving operation (:w alone will not save using the lineendings you see on screen):
+
+```
+:w ++ff=dos
+:w ++ff=mac
+:w ++ff=unix
+```
+
+And you can use it from the command-line:
+
+```
+for file in $(ls *cpp)
+do 
+  vi +':w ++ff=unix' +':q' ${file}
+done
+```
 
 ## SNIPPETS (MISC)
 
