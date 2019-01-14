@@ -1,6 +1,6 @@
 # GC
 
-*Goodness Corp*? or *Garbage Collector*? Who knows... Maybe its *Global Collection*, no its *Gone Cuties*!
+*Goodness Corp*? or *Garbage Collector*? Who knows... Maybe its *Gists Collection*, no its *Gone Cuties*!
 LOL! ROFL! and LMAO...
 
 I started this collection named "GC" in relationship but not only for JS.
@@ -40,7 +40,7 @@ Ok, well, shuffling some another stuff...
 ### L = console.log() helper
 
 ```
-var L = (typeof console == 'object') ? console.log.bind(console) : function(){};
+var L = (typeof console == 'object') ? console.log.bind(console) : function(){}
 ```
 or
 ```
@@ -62,8 +62,8 @@ var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }
 ### Reading a -*py* config into js!
 
 ```
-var pycfg = require('fs').readFileSync('../config.py').toString();
-pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"');
+var pycfg = require('fs').readFileSync('../config.py').toString()
+pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
 L( pycfg.foo )
 ```
 
@@ -71,7 +71,7 @@ L( pycfg.foo )
 
 ```
 function test(v) {
-var v = (typeof v == 'undefined') ? 'default' : v;
+var v = (typeof v == 'undefined') ? 'default' : v
 // v is 'default' or its own
 }
 ```
@@ -104,7 +104,7 @@ var G = window || global || this;
 $app.init({foo:'Bar'});
 ```
 
-## HTML
+## HTML + CSS
 
 ### Minimal pic
 
@@ -245,15 +245,15 @@ py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
 * pack dir to TAR + GZ
 
-```tar -zcvf name.tgz source```
+```tar -zcvf name.tgz path```
 
-* copy from your pc over ssh 
+* copy from your pc to host over ssh 
 
-```scp source username@host:pathTo```
+```scp source user@host:pathTo```
 
-* copy from host to your pc
+* copy from host to your pc over ssh
 
-```scp username@host:pathFrom pathTo```
+```scp user@host:pathFrom pathTo```
 
 * download
 
