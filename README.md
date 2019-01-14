@@ -344,3 +344,16 @@ ssh-add -K ~/.ssh/id_rsa (or other file)
 * Tunneling
 
 ```ssh -N -L localhost:6379:localhost:6379 example.com```
+
+# GIT
+
+```
+(git init)
+git remote -v
+(git remote add)
+git status
+git pull
+git add .
+git commit -m "msg"
+git push -u origin master
+```
