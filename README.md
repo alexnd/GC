@@ -296,10 +296,21 @@ py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
 ```usermod -aG sudo username```
 
-* Install ubuntu toolset (common dev stuf missing after clean install)
+* Install common dev stuff missing after clean install (like `vim` and `mc`)
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server nullmailer mailutils screen vim mc
+```
+
+* `.scereenrc` (```sudo apt install screen```)
+
+```
+vbell off
+altscreen on
+defutf8 on
+termcapinfo xterm ti@:te@
+hardstatus alwayslastline
+hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
 ```
