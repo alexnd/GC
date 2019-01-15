@@ -35,48 +35,48 @@ Nevermind, if you do ;) Its kick your ASs! Just remeber - GC!
 
 Ok, well, shuffling some another stuff...
 
-## JS
+# JS
 
-### L = console.log() helper
+* L = console.log() helper
 
-```
-var L = (typeof console == 'object') ? console.log.bind(console) : function(){}
-```
-or
-```
-const L = console.log.bind(console)
-```
+    ```
+    var L = (typeof console == 'object') ? console.log.bind(console) : function(){}
+    ```
+    or
+    ```
+    const L = console.log.bind(console)
+    ```
 
-### "Arraify" function arguments
+* "Arraify" function arguments
 
-```
-Array.prototype.slice.call(arguments)
-```
+    ```
+    Array.prototype.slice.call(arguments)
+    ```
 
-### Backward-loop 
+* Backward-loop 
 
-```
-var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }
-```
+    ```
+    var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }
+    ```
 
-### Reading a -*py* config into js!
+* Reading a -*py* config into js!
 
-```
-var pycfg = require('fs').readFileSync('../config.py').toString()
-pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
-L( pycfg.foo )
-```
+    ```
+    var pycfg = require('fs').readFileSync('../config.py').toString()
+    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
+    L( pycfg.foo )
+    ```
 
-### Default function value
+* Default function value
 
-```
-function test(v) {
-var v = (typeof v == 'undefined') ? 'default' : v
-// v is 'default' or its own
-}
-```
+    ```
+    function test(v) {
+    var v = (typeof v == 'undefined') ? 'default' : v
+    // v is 'default' or its own
+    }
+    ```
 
-### Module 
+* Module 
 
 ```
 var G = window || global || this;
@@ -104,9 +104,9 @@ var G = window || global || this;
 $app.init({foo:'Bar'});
 ```
 
-## HTML + CSS
+# HTML + CSS
 
-### Minimal pic
+* Minimal pic
 
 ```
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==">
@@ -120,11 +120,11 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
-## PHP
+# PHP
 
-Wooot!?
+0_O Wooot!?
 
-### one line terminal
+* one line terminal
 
 ```
 php -r "echo PHP_EOL;" > eol
@@ -192,14 +192,15 @@ If the string is enclosed in double-quotes ("), PHP will interpret more escape s
 As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
 The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
 
-## SQL
+# SQL
 
-```
-select from_unixtime(2147483647)
-``` 
-=> ```2038-01-19 05:14:07``` - 32-bit time_t limit (2038-year timestamp overflow)
+    ```
+    select from_unixtime(2147483647)
+    ```
 
-## VI(M)
+    => ```2038-01-19 05:14:07``` - 32-bit time_t limit (2038-year timestamp overflow)
+
+# VI(M)
 
 Cut and paste:
 
@@ -254,17 +255,17 @@ do
 done
 ```
 
-## SNIPPETS (MISC)
+# MISC
 
-### Get first line of string
+* Get first line of string
 
-js: ```s.split('\n')[0]```
+    js: ```s.split('\n')[0]```
 
-php: ```strtok($s, "\n")```
+    php: ```strtok($s, "\n")```
 
-py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
+    py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
-### SHELL
+# SHELL
 
 * Pack dir to TAR + GZ
 
@@ -315,13 +316,15 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 
 # SSH
 
-
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
 
 ```
 eval "$(ssh-agent -s)"
+ssh-add -l
 ssh-add -K ~/.ssh/id_rsa (or other file)
 ```
+
+or just `ssh add`
 
 [How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
@@ -343,7 +346,7 @@ ssh-add -K ~/.ssh/id_rsa (or other file)
 
 * Tunneling
 
-```ssh -N -L localhost:6379:localhost:6379 example.com```
+```ssh -N -L localhost:6379:localhost:6379 example.com``` (-L ... -L ... to multiply number of ports)
 
 # GIT
 
@@ -351,9 +354,19 @@ ssh-add -K ~/.ssh/id_rsa (or other file)
 (git init)
 git remote -v
 (git remote add)
+git branch
+(git checkout -b new_branch)
+(git checkout other_branch)
 git status
 git pull
+(git merge)
 git add .
 git commit -m "msg"
 git push -u origin master
 ```
+
+# OSX
+
+* Shebang for `/usr/local/bin/*` shell scripts
+
+```#!/bin/sh```
