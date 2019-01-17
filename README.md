@@ -104,7 +104,7 @@ var G = window || global || this;
 $app.init({foo:'Bar'});
 ```
 
-# HTML + CSS
+# HTML/CSS
 
 * Minimal pic
 
@@ -126,9 +126,9 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * one line terminal
 
-```
-php -r "echo PHP_EOL;" > eol
-```
+    ```
+    php -r "echo PHP_EOL;" > eol
+    ```
 
 internally have we equal to this?:
 
@@ -212,25 +212,25 @@ The most important feature of double-quoted strings is the fact that variable na
 
     **:q!** - quit without saving
 
-* Cut and paste:
+* Cut and paste
 
-Position the cursor where you want to begin cutting.
+    Position the cursor where you want to begin cutting.
 
-Press **v** to select characters (or uppercase **V** to select whole lines).
+    Press **v** to select characters (or uppercase **V** to select whole lines).
 
-Move the cursor to the end of what you want to cut.
+    Move the cursor to the end of what you want to cut.
 
-Press **d** to cut (or **y** to copy).
+    Press **d** to cut (or **y** to copy).
 
-Move to where you would like to paste.
+    Move to where you would like to paste.
 
-Press **P** to paste before the cursor, or **p** to paste after.
+    Press **P** to paste before the cursor, or **p** to paste after.
 
-Copy and paste is performed with the same steps except for step 4 where you would press **y** instead of **d**:
+    Copy and paste is performed with the same steps except for step 4 where you would press **y** instead of **d**:
 
-**d** = delete = cut
+    **d** = delete = cut
 
-**y** = yank = copy
+    **y** = yank = copy
 
 Deleted or copied text is placed in the unnamed register. If wanted, a register can be specified so the text is also copied to the named register. A register is a location in Vim's memory identified with a single letter. A double quote character is used to specify that the next letter typed is the name of a register.
 
@@ -279,60 +279,62 @@ done
 
 * Pack dir to TAR + GZ
 
-```tar -zcvf name.tgz path```
+    ```tar -zcvf name.tgz path```
 
 * Pack 1 file (.gz added automatically)
 
-```gzip path```
+    ```gzip path```
 
 * Copy from your pc to host over ssh 
 
-```scp source user@host:pathTo```
+    ```scp source user@host:pathTo```
 
 * Copy from host to your pc over ssh
 
-```scp user@host:pathFrom pathTo```
+    ```scp user@host:pathFrom pathTo```
 
 * Download
 
-```wget URL```
+    ```wget URL```
 
 * Advanced download
 
-```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
+    ```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
 
 * Add user to root group
 
-```usermod -aG sudo username```
+    ```usermod -aG sudo username```
 
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
-```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server nullmailer mailutils screen vim mc
-```
+    ```
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras \
+    software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server \
+    nullmailer mailutils screen vim mc
+    ```
 
 * `.scereenrc` (```sudo apt install screen```)
 
-```
-vbell off
-altscreen on
-defutf8 on
-termcapinfo xterm ti@:te@
-hardstatus alwayslastline
-hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
-```
+    ```
+    vbell off
+    altscreen on
+    defutf8 on
+    termcapinfo xterm ti@:te@
+    hardstatus alwayslastline
+    hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
+    ```
 
 # SSH
 
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
 
-```
-eval "$(ssh-agent -s)"
-ssh-add -l
-ssh-add -K ~/.ssh/id_rsa (or other file)
-```
+    ```
+    eval "$(ssh-agent -s)"
+    ssh-add -l
+    ssh-add -K ~/.ssh/id_rsa (or other file)
+    ```
 
 or just `ssh add`
 
@@ -356,7 +358,7 @@ or just `ssh add`
 
 * Tunneling
 
-```ssh -N -L localhost:6379:localhost:6379 example.com``` (-L ... -L ... to multiply number of ports)
+    ```ssh -N -L localhost:6379:localhost:6379 example.com``` (-L ... -L ... to multiply number of ports)
 
 # GIT
 
@@ -377,9 +379,7 @@ git push -u origin master
 
 # YARN
 
-* Install
-
-`npm -i -g yarn` or `brew install yarn`
+`npm -i -g yarn` or `brew install yarn` to install (Yarn)[https://yarnpkg.com/en/]
 
 `yarn` - bring yarn into existing npm project
 
@@ -393,6 +393,6 @@ git push -u origin master
 
 * Shebang for `/usr/local/bin/*` shell scripts
 
-```#!/bin/sh```
+    ```#!/bin/sh```
 
-Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
+    Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
