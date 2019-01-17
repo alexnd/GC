@@ -381,7 +381,7 @@ git push -u origin master
 
 `npm -i -g yarn` or `brew install yarn`
 
-`yarn' - bring yarn into existing npm project
+`yarn` - bring yarn into existing npm project
 
 `yarn install foo` - install `foo` package
 
