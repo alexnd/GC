@@ -159,7 +159,7 @@ historically
     Windows  : \r\n
     Unix     : \n
 
-different operatiing systems interpret a logical newline
+different operating systems interpret a logical newline
 
     Unix     : \n = \012
     Macintosh: \n = \015
@@ -202,7 +202,17 @@ The most important feature of double-quoted strings is the fact that variable na
 
 # VI(M)
 
-Cut and paste:
+* Press **ESC** to switch mode
+
+    **dd** - delete line
+
+    **:w** - save, **:q** - quit
+
+    **:wq** - write and quit
+
+    **:q!** - quit without saving
+
+* Cut and paste:
 
 Position the cursor where you want to begin cutting.
 
@@ -365,8 +375,24 @@ git commit -m "msg"
 git push -u origin master
 ```
 
+# YARN
+
+* Install
+
+`npm -i -g yarn` or `brew install yarn`
+
+`yarn' - bring yarn into existing npm project
+
+`yarn install foo` - install `foo` package
+
+`yarn remove foo` - install `foo` package
+
+`yarn dev` - run `dev` npm script
+
 # OSX
 
 * Shebang for `/usr/local/bin/*` shell scripts
 
 ```#!/bin/sh```
+
+Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
