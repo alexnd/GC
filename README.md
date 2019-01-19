@@ -396,3 +396,15 @@ git push -u origin master
     ```#!/bin/sh```
 
     Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
+
+* Screenshots
+
+    `CMD + SHIFT + 4`
+
+# ESLINT
+
+```
+/* eslint-disable no-undef */
+...
+/* eslint-enable no-undef */
+```
