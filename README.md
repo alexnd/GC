@@ -401,9 +401,25 @@ git commit -m "msg"
 git push -u origin master
 ```
 
+# NODE
+
+* [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
+
+* Install module globally - `npm i -g jslint`
+
+* Add to package.json dependencies - `npm i -P <package>`
+
+* Add to package.json devDependencies - `npm i -D <package>`
+
+* Update npm itself - `sudo npm update -g`
+
+* List updatable - `npm outdated -g`
+
+* Find installed - `npm list -g | grep react`
+
 # YARN
 
-`npm -i -g yarn` or `brew install yarn` to install (Yarn)[https://yarnpkg.com/en/]
+`npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
 
 `yarn` - bring yarn into existing npm project
 
