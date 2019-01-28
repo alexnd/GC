@@ -315,16 +315,31 @@ done
     nullmailer mailutils screen vim mc
     ```
 
-* `.scereenrc` (```sudo apt install screen```)
+* **screen** - terminal multiplexor - keeps your terminal session on server
 
-    ```
-    vbell off
-    altscreen on
-    defutf8 on
-    termcapinfo xterm ti@:te@
-    hardstatus alwayslastline
-    hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
-    ```
+    - ```sudo apt install screen```
+    
+    - `screen` to start
+    
+    - `screen -ls` to list running
+    
+    - `screen -r` ro reconnect
+    
+    - `CTRL + A + D` to disconnect
+    
+    - `CTRL + A + C` to new tab
+    
+    - `CTRL + A + 0..9` to switch tab directly
+    
+    - `.screenrc`
+        ```
+        vbell off
+        altscreen on
+        defutf8 on
+        termcapinfo xterm ti@:te@
+        hardstatus alwayslastline
+        hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
+        ```
 
 * `locale: Cannot set LC_*` errors
 
@@ -386,7 +401,7 @@ or just `ssh add`
 
 * Tunneling
 
-    ```ssh -N -L localhost:6379:localhost:6379 example.com``` (-L ... -L ... to multiply number of ports)
+    `ssh -N -L localhost:6379:localhost:6379 example.com` (`-L ... -L ...` to multiply number of ports)
 
 # GIT
 
