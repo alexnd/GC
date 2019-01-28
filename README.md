@@ -336,7 +336,7 @@ done
 
     - Client side fix:
 
-        - Set appropriate env vars
+        - Set appropriate env vars (`EXPORT LC_ALL=$LANG`)
 
         - Disable sending locale information over terminal
           (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab`)
