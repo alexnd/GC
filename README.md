@@ -350,6 +350,10 @@ done
             locale -a
     ```
 
+    - Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
+
+        `sudo certbot certonly --standalone -d example.com -d www.example.com`
+
 # SSH
 
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
