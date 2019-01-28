@@ -326,6 +326,28 @@ done
     hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
     ```
 
+* `locale: Cannot set LC_*` errors
+
+```
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+...
+```
+
+    - Client side fix:
+        -- Set appropriate env vars
+        -- Disable sending locale information over terminal
+          (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab`)
+
+    - Server side fix:
+
+```
+        apt-get purge locales
+        apt install locales (locales-all)
+        dpkg-reconfigure locales
+        locale -a
+```
+
 # SSH
 
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
