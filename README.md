@@ -194,11 +194,9 @@ The most important feature of double-quoted strings is the fact that variable na
 
 # SQL
 
-    ```
-    select from_unixtime(2147483647)
-    ```
-
-    => ```2038-01-19 05:14:07``` - 32-bit time_t limit (2038-year timestamp overflow)
+    `select from_unixtime(2147483647)`
+    =>
+    `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
 
 # VI(M)
 
