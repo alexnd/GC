@@ -354,7 +354,7 @@ done
         - Set appropriate env vars (`EXPORT LC_ALL=$LANG`)
 
         - Disable sending locale information over terminal
-          (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab`)
+          (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab)
 
     - Server side fix:
 
@@ -385,6 +385,10 @@ or just `ssh add`
 
 [About ssh agent](https://www.ssh.com/ssh/agent)
 
+* To easy add existing key - `ssh-copy-id -i ~/.ssh/mykey user@host`
+
+* To test key - `ssh -i ~/.ssh/mykey user@host`
+
 * Cannot connect to remote host with error:
 
     ```
@@ -406,6 +410,8 @@ or just `ssh add`
 # GIT
 
 ```
+git config --global user.name "John Doe"
+git config --global user.email john@example.com
 (git init)
 git remote -v
 (git remote add)
@@ -452,7 +458,7 @@ git push -u origin master
 
 * Shebang for `/usr/local/bin/*` shell scripts
 
-    ```#!/bin/sh```
+    `#!/bin/sh`
 
     Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
 
