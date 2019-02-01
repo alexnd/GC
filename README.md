@@ -31,21 +31,19 @@ Or even
 
 Or *IIFE*, *JIT*, *events bubbling*, *functions binding*, whatever... you know?
 
-Nevermind, if you do ;) Its kick your ASs! Just remeber - GC!
+Nevermind, if you do ;) Its kick your ASs! Just remember - GC!
 
 Ok, well, shuffling some another stuff...
+
+# [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
 # JS
 
 * L = console.log() helper
 
-    ```
-    var L = (typeof console == 'object') ? console.log.bind(console) : function(){}
-    ```
+    `var L = (typeof console == 'object') ? console.log.bind(console) : function(){}`
     or
-    ```
-    const L = console.log.bind(console)
-    ```
+    `const L = console.log.bind(console)`
 
 * "Arraify" function arguments
 
@@ -118,6 +116,207 @@ $app.init({foo:'Bar'});
 background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==);
 
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+```
+
+# SHELL
+
+* Pack dir to TAR + GZ
+
+    ```tar -zcvf name.tgz path```
+
+* Pack 1 file (.gz added automatically)
+
+    ```gzip path```
+
+* Copy from your pc to host over ssh 
+
+    ```scp source user@host:pathTo```
+
+* Copy from host to your pc over ssh
+
+    ```scp user@host:pathFrom pathTo```
+
+* Download
+
+    ```wget URL```
+
+* Advanced download
+
+    ```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
+
+* Add user to root group
+
+    ```usermod -aG sudo username```
+
+* Install common dev stuff missing after clean install (like `vim` and `mc`)
+
+    ```
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras \
+    software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server \
+    nullmailer mailutils screen vim mc
+    ```
+
+* **screen** - terminal multiplexor - keeps your terminal session on server
+
+    - ```sudo apt install screen```
+    
+    - `screen` to start
+    
+    - `screen -ls` to list running
+    
+    - `screen -r` ro reconnect
+    
+    - `CTRL + A + D` to disconnect
+    
+    - `CTRL + A + C` to new tab
+    
+    - `CTRL + A + 0..9` to switch tab directly
+    
+    - `CTRL + A + capital K` and press y to kill session
+    
+    - `.screenrc`
+        ```
+        vbell off
+        altscreen on
+        defutf8 on
+        termcapinfo xterm ti@:te@
+        hardstatus alwayslastline
+        hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
+        ```
+
+* `locale: Cannot set LC_*` errors
+
+    ```
+    locale: Cannot set LC_CTYPE to default locale: No such file or directory
+    locale: Cannot set LC_ALL to default locale: No such file or directory
+    ...
+    ```
+
+    - Client side fix:
+
+        - Set appropriate env vars (`EXPORT LC_ALL=$LANG`)
+
+        - Disable sending locale information over terminal
+          (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab)
+
+    - Server side fix:
+
+    ```
+            apt-get purge locales
+            apt install locales (locales-all)
+            dpkg-reconfigure locales
+            locale -a
+    ```
+
+    - Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
+
+        `sudo certbot certonly --standalone -d example.com -d www.example.com`
+
+# SSH
+
+* Prevent `git@gitlab.com: Permission denied (publickey).` connection error
+
+    ```
+    eval "$(ssh-agent -s)"
+    ssh-add -l
+    ssh-add -K ~/.ssh/id_rsa (or other file)
+    ```
+
+or just `ssh add`
+
+[How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+
+[About ssh agent](https://www.ssh.com/ssh/agent)
+
+* To easy add existing key - `ssh-copy-id -i ~/.ssh/mykey user@host`
+
+* To test key - `ssh -i ~/.ssh/mykey user@host`
+
+* Cannot connect to remote host with error:
+
+    ```
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    ```
+
+    edit `.ssh/known_hosts` deleting old cached host fingerprint,
+    than it will be recreated at next attemp
+
+* Tunneling
+
+    `ssh -N -L localhost:6379:localhost:6379 example.com` (`-L ... -L ...` to multiply number of ports)
+
+# GIT
+
+```
+git config --global user.name "John Doe"
+git config --global user.email john@example.com
+(git init)
+git remote -v
+(git remote add)
+git branch
+(git checkout -b new_branch)
+(git checkout other_branch)
+git status
+git pull
+(git merge)
+git add .
+git commit -m "msg"
+git push -u origin master
+```
+
+# NODE
+
+* [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
+
+* Install module globally - `npm i -g jslint`
+
+* Add to package.json dependencies - `npm i -P <package>`
+
+* Add to package.json devDependencies - `npm i -D <package>`
+
+* Update npm itself - `sudo npm update -g`
+
+* List updatable - `npm outdated -g`
+
+* Find installed - `npm list -g | grep react`
+
+# YARN
+
+`npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
+
+`yarn` - bring yarn into existing npm project
+
+`yarn install foo` - install `foo` package
+
+`yarn remove foo` - install `foo` package
+
+`yarn dev` - run `dev` npm script
+
+# OSX
+
+* Shebang for `/usr/local/bin/*` shell scripts
+
+    `#!/bin/sh`
+
+    Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
+
+* Screenshots
+
+    `CMD + SHIFT + 4`
+
+# ESLINT
+
+```
+/* eslint-disable no-undef */
+...
+/* eslint-enable no-undef */
 ```
 
 # PHP
@@ -272,202 +471,3 @@ done
     php: ```strtok($s, "\n")```
 
     py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
-
-# SHELL
-
-* Pack dir to TAR + GZ
-
-    ```tar -zcvf name.tgz path```
-
-* Pack 1 file (.gz added automatically)
-
-    ```gzip path```
-
-* Copy from your pc to host over ssh 
-
-    ```scp source user@host:pathTo```
-
-* Copy from host to your pc over ssh
-
-    ```scp user@host:pathFrom pathTo```
-
-* Download
-
-    ```wget URL```
-
-* Advanced download
-
-    ```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
-
-* Add user to root group
-
-    ```usermod -aG sudo username```
-
-* Install common dev stuff missing after clean install (like `vim` and `mc`)
-
-    ```
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras \
-    software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server \
-    nullmailer mailutils screen vim mc
-    ```
-
-* **screen** - terminal multiplexor - keeps your terminal session on server
-
-    - ```sudo apt install screen```
-    
-    - `screen` to start
-    
-    - `screen -ls` to list running
-    
-    - `screen -r` ro reconnect
-    
-    - `CTRL + A + D` to disconnect
-    
-    - `CTRL + A + C` to new tab
-    
-    - `CTRL + A + 0..9` to switch tab directly
-    
-    - `.screenrc`
-        ```
-        vbell off
-        altscreen on
-        defutf8 on
-        termcapinfo xterm ti@:te@
-        hardstatus alwayslastline
-        hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
-        ```
-
-* `locale: Cannot set LC_*` errors
-
-    ```
-    locale: Cannot set LC_CTYPE to default locale: No such file or directory
-    locale: Cannot set LC_ALL to default locale: No such file or directory
-    ...
-    ```
-
-    - Client side fix:
-
-        - Set appropriate env vars (`EXPORT LC_ALL=$LANG`)
-
-        - Disable sending locale information over terminal
-          (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab)
-
-    - Server side fix:
-
-    ```
-            apt-get purge locales
-            apt install locales (locales-all)
-            dpkg-reconfigure locales
-            locale -a
-    ```
-
-    - Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
-
-        `sudo certbot certonly --standalone -d example.com -d www.example.com`
-
-# SSH
-
-* Prevent `git@gitlab.com: Permission denied (publickey).` connection error
-
-    ```
-    eval "$(ssh-agent -s)"
-    ssh-add -l
-    ssh-add -K ~/.ssh/id_rsa (or other file)
-    ```
-
-or just `ssh add`
-
-[How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
-
-[About ssh agent](https://www.ssh.com/ssh/agent)
-
-* To easy add existing key - `ssh-copy-id -i ~/.ssh/mykey user@host`
-
-* To test key - `ssh -i ~/.ssh/mykey user@host`
-
-* Cannot connect to remote host with error:
-
-    ```
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-    It is also possible that a host key has just been changed.
-    ```
-
-    edit `.ssh/known_hosts` deleting old cached host fingerprint,
-    than it will be recreated at next attemp
-
-* Tunneling
-
-    `ssh -N -L localhost:6379:localhost:6379 example.com` (`-L ... -L ...` to multiply number of ports)
-
-# GIT
-
-```
-git config --global user.name "John Doe"
-git config --global user.email john@example.com
-(git init)
-git remote -v
-(git remote add)
-git branch
-(git checkout -b new_branch)
-(git checkout other_branch)
-git status
-git pull
-(git merge)
-git add .
-git commit -m "msg"
-git push -u origin master
-```
-
-# NODE
-
-* [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
-
-* Install module globally - `npm i -g jslint`
-
-* Add to package.json dependencies - `npm i -P <package>`
-
-* Add to package.json devDependencies - `npm i -D <package>`
-
-* Update npm itself - `sudo npm update -g`
-
-* List updatable - `npm outdated -g`
-
-* Find installed - `npm list -g | grep react`
-
-# YARN
-
-`npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
-
-`yarn` - bring yarn into existing npm project
-
-`yarn install foo` - install `foo` package
-
-`yarn remove foo` - install `foo` package
-
-`yarn dev` - run `dev` npm script
-
-# OSX
-
-* Shebang for `/usr/local/bin/*` shell scripts
-
-    `#!/bin/sh`
-
-    Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
-
-* Screenshots
-
-    `CMD + SHIFT + 4`
-
-# ESLINT
-
-```
-/* eslint-disable no-undef */
-...
-/* eslint-enable no-undef */
-```
