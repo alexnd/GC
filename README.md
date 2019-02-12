@@ -214,6 +214,17 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
         `sudo certbot certonly --standalone -d example.com -d www.example.com`
 
+
+* **CI** in 1 line of code ;)
+    
+    `crontab -e` - to open cron jobs file editor
+    
+    `*/1 * * * * cd /home/user/project && /usr/bin/git pull -q origin master >/dev/null 2>&1`
+    
+    The periodical job to pull from master branch
+    
+    **YOU SHOULD USE [WEBHOOKS](https://developer.github.com/webhooks/) / [GITLAB CI](https://about.gitlab.com/product/continuous-integration/) INSTEAD!**
+    
 # SSH
 
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
