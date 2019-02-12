@@ -162,17 +162,17 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     - ```sudo apt install screen```
     
-    - `screen` to start
+    - `screen` - start new session
     
-    - `screen -ls` to list running
+    - `screen -ls` - list running sessions
     
-    - `screen -r` ro reconnect
+    - `screen -r` - reconnect
     
-    - `CTRL + A + D` to disconnect
+    - `CTRL + A + D` - disconnect
     
-    - `CTRL + A + C` to new tab
+    - `CTRL + A + C` - open new terminal tab
     
-    - `CTRL + A + 0..9` to switch tab directly
+    - `CTRL + A + 0..9` - switch tab directly
     
     - `CTRL + A + capital K` and press y to kill session
     
@@ -194,14 +194,14 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     ...
     ```
 
-    - Client side fix:
+    - Client-side fix:
 
         - Set appropriate env vars (`EXPORT LC_ALL=$LANG`)
 
         - Disable sending locale information over terminal
           (on OSX unset `Set locale environment variables on startup` in `Advanced` settings tab)
 
-    - Server side fix:
+    - Server-side fix:
 
     ```
             apt-get purge locales
@@ -210,9 +210,9 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
             locale -a
     ```
 
-    - Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
+* Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
 
-        `sudo certbot certonly --standalone -d example.com -d www.example.com`
+    `sudo certbot certonly --standalone -d example.com -d www.example.com`
 
 
 * **CI** in 1 line of code ;)
