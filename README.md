@@ -124,6 +124,10 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     ```tar -zcvf name.tgz path```
 
+* Unpack TGZ
+
+    ```tar -xzf name.tgz```
+
 * Pack 1 file (.gz added automatically)
 
     ```gzip path```
@@ -153,10 +157,18 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     ```
     sudo apt-get update
     sudo apt-get upgrade
-    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential ubuntu-restricted-extras \
-    software-properties-common python g++ make subversion git openssl libssl-dev openssh-client openssh-server \
-    nullmailer mailutils screen vim mc
+    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential \
+    software-properties-common python g++ make subversion git openssl libssl-dev \
+    openssh-client openssh-server screen vim mc
     ```
+
+    (only in ubuntu distros)
+
+    ```ubuntu-restricted-extras```
+    
+    minimal MTA
+    
+    ```nullmailer mailutils```
 
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
