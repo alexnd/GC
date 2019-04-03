@@ -512,3 +512,14 @@ done
     php: ```strtok($s, "\n")```
 
     py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
+
+* Top programmer's software
+
+    * [Sublime text editor](https://www.sublimetext.com/3), [vue highlight](https://github.com/vuejs/vue-syntax-highlight)
+    
+    * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+    
+    * [Texture packer](https://www.codeandweb.com/texturepacker)
+    
+    * [Tiled map editor](https://www.mapeditor.org/)
+    
