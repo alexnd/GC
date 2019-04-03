@@ -65,7 +65,7 @@ Ok, well, shuffling some another stuff...
     L( pycfg.foo )
     ```
 
-* Default function value
+* Default function argument value
 
     ```
     function test(v) {
@@ -308,7 +308,7 @@ git push -u origin master
 
 * List updatable - `npm outdated -g`
 
-* Find installed - `npm list -g | grep react`
+* Find installed foo - `npm list -g | grep foo`
 
 # YARN
 
@@ -318,7 +318,7 @@ git push -u origin master
 
 `yarn install foo` - install `foo` package
 
-`yarn remove foo` - install `foo` package
+`yarn remove foo` - uninstall `foo` package
 
 `yarn dev` - run `dev` npm script
 
