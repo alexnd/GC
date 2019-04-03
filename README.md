@@ -152,6 +152,14 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     ```usermod -aG sudo username```
 
+* Recursively set owner:group
+
+    ```chown -R username:group /path/*```
+
+* Recursively fix R/W permissions
+
+    ```cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;```
+
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
     ```
@@ -274,6 +282,16 @@ or just `ssh add`
 * Tunneling
 
     `ssh -N -L localhost:6379:localhost:6379 example.com` (`-L ... -L ...` to multiply number of ports)
+
+* Mount fs via sftp
+
+    ```
+    apt install sshfs
+    mkdir /media/server1
+    sshfs -o allow_other,follow_symlinks,IdentityFile=~/.ssh/keyfile username@hostname:/ /media/server1
+    ...
+    umount /media/server1
+    ```
 
 # GIT
 
