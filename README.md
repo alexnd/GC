@@ -515,7 +515,7 @@ done
 
 * Top programmer's software
 
-    * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+    * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker compose](https://docs.docker.com/compose/install/)
 
     * [Sublime text editor](https://www.sublimetext.com/3), [vue highlight](https://github.com/vuejs/vue-syntax-highlight)
     
