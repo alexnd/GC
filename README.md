@@ -352,6 +352,28 @@ git push -u origin master
 
     `CMD + SHIFT + 4`
 
+* Mount via sftp
+
+    - Install osxfuse and sshfs:
+
+        ```
+        brew cask install osxfuse
+        brew install sshfs
+        ```
+
+    - Test ssh connection:
+
+        `ssh -i ~/.ssh/keyfile username@hostname`
+
+    - Mount remoute share:
+
+        ```
+        mkdir /mountpath
+        sshfs username@hostname:/ /mountpath
+        ...
+        diskutil umount force /mountpath
+        ```
+
 # ESLINT
 
 ```
