@@ -521,6 +521,8 @@ done
     
     * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
     
+    * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
+    
     * [Texture packer](https://www.codeandweb.com/texturepacker)
     
     * [Tiled map editor](https://www.mapeditor.org/)
