@@ -244,7 +244,35 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     The periodical job to pull from master branch
     
     **YOU SHOULD USE [WEBHOOKS](https://developer.github.com/webhooks/) / [GITLAB CI](https://about.gitlab.com/product/continuous-integration/) INSTEAD!**
-    
+
+# APT
+
+`dpkg --get-selections | grep foo` - find all packages by name `foo`
+
+`dpkg-query --status foo` - info about package `foo`
+
+`apt-get remove foo` - delete package `foo`
+
+`apt-get autoremove` - delete all obsolete packages
+
+`apt-get install -y gcc g++ make nodejs npm` - install list of packages in one line without confirmation
+
+# CRON
+
+`crontab -l` - show current cron jobs
+
+`crontab -e` - open crontab file with default editor 
+
+crontab example:
+
+	```
+	# m h dom mon dow user	command
+	# every minute
+	* *	* * * www-data wget -O - -q -t 1 http://localhost/api/cron
+	# every hour
+	0 * * * * cmd
+	```
+
 # SSH
 
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
