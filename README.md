@@ -1,7 +1,8 @@
 # GC
 
-*Goodness Corp*? or *Garbage Collector*? Who knows... Maybe its *Gists Collection*, no its *Gone Cuties*!
-LOL! ROFL! and LMAO...
+*Goodness Corp*? or *Garbage Collector*? Who knows...
+
+Maybe its *Gists Collection*, no its *Gone Cuties*! LOL! ROFL! and LMAO...
 
 I started this collection named "GC" in relationship but not only for JS.
 
@@ -172,7 +173,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     ```
 * Write usb bootable from iso file
 
-    `dd if=./image.iso of=/dev/sdx` ( should be `sdc` or `sdb` )
+    `dd if=./image.iso of=/dev/sdx` ( should be `sda` or `sdb` or `sdc` )
 
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
@@ -208,7 +209,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     - `CTRL + A + 0..9` - switch tab directly
 
-    - `CTRL + A + capital K` and press y to kill session
+    - `CTRL + A + capital K` than press `y` - to kill session
 
     - `.screenrc`
         ```
@@ -246,8 +247,15 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
 
-    `sudo certbot certonly --standalone -d example.com -d www.example.com`
+    `certbot certonly --standalone -d example.com -d www.example.com`
 
+* Generate new certificates on working system with [nginx](http://nginx.org/ru/docs/)
+
+    `certbot --nginx -d example.com -d www.example.com`
+
+* Update expired sertificates
+
+    `certbot renew`
 
 * **CI** in 1 line of code ;)
     
@@ -590,4 +598,14 @@ done
     * [Texture packer](https://www.codeandweb.com/texturepacker)
     
     * [Tiled map editor](https://www.mapeditor.org/)
+    
+    * [App manifest](https://app-manifest.firebaseapp.com/)
+    
+    * [GIF converter](https://ezgif.com/)
+    
+    * [MakeAppIcon](https://makeappicon.com/)
+    
+    * [Favicon generator](https://realfavicongenerator.net/)
+    
+    * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
