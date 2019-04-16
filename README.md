@@ -170,6 +170,9 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     dd if=/dev/hda1 of=./part1.image - to backup
     dd if=./part1.image of=/dev/hda1 - to restore
     ```
+* Write usb bootable from iso file
+
+    `dd if=./image.iso of=/dev/sdx` ( should be `sdc` or `sdb` )
 
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
@@ -184,29 +187,29 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     (only in ubuntu distros)
 
     `ubuntu-restricted-extras`
-    
+
     minimal MTA
-    
+
     `nullmailer mailutils`
 
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
     - `apt install screen`
-    
+
     - `screen` - start new session
-    
+
     - `screen -ls` - list running sessions
-    
+
     - `screen -r` - reconnect
-    
+
     - `CTRL + A + D` - disconnect
-    
+
     - `CTRL + A + C` - open new terminal tab
-    
+
     - `CTRL + A + 0..9` - switch tab directly
-    
+
     - `CTRL + A + capital K` and press y to kill session
-    
+
     - `.screenrc`
         ```
         vbell off
