@@ -178,11 +178,12 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
     ```
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt install net-tools apt-transport-https curl ca-certificates build-essential \
-    software-properties-common python g++ make subversion git openssl libssl-dev \
-    openssh-client openssh-server screen vim mc
+    sudo -s
+    apt-get update
+    apt-get upgrade
+    apt install -y net-tools wireless-tools apt-transport-https curl ca-certificates \
+    build-essential software-properties-common python gcc g++ make subversion git \
+    openssl libssl-dev openssh-client openssh-server screen vim mc
     ```
 
     (only in ubuntu distros)
