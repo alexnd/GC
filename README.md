@@ -13,21 +13,15 @@ I really not have an answer immediately...
 
 Because, for example I can just run, in one line:
 
-```
-"foo".length
-```
+`"foo".length`
 
 Or another one
 
-```
-"foo".match(/FOo/i)
-```
+`"foo".match(/FOo/i)`
 
 Or even
 
-```
-++"foo1".match(/FOo(\d+)/i)[1]
-```
+`++"foo1".match(/FOo(\d+)/i)[1]`
 
 Or *IIFE*, *JIT*, *events bubbling*, *functions binding*, whatever... you know?
 
@@ -42,20 +36,18 @@ Ok, well, shuffling some another stuff...
 * L = console.log() helper
 
     `var L = (typeof console == 'object') ? console.log.bind(console) : function(){}`
-    or
+
+or
+
     `const L = console.log.bind(console)`
 
 * "Arraify" function arguments
 
-    ```
-    Array.prototype.slice.call(arguments)
-    ```
+    `Array.prototype.slice.call(arguments)`
 
 * Backward-loop 
 
-    ```
-    var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }
-    ```
+    `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }`
 
 * Reading a -*py* config into js!
 
@@ -69,7 +61,7 @@ Ok, well, shuffling some another stuff...
 
     ```
     function test(v) {
-    var v = (typeof v == 'undefined') ? 'default' : v
+    var v = (typeof v == 'undefined') ? 'Foo' : v
     // v is 'default' or its own
     }
     ```
@@ -122,43 +114,62 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Pack dir to TAR + GZ
 
-    ```tar -zcvf name.tgz path```
+    `tar -zcvf name.tgz path`
 
 * Unpack TGZ
 
-    ```tar -xzf name.tgz```
+    `tar -xzf name.tgz`
 
 * Pack 1 file (.gz added automatically)
 
-    ```gzip path```
+    `gzip path`
 
 * Copy from your pc to host over ssh 
 
-    ```scp source user@host:pathTo```
+    `scp source user@host:pathTo`
 
 * Copy from host to your pc over ssh
 
-    ```scp user@host:pathFrom pathTo```
+    `scp user@host:pathFrom pathTo`
 
 * Download
 
-    ```wget URL```
+    `wget URL`
 
 * Advanced download
 
-    ```curl -fsSL URL -O``` (or replace ```-O``` to ```-o path```)
+    `curl -fsSL URL -O` (or replace `-O` to `-o path`)
 
 * Add user to root group
 
-    ```usermod -aG sudo username```
+    `usermod -aG sudo username`
 
 * Recursively set owner:group
 
-    ```chown -R username:group /path/*```
+    `chown -R username:group /path/*`
 
 * Recursively fix R/W permissions
 
-    ```cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;```
+    `cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;`
+
+* Show Debian/Ubuntu linux version
+
+    `lsb_release -a`
+
+* List media drives
+
+    `fdisk -l`
+   
+* List usb devices
+
+    `lsusb`
+
+* Backup disk to file, than restore it
+
+    ```
+    dd if=/dev/hda1 of=./part1.image - to backup
+    dd if=./part1.image of=/dev/hda1 - to restore
+    ```
 
 * Install common dev stuff missing after clean install (like `vim` and `mc`)
 
@@ -172,15 +183,15 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     (only in ubuntu distros)
 
-    ```ubuntu-restricted-extras```
+    `ubuntu-restricted-extras`
     
     minimal MTA
     
-    ```nullmailer mailutils```
+    `nullmailer mailutils`
 
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
-    - ```sudo apt install screen```
+    - `apt install screen`
     
     - `screen` - start new session
     
