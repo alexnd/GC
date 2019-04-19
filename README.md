@@ -585,6 +585,15 @@ done
     php: ```strtok($s, "\n")```
 
     py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
+    
+* bitcoin
+
+```
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt update
+sudo apt install bitcoin-qt bitcoind
+bitcoin-qt
+```
 
 * Top programmer's software
 
@@ -612,3 +621,4 @@ done
     
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
+    * [TERA smart money](https://sourceforge.net/projects/tera/)
