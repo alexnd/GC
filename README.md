@@ -246,13 +246,17 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
             locale -a
     ```
 
-* Generate SSL certificates for domains via [Certbot](https://certbot.eff.org)
+* Install [Certbot](https://certbot.eff.org) on [nginx](http://nginx.org/ru/docs/)-based web server
 
-    `certbot certonly --standalone -d example.com -d www.example.com`
+    `apt install -y certbot python-certbot-nginx`
 
-* Generate new certificates on working system with [nginx](http://nginx.org/ru/docs/)
+* Generate new certificates on working system with nginx
 
     `certbot --nginx -d example.com -d www.example.com`
+
+* Generate SSL certificates for domains via Certbot
+
+    `certbot certonly --standalone -d example.com -d www.example.com`
 
 * Update expired sertificates
 
