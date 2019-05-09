@@ -121,6 +121,10 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
     `tar -xzf name.tgz`
 
+* Pack dir to BZ2 without absolute path`
+
+    `tar -c -j -f site1.tbz -C /var/www site1`
+
 * Pack 1 file (.gz added automatically)
 
     `gzip path`
