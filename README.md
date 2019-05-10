@@ -111,13 +111,13 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
-# VUE
+# [VUE](https://ru.vuejs.org/v2/guide/index.html)
 
-vue component
+component.vue
 
 ```
 <template>
-  <foo-bar v-model="x">
+  <foo-bar v-model="x" @click.prevent="barFoo">
 </template>
 <script>
 import { mapState } from 'vuex'
