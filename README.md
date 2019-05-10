@@ -121,7 +121,6 @@ component.vue
 </template>
 <script>
 import { mapState } from 'vuex'
-import store from '@vue-storefront/store'
 import FooBar from 'theme/components/Foo'
 export default {
   name: 'Bar',
