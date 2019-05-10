@@ -111,6 +111,52 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
+# VUE
+
+vue component
+
+```
+<template>
+  <foo-bar v-model="x">
+</template>
+<script>
+import { mapState } from 'vuex'
+import store from '@vue-storefront/store'
+import FooBar from 'theme/components/Foo'
+export default {
+  name: 'Bar',
+  components: {
+    FooBar
+  },
+  props: {
+    msg: {
+      type: String,
+      required: false,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      x: 0
+    }
+  },
+  created () {},
+  beforeMount () {},
+  computed: {
+    ...mapState({
+      currentUser: state => state.user.current,
+      barX () {
+        return 1000 * this.x
+      }
+    })
+  },
+  methods: {
+    barFoo() {}
+  }
+}
+</script>
+```
+
 # SHELL
 
 * Pack dir to TAR + GZ
