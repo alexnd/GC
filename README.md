@@ -156,6 +156,16 @@ export default {
 </script>
 ```
 
+Init VUE PWA boilerplate
+
+```
+sudo npm i -g @vue/cli @vue/cli-init @vue/cli-plugin-pwa`
+vue init pwa#development projectname
+cd projectname
+npm i
+npm run dev
+```
+
 # SHELL
 
 * Pack dir to TAR + GZ
@@ -229,7 +239,7 @@ export default {
     ```
     sudo -s
     apt-get update
-    apt-get upgrade
+    apt-get upgrade -y
     apt install -y net-tools wireless-tools apt-transport-https curl ca-certificates \
     build-essential software-properties-common python gcc g++ make subversion git \
     openssl libssl-dev openssh-client openssh-server screen vim mc
@@ -431,6 +441,8 @@ git push -u origin master
 * List updatable - `npm outdated -g`
 
 * Find installed foo - `npm list -g | grep foo`
+
+* Useful npms - `pm2 serve eslint express knex`
 
 # YARN
 
