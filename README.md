@@ -444,6 +444,14 @@ git push -u origin master
 
 * Useful npms - `pm2 serve eslint express knex`
 
+* upgrade package.json dependencies to latest versions
+
+   ```
+   npm i -g npm-check-updates
+   ncu -u
+   npm install
+   ```
+
 # YARN
 
 `npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
