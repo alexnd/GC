@@ -50,6 +50,10 @@ or
 
     `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }`
 
+* Random array element
+
+    `a[Math.floor(Math.random() * a.length)]`
+
 * Reading a -*py* config into js!
 
     ```
