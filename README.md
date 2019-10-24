@@ -430,6 +430,8 @@ git commit -m "msg"
 git push -u origin master
 ```
 
+[list of GIT commands](https://github.com/joshnh/Git-Commands)
+
 # NODE
 
 * [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
