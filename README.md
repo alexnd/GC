@@ -234,11 +234,11 @@ npm run dev
     dd if=/dev/hda1 of=./part1.image - to backup
     dd if=./part1.image of=/dev/hda1 - to restore
     ```
-* Write usb bootable from iso file
+* Write usb bootable from iso file:
 
     `dd if=./image.iso of=/dev/sdx` ( should be `sda` or `sdb` or `sdc` )
 
-* Install common dev stuff missing after clean install (like `vim` and `mc`)
+* Install common dev stuff (like `ssh`, `vim` and `mc`) missing after clean install on debian-like os:
 
     ```
     sudo -s
@@ -249,11 +249,11 @@ npm run dev
     openssl libssl-dev openssh-client openssh-server screen vim mc
     ```
 
-    (only in ubuntu distros)
+    - special only for ubuntu:
 
     `ubuntu-restricted-extras`
 
-    minimal MTA
+    - minimal MTA (sendmail)
 
     `nullmailer mailutils`
 
@@ -267,15 +267,15 @@ npm run dev
 
     - `screen -r` - reconnect
 
-    - `CTRL + A + D` - disconnect
+    - `CTRL + A, D` - disconnect
 
-    - `CTRL + A + C` - open new terminal tab
+    - `CTRL + A, C` - open new terminal tab
 
-    - `CTRL + A + 0..9` - switch tab directly
+    - `CTRL + A, 0..9` - switch tab directly
 
-    - `CTRL + A + capital K` than press `y` - to kill session
+    - `CTRL + A, capital K` than press `y` - to kill session
 
-    - `.screenrc`
+    - cool adjustment with display tabs, cpu, time - place this file on home dir `.screenrc`
         ```
         vbell off
         altscreen on
