@@ -216,6 +216,11 @@ npm run dev
 
     `cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;`
 
+    or
+
+    ```chmod 755 $(find /path/to/base/dir -type d)
+    chmod 644 $(find /path/to/base/dir -type f)```
+
 * Show Debian/Ubuntu linux version
 
     `lsb_release -a`
