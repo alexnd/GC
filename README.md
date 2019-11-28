@@ -679,6 +679,8 @@ sudo apt install bitcoin-qt bitcoind
 bitcoin-qt
 ```
 
+* [reset root password](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
+
 * Top programmer's software
 
     * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker compose](https://docs.docker.com/compose/install/)
