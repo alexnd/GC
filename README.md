@@ -703,6 +703,8 @@ bitcoin-qt
     
     * [Favicon generator](https://realfavicongenerator.net/)
     
+    * [Vector editor](https://vectr.com/)
+    
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
     
     * [PDF converter](https://online2pdf.com)
