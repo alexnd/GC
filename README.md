@@ -712,3 +712,16 @@ bitcoin-qt
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
     * [TERA smart money](https://sourceforge.net/projects/tera/)
+
+/usr/local/bin/tera
+
+```
+#!/bin/sh
+
+if pgrep -f "run-node.js" > /dev/null
+then
+  pm2 show run-node.js
+else
+  cd /root/wallet/Source/ && pm2 start run-node.js
+fi
+```
