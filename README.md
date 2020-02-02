@@ -435,6 +435,7 @@ git pull
 git add .
 git commit -m "msg"
 git push -u origin master
+git rm -r ObsoleteDir
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
@@ -476,6 +477,10 @@ git push -u origin master
 `yarn remove foo` - uninstall `foo` package
 
 `yarn dev` - run `dev` npm script
+
+fix `apt-get update` error `The following signatures were invalid: EXPKEYSIG 23E7166788B63E1E Yarn Packaging <yarn@dan.cx>`:
+
+	`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
 
 # OSX
 
