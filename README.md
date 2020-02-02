@@ -478,9 +478,9 @@ git rm -r ObsoleteDir
 
 `yarn dev` - run `dev` npm script
 
-fix `apt-get update` error `The following signatures were invalid: EXPKEYSIG 23E7166788B63E1E Yarn Packaging <yarn@dan.cx>`:
+* fix `apt-get update` error `The following signatures were invalid: EXPKEYSIG 23E7166788B63E1E Yarn Packaging <yarn@dan.cx>`:
 
-	`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+    `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
 
 # OSX
 
