@@ -436,6 +436,10 @@ git add .
 git commit -m "msg"
 git push -u origin master
 git rm -r ObsoleteDir
+git log --oneline
+git reset --soft HEAD^
+git reset --hard HEAD^
+git revert HASHCODE
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
