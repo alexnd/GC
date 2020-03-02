@@ -429,6 +429,8 @@ git remote -v
 git branch
 (git checkout -b new_branch)
 (git checkout other_branch)
+(git branch -d localBranchName)
+(git push origin --delete remoteBranchName)
 git status
 git pull
 (git merge)
@@ -440,6 +442,8 @@ git log --oneline
 git reset --soft HEAD^
 git reset --hard HEAD^
 git revert HASHCODE
+git tag -d TAGNAME
+git push origin :refs/tags/TAGNAME
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
