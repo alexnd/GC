@@ -444,6 +444,11 @@ git reset --hard HEAD^
 git revert HASHCODE
 git tag -d TAGNAME
 git push origin :refs/tags/TAGNAME
+git stash
+git stash list
+git checkout BRANCH_WHERE_YOU_STASHED
+git stash apply
+git stash drop
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
