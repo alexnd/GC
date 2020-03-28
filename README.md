@@ -423,32 +423,47 @@ or just `ssh add`
 ```
 git config --global user.name "John Doe"
 git config --global user.email john@example.com
-(git init)
+
+git init
+
 git remote -v
-(git remote add)
+git remote add
+
 git branch
-(git checkout -b new_branch)
-(git checkout other_branch)
-(git branch -d localBranchName)
-(git push origin --delete remoteBranchName)
+
+git checkout -b new_branch
+git checkout other_branch
+git checkout master
+
+git branch -d localBranchName
+git push origin --delete remoteBranchName
+
 git status
 git pull
-(git merge)
+
+git merge
+
 git add .
 git commit -m "msg"
+
 git push -u origin master
+
 git rm -r ObsoleteDir
+
 git log --oneline
+
+git checkout -- .
 git reset --soft HEAD^
 git reset --hard HEAD^
 git revert HASHCODE
-git tag -d TAGNAME
-git push origin :refs/tags/TAGNAME
 git stash
 git stash list
 git checkout BRANCH_WHERE_YOU_STASHED
 git stash apply
 git stash drop
+
+git tag -d TAGNAME
+git push origin :refs/tags/TAGNAME
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
