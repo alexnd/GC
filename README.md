@@ -478,6 +478,8 @@ git push origin :refs/tags/TAGNAME
 
 * Add to package.json devDependencies - `npm i -D <package>`
 
+* Full reinstall for project - rm -rf ./node_modules && rm ./package-lock.json && npm i
+
 * Update npm itself - `sudo npm update -g`
 
 * List updatable - `npm outdated -g`
