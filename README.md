@@ -388,9 +388,13 @@ or just `ssh add`
 
 [How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
+* test access rights: `ssh -vT git@github.com`
+
+* view ssh key fingerprint: `ssh-keygen -lf ~/.ssh/id_rsa.pub`
+
 [About ssh agent](https://www.ssh.com/ssh/agent)
 
-* To easy add existing key - `ssh-copy-id -i ~/.ssh/mykey user@host`
+* To easy add existing key from this pc to host - `ssh-copy-id -i ~/.ssh/mykey user@host`
 
 * To test key - `ssh -i ~/.ssh/mykey user@host`
 
