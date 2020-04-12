@@ -8,6 +8,10 @@ I started this collection named "GC" in relationship but not only for JS.
 
 You would feel as on a dump waste as well as happiest of happy-nanny nyan cat!
 
+To be clear, this is not just a garbage-like log, but mix of proven solutions even with copy-paste from good sites.
+
+Enjoy!
+
 So, why **Javascript**?
 
 I really not have an answer immediately...
@@ -545,6 +549,30 @@ git push origin :refs/tags/TAGNAME
         ...
         diskutil umount force /mountpath
         ```
+* Remote SSH to Mac
+
+    - Open the Apple menu in the upper left corner of the screen, and select "System Preferences...".
+     
+    - Under "Internet & Wireless", select "Sharing".
+     
+    - In the left column of services, enable "Remote Login".
+     
+    - Highlight the "Remote Login" service and enable access for the users you would like to have SSH access.
+     
+    - You can select all users, or specific users by selecting "Only these users:" and adding the appropriate users by clicking "+".
+     
+    - Take note of the command displayed underneath the words "Remote Login: On" in the upper middle part of the screen.
+     
+    - Write this command down as you will need it to log in from a different system.
+     
+    - If your firewall is enabled (which it is by default), you may need to restart the firewall to allow SSH communications to pass through port 22.
+     
+    - Open "System Prefrences", click "Security", and restart the Firewall.
+     
+    - Test that the firewall is not blocking SSH access by going to a different system and entering the ssh login command in step 6 above.
+     
+    - If you cannot login, restart the firewall or reboot.
+
 
 # ESLINT
 
