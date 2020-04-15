@@ -522,6 +522,14 @@ git push origin :refs/tags/TAGNAME
 
 # OSX
 
+* Background services
+
+  `launchctl list` (with ` | grep whatever`)
+  
+  `brew services list`
+
+  instead of `list` use `NAME start|stop|restart` to control
+
 * Shebang for `/usr/local/bin/*` shell scripts
 
     `#!/bin/sh`
