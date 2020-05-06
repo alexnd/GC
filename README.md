@@ -786,6 +786,8 @@ bitcoin-qt
     
     * [PDF converter](https://online2pdf.com)
     
+    * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
+    
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
     * [TERA smart money](https://sourceforge.net/projects/tera/)
