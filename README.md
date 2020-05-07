@@ -778,7 +778,7 @@ bitcoin-qt
     
     * [MakeAppIcon](https://makeappicon.com/)
     
-    * [Favicon generator](https://favicon.io/), [Favicon generator 2](https://realfavicongenerator.net/)
+    * [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
     
     * [Vector editor](https://vectr.com/)
     
