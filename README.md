@@ -788,6 +788,8 @@ bitcoin-qt
     
     * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
     
+    * [CSS Code Beautifier](http://www.codebeautifier.com/)
+    
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
     * [TERA smart money](https://sourceforge.net/projects/tera/)
