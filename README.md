@@ -430,6 +430,7 @@ or just `ssh add`
 # GIT
 
 ```
+git config --global --list
 git config --global user.name "John Doe"
 git config --global user.email john@example.com
 
