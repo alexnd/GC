@@ -128,6 +128,7 @@ component.vue
   <foo-bar v-model="x" @click.prevent="barFoo">
 </template>
 <script>
+/* eslint-disable vue/no-unused-components */
 import { mapState } from 'vuex'
 import FooBar from 'theme/components/Foo'
 export default {
