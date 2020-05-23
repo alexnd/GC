@@ -794,6 +794,8 @@ bitcoin-qt
     
     * [CSS Code Beautifier](http://www.codebeautifier.com/)
     
+    * [CSS Animations Playgroud](https://animista.net/)
+    
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
     * [TERA smart money](https://sourceforge.net/projects/tera/)
