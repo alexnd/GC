@@ -784,6 +784,8 @@ bitcoin-qt
     
     * [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
     
+    * [Fonts icons generator](http://fontello.com/)
+    
     * [Vector editor](https://vectr.com/)
     
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
