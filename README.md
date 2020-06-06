@@ -798,6 +798,8 @@ bitcoin-qt
     
     * [CSS Animations Playgroud](https://animista.net/)
     
+    * [HTML Color Codes](https://htmlcolorcodes.com/)
+    
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
     
     * [TERA smart money](https://sourceforge.net/projects/tera/)
