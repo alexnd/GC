@@ -799,9 +799,13 @@ bitcoin-qt
     * [CSS Animations Playgroud](https://animista.net/)
     
     * [HTML Color Codes](https://htmlcolorcodes.com/)
-    
+
+    * [JSON formatter](https://jsonformatter.curiousconcept.com/)
+
+    * [Base64 decode](https://www.base64decode.org/)
+
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
-    
+
     * [TERA smart money](https://sourceforge.net/projects/tera/)
 
 /usr/local/bin/tera
