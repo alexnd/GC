@@ -283,6 +283,21 @@ npm run dev
 
     `nullmailer mailutils`
 
+* configure network adapter
+
+    -- `eth1` - interface name
+   
+    -- `sudo vi /etc/network/interfaces` :
+
+    ```
+	auto eth1
+		iface eth1 inet dhcp
+    ```
+    (`ESC`, `i`, type..., `ESC`, `:wq`)
+
+    -- `sudo systemctl restart networking`
+
+
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
     - `apt install screen`
