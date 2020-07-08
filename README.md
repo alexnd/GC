@@ -175,7 +175,7 @@ npm i
 npm run dev
 ```
 
-# SHELL
+# SHELL (BASH)
 
 * Pack dir to TAR + GZ
 
@@ -208,6 +208,22 @@ npm run dev
 * Advanced download
 
     `curl -fsSL URL -O` (or replace `-O` to `-o path`)
+
+* Stats
+
+    `top`, `htop` - system load
+    
+    `free -m`, `vmstat -s`, `cat /proc/meminfo` - memory
+    
+    `ps -ax | grep foo` - process
+    
+    `systemctl show` - services
+    
+    `df -h` (`du`) - disk space
+    
+    `ifconfig`, `iwconfig`, `ping google.com` - network
+    
+    `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
 * Add user to root group
 
