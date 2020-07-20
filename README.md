@@ -821,6 +821,8 @@ bitcoin-qt
     
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
     
+    * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
+    
     * [PDF converter](https://online2pdf.com)
     
     * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
