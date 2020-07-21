@@ -823,6 +823,8 @@ bitcoin-qt
     
     * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
     
+    * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
+    
     * [PDF converter](https://online2pdf.com)
     
     * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
