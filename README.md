@@ -820,6 +820,8 @@ bitcoin-qt
     * [Vector editor](https://vectr.com/)
     
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
+
+    * [Flexbox Help](https://flexbox.help/)
     
     * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
     
