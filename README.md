@@ -50,6 +50,14 @@ or
 
     `Array.prototype.slice.call(arguments)`
 
+* Date
+
+    `new Date().toISOString().substr(0, 10)`
+
+* Timestamp
+
+    `Date.now()`
+
 * Backward-loop 
 
     `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }`
