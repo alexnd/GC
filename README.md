@@ -581,6 +581,10 @@ git push origin :refs/tags/TAGNAME
 
     `CMD + SHIFT + 4`
 
+* Process on port
+
+    `sudo lsof -nPi :6379`
+
 * Mount via sftp
 
     - Install osxfuse and sshfs:
