@@ -852,6 +852,8 @@ bitcoin-qt
     * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 
     * [Base64 decode](https://www.base64decode.org/)
+    
+    * [swagger.json editor](https://editor.swagger.io/)
 
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
