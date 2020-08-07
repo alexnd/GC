@@ -717,6 +717,38 @@ The most important feature of double-quoted strings is the fact that variable na
     =>
     `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
 
+# Mongo
+
+## Mongodb on OSX
+
+Start/stop server: `brew services start|stop mongodb-community`
+
+### Add root user
+
+  - Edit config: `vim /usr/local/etc/mongod.conf`
+
+  - Add section that turns off authorization
+
+    ```
+    security:
+      authorization: disabled
+    ```
+
+  - Restart service `brew services restart mongodb-community`
+
+  - Login to cli and add paticular user
+
+    ```
+    mongo
+    use admin
+    db.createUser({user:"admin",pwd:"password",roles:[{role:"root",db:"admin"}]});
+    exit
+    ```
+
+   - Comment out with `#` or delete `authorization: disabled` from mongod.conf
+   
+   - Restart service `brew services restart mongodb-community`
+
 # VI(M)
 
 * Press **ESC** to switch mode
