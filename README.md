@@ -50,7 +50,7 @@ or
 
     `Array.prototype.slice.call(arguments)`
 
-* Date
+* Date in SQL format
 
     `new Date().toISOString().substr(0, 10)`
 
@@ -62,16 +62,50 @@ or
 
     `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }`
 
+* Remove n-th array item
+
+    `var b = a.splice(n, 1)`
+
+* Part of array from n-th item to m-th
+
+    `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
+    
+* Last item of array
+
+    `var last = a.slice(-1)`
+
+* Concatenate arrays `a` and `b`
+
+   `var c = a.concat(b)`
+
 * Random array element
 
     `a[Math.floor(Math.random() * a.length)]`
 
-* Reading a -*py* config into js!
+* Unique array elements
+
+    `Array.from(new Set(source))`
+
+* Variables as object keys
 
     ```
-    var pycfg = require('fs').readFileSync('../config.py').toString()
-    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
-    L( pycfg.foo )
+    let kProp = 'foo'
+    let obj = {
+      name: 'Bob',
+      [kProp]: 'Bar',
+    ...
+    }
+    obj.foo
+    ```
+
+* Advanced object key-prop loop
+
+    ```
+    var obj = {x:200, y:100, ...}
+    Object.entries(obj).forEach(v => {
+      // v[0] : x, y, ...
+      // v[1] : 200, 100, ...
+    })
     ```
 
 * Default function argument value
@@ -86,30 +120,54 @@ or
 * Module 
 
 ```
-var G = window || global || this;
-
-(function ($a, L) {
-
+var app = (function (initData) {
     //private
-    var self = this;
-    var initData = {};
-    var init = function(v) { Object.assign(self.initData, v) };
-    var test = function() { L(self.initData) };
+
+    var self = this
+    var data = {
+      default1: '1',
+    }
+    Object.assign(data, initData)
+    var init = function(newData) { Object.assign(data, newData) }
+    var test = function() { console.log(self.data) }
 
     //public
+ 
+    var $a = {}
     ['init', 'test'].forEach(function (k) {
         $a[k] = self[k];
-    });
-
+    })
     return $a;
-})(
-    G.$app || (G.$app = {}),
-    G.L || (G.L = console.log.bind(console))
-);
+})({
+  foo: 'Bar',
+});
 
-//run app
-$app.init({foo:'Bar'});
+// use app
+app.init({foo2: 'Bar2'});
+app.test();
 ```
+
+* Reading a *.py* config file into json-valid string
+
+
+    Python file `config.py`:
+
+    ```
+    #!/usr/bin/env python
+    config = {
+    	"foo": "Bar",
+	...
+    }
+    ```
+
+    Nodejs code to read python file:
+
+    ```
+    var pycfg = require('fs').readFileSync('../config.py').toString()
+    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
+    var cfg = JSON.parse(pycfg)
+    console.log(cfg.foo)
+    ```
 
 # HTML/CSS
 
