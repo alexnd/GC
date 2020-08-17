@@ -194,7 +194,7 @@ component.vue
   <foo-bar v-model="x" @click.prevent="barFoo">
 </template>
 <script>
-/* eslint-disable vue/no-unused-components */
+/* eslint-disable no-console,vue/no-unused-components */
 import { mapState } from 'vuex'
 import FooBar from 'theme/components/Foo'
 export default {
@@ -234,12 +234,35 @@ export default {
 Init VUE PWA boilerplate
 
 ```
-sudo npm i -g @vue/cli @vue/cli-init @vue/cli-plugin-pwa`
-vue init pwa#development projectname
+sudo npm i -g @vue/cli`
+vue init projectname
 cd projectname
-npm i
-npm run dev
+npm run serve
 ```
+
+Instant vue prototyping
+
+    * Create vue component
+
+    ```
+    mkdir test
+    cd test
+    touch Test.vue
+    ```
+
+    * Edit Test.vue (`vim Test.vue`)
+    
+    * Optional dependencies
+
+    Install optional dependencies via terminal: `npm init -y && npm i dependency`
+
+    Import them in vue js code:
+
+    `import { foo } from 'dependency'`
+
+    * Run via vue-cli instantly: `vue serve Test`
+    
+    * Open http://localhost:8080
 
 # SHELL (BASH)
 
