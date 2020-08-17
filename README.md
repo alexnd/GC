@@ -234,7 +234,7 @@ export default {
 Init VUE PWA boilerplate
 
 ```
-sudo npm i -g @vue/cli`
+sudo npm i -g @vue/cli
 vue init projectname
 cd projectname
 npm run serve
@@ -260,7 +260,7 @@ Instant vue prototyping
 
     `import { foo } from 'dependency'`
 
-    * Run via vue-cli instantly: `vue serve Test`
+    * Run via vue-cli instantly: `vue serve Test.vue`
     
     * Open http://localhost:8080
 
