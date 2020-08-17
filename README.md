@@ -242,7 +242,7 @@ npm run serve
 
 Instant vue prototyping
 
-    * Create vue component
+* Create vue component
 
     ```
     mkdir test
@@ -250,9 +250,9 @@ Instant vue prototyping
     touch Test.vue
     ```
 
-    * Edit Test.vue (`vim Test.vue`)
+* Edit Test.vue (`vim Test.vue`)
     
-    * Optional dependencies
+* Optional dependencies
 
     Install optional dependencies via terminal: `npm init -y && npm i dependency`
 
@@ -260,9 +260,9 @@ Instant vue prototyping
 
     `import { foo } from 'dependency'`
 
-    * Run via vue-cli instantly: `vue serve Test.vue`
+* Run via vue-cli instantly: `vue serve Test.vue`
     
-    * Open http://localhost:8080
+* Open http://localhost:8080
 
 # SHELL (BASH)
 
