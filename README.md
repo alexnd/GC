@@ -115,30 +115,24 @@ Ok, well, shuffling some another stuff...
 
 ```
 var app = (function (initData) {
-    //private
-
-    var self = this
-    var data = {
-      foo1: '1',
-    }
-    Object.assign(data, initData)
-    var init = function(newData) { Object.assign(data, newData) }
-    var test = function() { console.log(self.data) }
-
-    //public
- 
-    var $a = {}
-    ['init', 'test'].forEach(function (k) {
-        $a[k] = self[k];
-    })
-    return $a;
+//private
+  var data = {
+    foo1: '1',
+  }
+  Object.assign(data, initData)
+  var init = function(newData) { Object.assign(data, newData) }
+  var test = function() { console.log(data) }
+//public
+  return {
+    init: init,
+    test: test
+  }
 })({
   foo: 'Bar',
-});
-
-// use app
-app.init({foo2: 'Bar2'});
-app.test();
+})
+console.log(app)
+app.init({foo2: 'Bar2'})
+app.test()
 ```
 
 * Reading a *.py* config file into json-valid string
