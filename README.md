@@ -228,11 +228,14 @@ export default {
 Init VUE PWA boilerplate
 
 ```
-sudo npm i -g @vue/cli
+sudo npm i -g @vue/cli @vue/cli-service-global
 vue init projectname
+...a bunch of options
 cd projectname
 npm run serve
 ```
+
+Vue cli web GUI: `vue ui`
 
 Instant vue prototyping
 
@@ -258,6 +261,10 @@ Instant vue prototyping
     
 * Open http://localhost:8080
 
+* Define port and automatically open browser: `vue serve -o -p 5000 Test.vue`
+
+* Optionally existing `index.html` will be reused
+
 # SHELL (BASH)
 
 * Pack dir to TAR + GZ
@@ -268,7 +275,7 @@ Instant vue prototyping
 
     `tar -xzf name.tgz`
 
-* Pack dir to BZ2 without absolute path`
+* Pack dir to BZ2 without absolute path
 
     `tar -c -j -f site1.tbz -C /var/www site1`
 
