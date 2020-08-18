@@ -38,14 +38,6 @@ Ok, well, shuffling some another stuff...
 
 # JS
 
-* L = console.log() helper
-
-    `var L = (typeof console == 'object') ? console.log.bind(console) : function(){}`
-
-or
-
-    `const L = console.log.bind(console)`
-
 * "Arraify" function arguments
 
     `Array.prototype.slice.call(arguments)`
@@ -60,7 +52,7 @@ or
 
 * Backward-loop 
 
-    `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { L(a[i]) }`
+    `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { console.log(a[i]) }`
 
 * Remove n-th array item
 
@@ -112,9 +104,11 @@ or
 
     ```
     function test(v) {
-    var v = (typeof v == 'undefined') ? 'Foo' : v
-    // v is 'default' or its own
+      var v = (typeof v === 'undefined') ? 'Foo' : v
+      console.log(v)
     }
+    test() // Foo
+    test(1) // 1
     ```
 
 * Module 
@@ -125,7 +119,7 @@ var app = (function (initData) {
 
     var self = this
     var data = {
-      default1: '1',
+      foo1: '1',
     }
     Object.assign(data, initData)
     var init = function(newData) { Object.assign(data, newData) }
