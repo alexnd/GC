@@ -659,6 +659,8 @@ git push origin :refs/tags/TAGNAME
 
 * Process on port
 
+    `sudo lsof -PiTCP -sTCP:LISTEN`
+
     `sudo lsof -nPi :6379`
 
 * Mount via sftp
