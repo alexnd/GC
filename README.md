@@ -219,6 +219,8 @@ export default {
 </script>
 ```
 
+[Properly vuex state mutation](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
+
 Init VUE PWA boilerplate
 
 ```
