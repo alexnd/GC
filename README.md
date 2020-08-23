@@ -657,7 +657,9 @@ git push origin :refs/tags/TAGNAME
 
 * Screenshots
 
-    `CMD + SHIFT + 4`
+    `CMD + SHIFT + 3` - whole screen
+
+    `CMD + SHIFT + 4` - rectangle selection dialog
 
 * Process on port
 
