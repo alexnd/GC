@@ -325,8 +325,10 @@ Instant vue prototyping
 
     or
 
-    ```chmod 755 $(find /path/to/base/dir -type d)
-    chmod 644 $(find /path/to/base/dir -type f)```
+    ```
+    chmod 755 $(find /path/to/base/dir -type d)
+    chmod 644 $(find /path/to/base/dir -type f)
+    ```
 
 * Show Debian/Ubuntu linux version
 
@@ -346,6 +348,7 @@ Instant vue prototyping
     dd if=/dev/hda1 of=./part1.image - to backup
     dd if=./part1.image of=/dev/hda1 - to restore
     ```
+
 * Write usb bootable from iso file:
 
     `dd if=./image.iso of=/dev/sdx` ( should be `sda` or `sdb` or `sdc` )
@@ -379,10 +382,10 @@ Instant vue prototyping
 	auto eth1
 		iface eth1 inet dhcp
     ```
+
     (`ESC`, `i`, type..., `ESC`, `:wq`)
 
     -- `sudo systemctl restart networking`
-
 
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
@@ -403,7 +406,8 @@ Instant vue prototyping
     - `CTRL + A, capital K` than press `y` - to kill session
 
     - cool adjustment with display tabs, cpu, time - place this file on home dir `.screenrc`
-        ```
+ 
+ 	```
         vbell off
         altscreen on
         defutf8 on
@@ -430,10 +434,10 @@ Instant vue prototyping
     - Server-side fix:
 
     ```
-            apt-get purge locales
-            apt install locales (locales-all)
-            dpkg-reconfigure locales
-            locale -a
+       apt-get purge locales
+       apt install locales (locales-all)
+       dpkg-reconfigure locales
+       locale -a
     ```
 
 * Install [Certbot](https://certbot.eff.org) on [nginx](http://nginx.org/ru/docs/)-based web server
