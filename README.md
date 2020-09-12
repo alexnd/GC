@@ -919,7 +919,22 @@ sudo apt install bitcoin-qt bitcoind
 bitcoin-qt
 ```
 
-* [reset root password](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
+* [TERA smart money](https://sourceforge.net/projects/tera/)
+
+/usr/local/bin/tera
+
+```
+#!/bin/sh
+
+if pgrep -f "run-node.js" > /dev/null
+then
+  pm2 show run-node.js
+else
+  cd /root/wallet/Source/ && pm2 start run-node.js
+fi
+```
+
+* [reset MySQL root password](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
 * Useful links:
 
@@ -975,17 +990,4 @@ bitcoin-qt
 
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-    * [TERA smart money](https://sourceforge.net/projects/tera/)
-
-/usr/local/bin/tera
-
-```
-#!/bin/sh
-
-if pgrep -f "run-node.js" > /dev/null
-then
-  pm2 show run-node.js
-else
-  cd /root/wallet/Source/ && pm2 start run-node.js
-fi
-```
+    * [Glitch.me - collaboration](https://glitch.com/)
