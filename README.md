@@ -987,7 +987,19 @@ fi
     * [Base64 decode](https://www.base64decode.org/)
     
     * [swagger.json editor](https://editor.swagger.io/)
+    
+    * [Postman - API test client](https://www.postman.com/)
 
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-    * [Glitch.me - collaboration](https://glitch.com/)
+    * [Glitch.me - online dev toolbox](https://glitch.com/)
+
+    * [Figma - collaborative design tool](https://www.figma.com/)
+    
+    * [Code sandbox](https://codesandbox.io/)
+    
+    * [Awesome React](https://github.com/enaqx/awesome-react)
+    
+    * [Awesome Vue](hhttps://github.com/vuejs/awesome-vue)
+    
+    * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
