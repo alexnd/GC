@@ -1004,6 +1004,12 @@ fi
     
     * [Awesome React](https://github.com/enaqx/awesome-react)
     
-    * [Awesome Vue](hhttps://github.com/vuejs/awesome-vue)
+    * [Awesome Vue](https://github.com/vuejs/awesome-vue)
     
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
+
+    * [Nomie tracker](https://nomie.app/)
+
+    * [Notion](https://www.notion.so/)
+
+    * [RoamResearch](https://roamresearch.com/)
