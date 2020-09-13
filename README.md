@@ -996,6 +996,10 @@ fi
 
     * [Figma - collaborative design tool](https://www.figma.com/)
     
+    * [Fontsource](https://github.com/fontsource/fontsource)
+    
+    * [Tailwind.css](https://tailwindcss.com/)
+    
     * [Code sandbox](https://codesandbox.io/)
     
     * [Awesome React](https://github.com/enaqx/awesome-react)
