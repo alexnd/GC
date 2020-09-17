@@ -78,6 +78,42 @@ Ok, well, shuffling some another stuff...
 
     `Array.from(new Set(source))`
 
+* Async IIFE
+
+    ```
+    // async block
+    (async (data) => {
+      // let b = await a(...)
+      // return b
+    })
+    
+    ({foo:'Bar'}) // input
+    
+    // output
+    .then(v => {
+      // result
+    })
+    .catch(e => {
+      // error
+    })
+    ```
+
+* Destructuring
+
+   ```
+   [a, b] = [10, 20]
+
+   [a, b, ...rest] = [10, 20, 30, 40, 50] // rest is [30, 40, 50]
+
+   ({a, b} = {a: 10, b: 20}) // `a` , `b` now in context
+
+   var o = {p: 42, q: true}
+   var {p: foo, q: bar} = o // vars `foo` is 42, `q` is true in context
+
+   let key = 'z'
+   let {[key]: foo} = {z: 'bar'}  // `foo` is 'bar' in context
+   ```
+
 * Variables as object keys
 
     ```
