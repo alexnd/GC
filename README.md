@@ -193,6 +193,20 @@ app.test()
     console.log(cfg.foo)
     ```
 
+    Nodejs console input
+
+    ```
+    const readline = require('readline')
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    })
+    rl.question('Whatsup?', (answer) => {
+      console.log(`input: ${answer}`)
+      rl.close()
+    })
+    ```
+
 # HTML/CSS
 
 * Minimal pic
