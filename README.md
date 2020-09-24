@@ -959,7 +959,11 @@ done
     php: ```strtok($s, "\n")```
 
     py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
-    
+
+* cyrillic
+
+`ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
+
 * bitcoin
 
 ```
