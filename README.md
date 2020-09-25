@@ -604,7 +604,13 @@ or just `ssh add`
 git config --global --list
 git config --global user.name "John Doe"
 git config --global user.email john@example.com
+```
 
+* Global git settings: `~/.gitconfig`
+
+* The local (project) configuration will be in your repository's `.git/config`
+
+```
 git init
 
 git remote -v
@@ -648,6 +654,13 @@ git push origin :refs/tags/TAGNAME
 ```
 
 [list of GIT commands](https://github.com/joshnh/Git-Commands)
+
+* [fix git permission denied](https://gist.github.com/adamjohnson/5682757) like `git@github.com: Permission denied (publickey).` when `git clone <url>`,
+
+  you should `ssh-keygen`-ed new ssh key or use existing `~/.ssh/id_rsa.pub`,
+
+  then add it to Github/whatever (login to that website, than find ssh keys management in your account settings)
+
 
 # NODE
 
