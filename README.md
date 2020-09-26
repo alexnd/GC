@@ -147,6 +147,33 @@ Ok, well, shuffling some another stuff...
     test(1) // 1
     ```
 
+* Ajax call, [fetch polyfill](https://github.com/github/fetch)
+
+```
+var token = '...'
+var form = new FormData(document.getElementById('login-form'));
+fetch('/login', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded', // application/json
+    'Authorization': 'Bearer ' + token
+  },
+  mode: 'cors',
+  cache: 'no-cache',
+  credentials: 'include'
+  body: form
+})
+.then(function(res) {
+  return res.json();
+})
+.then(function(data) {
+  console.log('*[responce]', data);
+})
+.catch(function(err) {
+  console.error(err)
+});
+```
+
 * Module 
 
 ```
