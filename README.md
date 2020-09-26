@@ -1013,7 +1013,7 @@ fi
     
     * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
     
-    * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
+    * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
     
     * [Texture packer](https://www.codeandweb.com/texturepacker)
     
