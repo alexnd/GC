@@ -64,7 +64,7 @@ Ok, well, shuffling some another stuff...
     
 * Last item of array
 
-    `var last = a.slice(-1)`
+    `var last = a.slice(-1)[0]`
 
 * Concatenate arrays `a` and `b`
 
