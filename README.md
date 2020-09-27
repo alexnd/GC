@@ -611,7 +611,7 @@ or just `ssh add`
 
 [About ssh agent](https://www.ssh.com/ssh/agent)
 
-* To easy add existing key from this pc to host - `ssh-copy-id -i ~/.ssh/mykey user@host`
+* To easy add existing key (not .pub file) from this pc to host - `ssh-copy-id -i ~/.ssh/mykey user@host`
 
 * To test key - `ssh -i ~/.ssh/mykey user@host`
 
@@ -781,12 +781,14 @@ git push origin :refs/tags/TAGNAME
 
 * Mount via sftp
 
-    - Install osxfuse and sshfs:
+    - Install osxfuse and sshfs or mac:
 
         ```
         brew cask install osxfuse
         brew install sshfs
         ```
+
+    - linux install: `sudo apt-get install sshfs`
 
     - Test ssh connection:
 
@@ -798,32 +800,34 @@ git push origin :refs/tags/TAGNAME
         mkdir /mountpath
         sshfs username@hostname:/ /mountpath
         ...
-        diskutil umount force /mountpath
+	umount /mountpath
+	or
+	diskutil umount force /mountpath
         ```
+
 * Remote SSH to Mac
 
     - Open the Apple menu in the upper left corner of the screen, and select "System Preferences...".
-     
-    - Under "Internet & Wireless", select "Sharing".
-     
-    - In the left column of services, enable "Remote Login".
-     
-    - Highlight the "Remote Login" service and enable access for the users you would like to have SSH access.
-     
-    - You can select all users, or specific users by selecting "Only these users:" and adding the appropriate users by clicking "+".
-     
-    - Take note of the command displayed underneath the words "Remote Login: On" in the upper middle part of the screen.
-     
-    - Write this command down as you will need it to log in from a different system.
-     
-    - If your firewall is enabled (which it is by default), you may need to restart the firewall to allow SSH communications to pass through port 22.
-     
-    - Open "System Prefrences", click "Security", and restart the Firewall.
-     
-    - Test that the firewall is not blocking SSH access by going to a different system and entering the ssh login command in step 6 above.
-     
-    - If you cannot login, restart the firewall or reboot.
 
+    - Under "Internet & Wireless", select "Sharing".
+
+    - In the left column of services, enable "Remote Login".
+
+    - Highlight the "Remote Login" service and enable access for the users you would like to have SSH access.
+
+    - You can select all users, or specific users by selecting "Only these users:" and adding the appropriate users by clicking "+".
+
+    - Take note of the command displayed underneath the words "Remote Login: On" in the upper middle part of the screen.
+
+    - Write this command down as you will need it to log in from a different system.
+
+    - If your firewall is enabled (which it is by default), you may need to restart the firewall to allow SSH communications to pass through port 22.
+
+    - Open "System Prefrences", click "Security", and restart the Firewall.
+
+    - Test that the firewall is not blocking SSH access by going to a different system and entering the ssh login command in step 6 above.
+
+    - If you cannot login, restart the firewall or reboot.
 
 # ESLINT
 
