@@ -1098,6 +1098,8 @@ fi
 
     * [Base64 decode](https://www.base64decode.org/)
     
+    * [AST explorer](https://astexplorer.net/)
+    
     * [swagger.json editor](https://editor.swagger.io/)
     
     * [Postman - API test client](https://www.postman.com/)
