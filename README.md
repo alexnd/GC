@@ -98,6 +98,24 @@ Ok, well, shuffling some another stuff...
     })
     ```
 
+* void operator
+
+    ```
+    void (1+2) // undefined
+
+    // arrow function not to return value
+    void setInterval(() => { ... }, 1500)
+    
+    // escape context from polluting
+    void function aRecursion(i) {
+      if(i > 0) {
+        console.log(i--)
+        aRecursion(i)
+      }
+    }(3)
+    console.log(typeof aRecursion) // undefined
+    ```
+
 * Destructuring
 
    ```
