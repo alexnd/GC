@@ -829,6 +829,8 @@ git push origin :refs/tags/TAGNAME
 
     - If you cannot login, restart the firewall or reboot.
 
+* [Change the default web browser or email app on your Mac](https://support.apple.com/en-us/HT201607)
+
 # ESLINT
 
 ```
