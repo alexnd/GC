@@ -36,7 +36,7 @@ Ok, well, shuffling some another stuff...
 
 # [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
-# JS
+# [JS](https://stackify.com/learn-javascript-tutorials/)
 
 * "Arraify" function arguments
 
@@ -167,54 +167,54 @@ Ok, well, shuffling some another stuff...
 
 * Ajax call, [fetch polyfill](https://github.com/github/fetch)
 
-```
-var token = '...'
-var form = new FormData(document.getElementById('login-form'));
-fetch('/login', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/x-www-form-urlencoded', // application/json
-    'Authorization': 'Bearer ' + token
-  },
-  mode: 'cors',
-  cache: 'no-cache',
-  credentials: 'include'
-  body: form
-})
-.then(function(res) {
-  return res.json();
-})
-.then(function(data) {
-  console.log('*[responce]', data);
-})
-.catch(function(err) {
-  console.error(err)
-});
-```
+    ```
+    var token = '...'
+    var form = new FormData(document.getElementById('login-form'));
+    fetch('/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded', // application/json
+        'Authorization': 'Bearer ' + token
+      },
+      mode: 'cors',
+      cache: 'no-cache',
+      credentials: 'include'
+      body: form
+    })
+    .then(function(res) {
+      return res.json();
+    })
+    .then(function(data) {
+      console.log('*[responce]', data);
+    })
+    .catch(function(err) {
+      console.error(err)
+    });
+    ```
 
-* Module 
+* Js module (ES5)
 
-```
-var app = (function (initData) {
-//private
-  var data = {
-    foo1: '1',
-  }
-  Object.assign(data, initData)
-  var init = function(newData) { Object.assign(data, newData) }
-  var test = function() { console.log(data) }
-//public
-  return {
-    init: init,
-    test: test
-  }
-})({
-  foo: 'Bar',
-})
-console.log(app)
-app.init({foo2: 'Bar2'})
-app.test()
-```
+    ```
+    var app = (function (initData) {
+    //private
+      var data = {
+        foo1: '1',
+      }
+      Object.assign(data, initData)
+      var init = function(newData) { Object.assign(data, newData) }
+      var test = function() { console.log(data) }
+    //public
+    return {
+      init: init,
+      test: test
+    }
+    })({
+     foo: 'Bar',
+    })
+    console.log(app)
+    app.init({foo2: 'Bar2'})
+    app.test()
+    ```
 
 * Reading a *.py* config file into json-valid string
 
@@ -1125,6 +1125,8 @@ fi
     * [Microbunle](https://github.com/developit/microbundle)
     
     * [Code sandbox](https://codesandbox.io/)
+    
+    * [Awesome Opensource](https://awesomeopensource.com/projects/)
     
     * [Awesome React](https://github.com/enaqx/awesome-react)
     
