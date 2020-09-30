@@ -502,14 +502,14 @@ Instant vue prototyping
 
     - cool adjustment with display tabs, cpu, time - place this file on home dir `.screenrc`
  
- 	```
-        vbell off
-        altscreen on
-        defutf8 on
-        termcapinfo xterm ti@:te@
-        hardstatus alwayslastline
-        hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
-        ```
+```
+vbell off
+altscreen on
+defutf8 on
+termcapinfo xterm ti@:te@
+hardstatus alwayslastline
+hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
+```
 
 * `locale: Cannot set LC_*` errors
 
