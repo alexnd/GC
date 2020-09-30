@@ -725,7 +725,7 @@ git push origin :refs/tags/TAGNAME
 
 * Find installed foo - `npm list -g | grep foo`
 
-* Useful npms - `pm2 serve eslint express knex`
+* Useful npms - `pm2 serve eslint express knex [passport-jwt](http://www.passportjs.org/packages/passport-jwt)`
 
 * upgrade package.json dependencies to latest versions
 
