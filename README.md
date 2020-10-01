@@ -393,17 +393,19 @@ Instant vue prototyping
 * Stats
 
     `top`, `htop` - system load
-    
+
     `free -m`, `vmstat -s`, `cat /proc/meminfo` - memory
-    
-    `ps -ax | grep foo` - process
-    
+
+    `ps -ax | grep foo` - find process by name
+
     `systemctl show` - services
-    
+
     `df -h` (`du`) - disk space
-    
+
+    `ip link show` - list network interfaces 
+
     `ifconfig`, `iwconfig`, `ping google.com` - network
-    
+
     `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
 * Add user to root group
