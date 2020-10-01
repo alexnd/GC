@@ -454,8 +454,8 @@ Instant vue prototyping
     sudo -s
     apt-get update
     apt-get upgrade -y
-    apt install -y net-tools wireless-tools apt-transport-https curl ca-certificates \
-    build-essential software-properties-common python gcc g++ make subversion git \
+    apt install -y linux-headers-$(uname -r) net-tools wireless-tools apt-transport-https ca-certificates \
+    build-essential software-properties-common python gcc g++ make curl bzip2 git subversion \
     openssl libssl-dev openssh-client openssh-server screen vim mc
     ```
 
