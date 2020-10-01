@@ -455,7 +455,7 @@ Instant vue prototyping
     apt-get update
     apt-get upgrade -y
     apt install -y linux-headers-$(uname -r) net-tools wireless-tools apt-transport-https ca-certificates \
-    build-essential software-properties-common python gcc g++ make curl bzip2 git subversion \
+    dkms build-essential software-properties-common python gcc g++ make curl bzip2 git subversion \
     openssl libssl-dev openssh-client openssh-server screen vim mc
     ```
 
@@ -706,7 +706,6 @@ git push origin :refs/tags/TAGNAME
 
   then add it to Github/whatever (login to that website, than find ssh keys management in your account settings)
 
-
 # NODE
 
 * [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
@@ -830,6 +829,28 @@ git push origin :refs/tags/TAGNAME
     - If you cannot login, restart the firewall or reboot.
 
 * [Change the default web browser or email app on your Mac](https://support.apple.com/en-us/HT201607)
+
+# [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+
+* Install Guest Additions on guest Debian/Ubuntu:
+
+    - Required packages: `dkms linux-headers-$(uname -r) build-essential`
+
+    - Add virtual cdrom via *Devices > Insert Guest Additions CD image*
+
+    - Mount virtual cd `sudo mount /dev/cdrom /media/cdrom`
+    
+    - Run `sudo sh /media/cdrom/VBoxLinuxAdditions.run`
+    
+    - Reboot
+
+* Mount shared directory inside guest Debian/Ubuntu (Guest Additions required):
+
+    - add shared dir in Virtual machine configuration, with specifying `work` dir share name
+
+    - inside guest os create mount point dir `mkdir ~/work`
+
+    - mount `sudo mount -t vboxsf work ~/work`
 
 # ESLINT
 
