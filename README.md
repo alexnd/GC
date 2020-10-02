@@ -1081,7 +1081,7 @@ fi
 
     * [GIT](https://git-scm.com/downloads)
     
-    * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker compose](https://docs.docker.com/compose/install/)
+    * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
 
     * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
     
