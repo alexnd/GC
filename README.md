@@ -1156,6 +1156,8 @@ fi
     * [Awesome Vue](https://github.com/vuejs/awesome-vue)
     
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
+    
+    * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 
     * [Nomie tracker](https://nomie.app/)
     
