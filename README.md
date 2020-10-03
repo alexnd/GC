@@ -1149,6 +1149,10 @@ fi
     
     * [Code sandbox](https://codesandbox.io/)
     
+    * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
+    
+    * [Lorem Ipsum IO](https://loremipsum.io/)
+    
     * [Awesome Opensource](https://awesomeopensource.com/projects/)
     
     * [Awesome React](https://github.com/enaqx/awesome-react)
@@ -1158,6 +1162,8 @@ fi
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
     
     * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
+    
+    * [Rest Countries](https://restcountries.eu/)
 
     * [Nomie tracker](https://nomie.app/)
     
