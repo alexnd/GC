@@ -781,6 +781,8 @@ git push origin :refs/tags/TAGNAME
     `CMD + SHIFT + 3` - whole screen
 
     `CMD + SHIFT + 4` - rectangle selection dialog
+    
+    [Find recently made screenshots](https://osxdaily.com/2017/08/24/find-all-screenshots-mac/)
 
 * Process on port
 
