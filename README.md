@@ -575,13 +575,13 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 
 `apt-get install -y gcc g++ make nodejs npm` - install list of packages in one line without confirmation
 
-# CRON
+# [CRON](http://crontab.org/)
 
 `crontab -l` - show current cron jobs
 
 `crontab -e` - open crontab file with default editor 
 
-crontab example:
+crontab examples:
 
 	```
 	# m h dom mon dow user	command
@@ -590,6 +590,8 @@ crontab example:
 	# every hour
 	0 * * * * cmd
 	```
+
+Run every 10 minutes + 5 seconds: `5 */10 * * * *`
 
 # SSH
 
@@ -753,6 +755,12 @@ git push origin :refs/tags/TAGNAME
     `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
 
 # OSX
+
+* Monitor highest consuming processes
+
+  `top -o cpu`
+
+  `top -o rsize`
 
 * Background services
 
