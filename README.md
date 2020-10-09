@@ -581,15 +581,15 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 
 `crontab -e` - open crontab file with default editor 
 
-crontab examples:
+Crontab file example:
 
-	```
-	# m h dom mon dow user	command
-	# every minute
-	* *	* * * www-data wget -O - -q -t 1 http://localhost/api/cron
-	# every hour
-	0 * * * * cmd
-	```
+```
+# m h dom mon dow user	command
+# every minute
+* *	* * * www-data wget -O - -q -t 1 http://localhost/api/cron
+# every hour
+0 * * * * cmd
+```
 
 Run every 10 minutes + 5 seconds: `5 */10 * * * *`
 
