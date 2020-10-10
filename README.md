@@ -712,7 +712,7 @@ git push origin :refs/tags/TAGNAME
 
   then add it to Github/whatever (login to that website, than find ssh keys management in your account settings)
 
-# NODE
+# [NODE.JS](https://nodejs.org/api/index.html)
 
 * [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
 
@@ -875,7 +875,7 @@ git push origin :refs/tags/TAGNAME
 /* eslint-enable no-undef */
 ```
 
-# PHP
+# [PHP](https://www.php.net/manual/en/)
 
 0_O Wooot!?
 
