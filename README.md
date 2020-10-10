@@ -1197,3 +1197,7 @@ fi
     * [Notion](https://www.notion.so/)
 
     * [RoamResearch](https://roamresearch.com/)
+
+    * [Free SMS Online](https://receive-smss.com/)
+
+    * [Temp Mail](https://temp-mail.org/en/)
