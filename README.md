@@ -739,6 +739,7 @@ git push origin :refs/tags/TAGNAME
    ncu -u
    npm install
    ```
+* [Global objects in Node](https://nodejs.org/api/globals.html)
 
 # YARN
 
