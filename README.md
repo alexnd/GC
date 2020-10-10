@@ -50,6 +50,10 @@ Ok, well, shuffling some another stuff...
 
     `Date.now()`
 
+* Shift existing Date object by n milliseconds
+
+    `d.setTime(d.getTime() + 1000)) // set 1 second shift`
+
 * Backward-loop 
 
     `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { console.log(a[i]) }`
