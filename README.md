@@ -590,14 +590,19 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
 Crontab file example:
 
 ```
-# m h dom mon dow user	command
+# m h dom mon dow user	    command
 # every minute
-* *	* * * www-data wget -O - -q -t 1 http://localhost/api/cron
-# every hour
-0 * * * * cmd
+  * * *   *   *   www-data  wget -O - -q -t 1 http://localhost/api/cron
 ```
 
-Run every 10 minutes + 5 seconds: `5 */10 * * * *`
+or
+
+```
+# run CMD every hour
+0 * * * * CMD
+```
+
+Run every 10 minutes: `*/10 * * * *`
 
 # SSH
 
@@ -734,7 +739,7 @@ git push origin :refs/tags/TAGNAME
 
 * Find installed foo - `npm list -g | grep foo`
 
-* Useful npms - `pm2 serve eslint express knex` [passport-jwt](http://www.passportjs.org/packages/passport-jwt)
+* Useful npms - `pm2 nodemon serve http-server eslint express socket.io knex cron redis mongoose nodemailer multer bcrypt puppeteer` [passport-jwt](http://www.passportjs.org/packages/passport-jwt)
 
 * upgrade package.json dependencies to latest versions
 
@@ -743,6 +748,7 @@ git push origin :refs/tags/TAGNAME
    ncu -u
    npm install
    ```
+
 * [Global objects in Node](https://nodejs.org/api/globals.html)
 
 # YARN
@@ -1076,6 +1082,14 @@ sudo apt update
 sudo apt install bitcoin-qt bitcoind
 bitcoin-qt
 ```
+
+* [Metamask](https://metamask.io/)
+
+* [Ethereum](https://eth.wiki/)
+
+* [Ethereum Utils](https://github.com/ethereumjs/ethereumjs-util/)
+
+* [Ethereum Web3](https://github.com/ethereumjs/web3/)
 
 * [TERA smart money](https://sourceforge.net/projects/tera/)
 
