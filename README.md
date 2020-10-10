@@ -1154,8 +1154,6 @@ fi
 
     * [Postman - API test client](https://www.postman.com/)
 
-    * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
-
     * [Glitch.me - online dev toolbox](https://glitch.com/)
 
     * [Figma - collaborative design tool](https://www.figma.com/)
@@ -1183,6 +1181,14 @@ fi
     * [Awesome Vue](https://github.com/vuejs/awesome-vue)
 
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
+
+    * [Nest.js](https://nestjs.com/)
+
+    * [Next.js](https://nextjs.org/)
+
+    * [Nuxt.js](https://nuxtjs.org/)
+
+    * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
     * [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
 
