@@ -1221,3 +1221,5 @@ fi
     * [Free SMS Online](https://receive-smss.com/)
 
     * [Temp Mail](https://temp-mail.org/en/)
+
+    * [Google Analytics](http://analytics.google.com/)
