@@ -98,6 +98,8 @@ Ok, well, shuffling some another stuff...
     })
     ```
 
+* [Async loop issues](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop)
+
 * void operator
 
     ```
