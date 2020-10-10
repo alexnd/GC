@@ -1174,6 +1174,8 @@ fi
     
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
     
+    * [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
+    
     * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
     
     * [Rest Countries](https://restcountries.eu/)
