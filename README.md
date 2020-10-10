@@ -1097,59 +1097,61 @@ fi
 * Useful links:
 
     * [GIT](https://git-scm.com/downloads)
-    
+
     * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
 
     * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
-    
+
     * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-    
+
     * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
-    
-    * [Texture packer](https://www.codeandweb.com/texturepacker)
-    
-    * [Tiled map editor](https://www.mapeditor.org/)
-    
+
+    * [Can i use](https://caniuse.com/)
+
+    * [Can i email](https://www.caniemail.com/)
+
+    * [MDN](https://developer.mozilla.org/en-US/docs/Web)
+
     * [App manifest](https://app-manifest.firebaseapp.com/)
-    
+
     * [GIF converter](https://ezgif.com/)
-    
+
     * [MakeAppIcon](https://makeappicon.com/)
-    
+
     * [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
-    
+
     * [Fonts icons generator](http://fontello.com/)
-    
+
     * [Vector editor](https://vectr.com/)
-    
+
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
 
     * [Flexbox Help](https://flexbox.help/)
-    
+
     * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
-    
+
     * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
-    
+
     * [PDF converter](https://online2pdf.com)
-    
+
     * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
-    
+
     * [CSS Code Beautifier](http://www.codebeautifier.com/)
-    
+
     * [CSS Animations Playgroud](https://animista.net/)
-    
+
     * [HTML Color Codes](https://htmlcolorcodes.com/)
 
     * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 
     * [Base64 decode](https://www.base64decode.org/)
-    
+
     * [AST explorer](https://astexplorer.net/)
 
     * [Frontend Checklist](https://frontendchecklist.io/)
-    
+
     * [swagger.json editor](https://editor.swagger.io/)
-    
+
     * [Postman - API test client](https://www.postman.com/)
 
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
@@ -1157,35 +1159,39 @@ fi
     * [Glitch.me - online dev toolbox](https://glitch.com/)
 
     * [Figma - collaborative design tool](https://www.figma.com/)
-    
+
     * [Fontsource](https://github.com/fontsource/fontsource)
-    
+
     * [Tailwind.css](https://tailwindcss.com/)
-    
+
     * [Microbunle](https://github.com/developit/microbundle)
-    
+
     * [Code sandbox](https://codesandbox.io/)
-    
+
     * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
-    
+
     * [Lorem Ipsum IO](https://loremipsum.io/)
-    
+
+    * [Texture packer](https://www.codeandweb.com/texturepacker)
+
+    * [Tiled map editor](https://www.mapeditor.org/)
+
     * [Awesome Opensource](https://awesomeopensource.com/projects/)
-    
+
     * [Awesome React](https://github.com/enaqx/awesome-react)
-    
+
     * [Awesome Vue](https://github.com/vuejs/awesome-vue)
-    
+
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
-    
+
     * [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
-    
+
     * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
-    
+
     * [Rest Countries](https://restcountries.eu/)
 
     * [Nomie tracker](https://nomie.app/)
-    
+
     * [Blockstack apps](https://browser.blockstack.org/)
 
     * [Notion](https://www.notion.so/)
