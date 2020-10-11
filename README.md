@@ -1217,6 +1217,8 @@ fi
     * [Notion](https://www.notion.so/)
 
     * [RoamResearch](https://roamresearch.com/)
+    
+    * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
 
     * [Free SMS Online](https://receive-smss.com/)
 
