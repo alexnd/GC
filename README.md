@@ -38,6 +38,8 @@ Ok, well, shuffling some another stuff...
 
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
+* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips)
+
 * "Arraify" function arguments
 
     `Array.prototype.slice.call(arguments)`
