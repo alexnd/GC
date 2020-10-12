@@ -1236,4 +1236,8 @@ fi
 
     * [Google Analytics](http://analytics.google.com/)
 
+    * [Google Drive](https://drive.google.com/)
+
+    * [Google Docs](https://docs.google.com/)
+
     * [Everhour - time manager/tracker](https://everhour.com/)
