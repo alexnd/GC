@@ -1093,6 +1093,8 @@ bitcoin-qt
 
 * [Ethereum Web3](https://github.com/ethereumjs/web3/)
 
+* [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
+
 * [TERA smart money](https://sourceforge.net/projects/tera/)
 
 /usr/local/bin/tera
