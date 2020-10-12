@@ -1119,6 +1119,8 @@ fi
     * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
     * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
+    
+    * [ES2015 hints](https://devhints.io/es6)
 
     * [Can i use](https://caniuse.com/)
 
@@ -1183,6 +1185,10 @@ fi
     * [Microbunle](https://github.com/developit/microbundle)
 
     * [Code sandbox](https://codesandbox.io/)
+
+    * [JSPerf](https://jsperf.com/)
+
+    * [ESBench](https://esbench.com/)
 
     * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
 
