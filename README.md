@@ -1126,6 +1126,10 @@ fi
 
     * [MDN](https://developer.mozilla.org/en-US/docs/Web)
 
+    * [W3C ORG](https://www.w3.org/)
+
+    * [W3C API](https://www.w3.org/api/)
+
     * [App manifest](https://app-manifest.firebaseapp.com/)
 
     * [GIF converter](https://ezgif.com/)
