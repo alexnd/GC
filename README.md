@@ -1228,6 +1228,8 @@ fi
 
     * [Blockstack apps](https://browser.blockstack.org/)
 
+    * [Ganache](http://truffleframework.com/ganache)
+
     * [Notion](https://www.notion.so/)
 
     * [RoamResearch](https://roamresearch.com/)
