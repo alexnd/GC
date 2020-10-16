@@ -1085,6 +1085,8 @@ sudo apt install bitcoin-qt bitcoind
 bitcoin-qt
 ```
 
+* [Coins Rates](https://coincap.io/)
+
 * [Metamask](https://metamask.io/)
 
 * [Ethereum](https://eth.wiki/)
