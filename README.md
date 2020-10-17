@@ -659,6 +659,14 @@ or just `ssh add`
     ...
     umount /media/server1
     ```
+* Restricted access to host's sshd
+
+    ```
+    sudo vim /etc/ssh/sshd_config
+    add line: AllowUsers goodiman good2
+    sudo systemctl restart sshd
+    ```
+
 
 # GIT
 
