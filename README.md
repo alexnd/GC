@@ -1157,6 +1157,8 @@ fi
     * [Fonts icons generator](http://fontello.com/)
 
     * [Vector editor](https://vectr.com/)
+    
+    * [Online Img Vectorizer](https://www.vectorizer.io)
 
     * [CSS grid generator](https://cssgrid-generator.netlify.com/)
 
