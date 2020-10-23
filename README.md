@@ -1095,6 +1095,8 @@ bitcoin-qt
 
 * [Coins Rates](https://coincap.io/)
 
+* [Coins calc (ETH - USD)](https://coinmarketcap.com/ru/converter/eth/usd/)
+
 * [Metamask](https://metamask.io/)
 
 * [Ethereum](https://eth.wiki/)
@@ -1102,6 +1104,10 @@ bitcoin-qt
 * [Ethereum Utils](https://github.com/ethereumjs/ethereumjs-util/)
 
 * [Ethereum Web3](https://github.com/ethereumjs/web3/)
+
+* [Metamask minimal dapp](https://github.com/MetaMask/test-dapp)
+
+* [Metamask state for 2020](https://medium.com/metamask/breaking-changes-to-the-metamask-inpage-provider-b4dde069dd0a)
 
 * [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
 
