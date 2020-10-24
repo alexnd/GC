@@ -40,6 +40,8 @@ Ok, well, shuffling some another stuff...
 
 * [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips)
 
+* [JS operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+
 * "Arraify" function arguments
 
     `Array.prototype.slice.call(arguments)`
