@@ -733,7 +733,7 @@ git push origin :refs/tags/TAGNAME
 
 # [NODE.JS](https://nodejs.org/api/index.html)
 
-* [Install Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
+* [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
 
 * Install module globally - `npm i -g jslint`
 
