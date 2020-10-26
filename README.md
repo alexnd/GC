@@ -56,30 +56,6 @@ Ok, well, shuffling some another stuff...
 
     `Array.prototype.slice.call(arguments)`
 
-* Date in SQL format
-
-    `new Date().toISOString().substr(0, 10)`
-
-* Timestamp
-
-    `Date.now()`
-
-* Shift existing Date object by n milliseconds
-
-    `d.setTime(d.getTime() + 1000)) // set 1 second shift`
-
-* Backward-loop 
-
-    `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { console.log(a[i]) }`
-
-* Remove n-th array item
-
-    `var b = a.splice(n, 1)`
-
-* Part of array from n-th item to m-th
-
-    `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
-    
 * Last item of array
 
     `var last = a.slice(-1)[0]`
@@ -94,7 +70,31 @@ Ok, well, shuffling some another stuff...
 
 * Unique array elements
 
-    `Array.from(new Set(source))`
+    `Array.from(new Set(source))` or `let b = [.....];let a = [...new Set(b)]`
+
+* Backward-loop 
+
+    `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { console.log(a[i]) }`
+
+* Remove n-th array item
+
+    `var b = a.splice(n, 1)`
+
+* Part of array from n-th item to m-th
+
+    `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
+
+* Date in SQL format
+
+    `new Date().toISOString().substr(0, 10)`
+
+* Timestamp
+
+    `Date.now()`
+
+* Shift existing Date object by n milliseconds
+
+    `d.setTime(d.getTime() + 1000)) // set 1 second shift`
 
 * Async IIFE
 
