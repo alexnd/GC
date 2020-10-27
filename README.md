@@ -296,7 +296,7 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
-# [VUE](https://ru.vuejs.org/v2/guide/index.html)
+# [VUE](https://ru.vuejs.org/v3/guide/index.html)
 
 component.vue
 
@@ -345,6 +345,8 @@ export default {
 [Properly vuex state mutation](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
 
 [Set up Vue 3 linting in VSCode](https://simohamed.tech/blog/vue3-lint/)
+
+[Eslint Vuejs rules](https://eslint.vuejs.org/rules/)
 
 Init VUE PWA boilerplate
 
@@ -921,6 +923,20 @@ git push origin :refs/tags/TAGNAME
 /* eslint-disable no-undef */
 ...
 /* eslint-enable no-undef */
+```
+
+*.eslintrc.js*, rules:
+
+```
+// no debug
+"no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
+"no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+// singlequotes
+"quotes": ["error", "single", { "avoidEscape": true }],
+// no semicolons
+"semi": ["error", "never"],
+// no non-ascii chars in variables
+"id-match": ["error", "^[a-zA-Z0-9_$]*$", { "properties": true, "onlyDeclarations": false }]
 ```
 
 # [PHP](https://www.php.net/manual/en/)
