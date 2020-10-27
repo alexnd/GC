@@ -1248,7 +1248,13 @@ fi
 
     * [Tiled map editor](https://www.mapeditor.org/)
 
-    * [Awesome Opensource](https://awesomeopensource.com/projects/)
+    * [Nest.js](https://nestjs.com/)
+
+    * [Next.js](https://nextjs.org/)
+
+    * [Nuxt.js](https://nuxtjs.org/)
+
+    * [React.js](https://uk.reactjs.org/docs/getting-started.html)
 
     * [Awesome React](https://github.com/enaqx/awesome-react)
 
@@ -1256,11 +1262,7 @@ fi
 
     * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 
-    * [Nest.js](https://nestjs.com/)
-
-    * [Next.js](https://nextjs.org/)
-
-    * [Nuxt.js](https://nuxtjs.org/)
+    * [Awesome Opensource](https://awesomeopensource.com/projects/)
 
     * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
