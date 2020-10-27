@@ -38,19 +38,19 @@ Ok, well, shuffling some another stuff...
 
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
-* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
-
 * [JS operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 * [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 
-* [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) [Array.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) [Array.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) [Array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) 
+* [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray), [Array.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes), [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from), [Array.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) [Array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) 
 
 * [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 
-* [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+* [Async loop issues](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop)
 
-* [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array) [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array)
+* [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys), [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+* [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
 * "Arraify" function arguments
 
@@ -96,6 +96,14 @@ Ok, well, shuffling some another stuff...
 
     `d.setTime(d.getTime() + 1000)) // set 1 second shift`
 
+* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
+
+* [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
+
+* [JS code standart by Shopify](https://github.com/Shopify/javascript)
+
+* [JS code standart by AirBnb](https://github.com/airbnb/javascript)
+
 * Async IIFE
 
     ```
@@ -115,8 +123,6 @@ Ok, well, shuffling some another stuff...
       // error
     })
     ```
-
-* [Async loop issues](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop)
 
 * void operator
 
@@ -394,7 +400,7 @@ Instant vue prototyping
 
 * Find installed foo - `npm list -g | grep foo`
 
-* Useful npms - `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose tingodb nodemailer multer bcrypt puppeteer web3` [passport-jwt](http://www.passportjs.org/packages/passport-jwt)
+* Useful npms - `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose tingodb nodemailer multer bcrypt puppeteer web3` passport [passport-jwt](http://www.passportjs.org/packages/passport-jwt)
 
 * upgrade package.json dependencies to latest versions
 
@@ -484,7 +490,7 @@ Instant vue prototyping
 * List media drives
 
     `fdisk -l`
-   
+
 * List usb devices
 
     `lsusb`
@@ -662,13 +668,13 @@ Run every 10 minutes: `*/10 * * * *`
 
 or just `ssh add`
 
-[How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+* [How to add new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
 * test access rights: `ssh -vT git@github.com`
 
 * view ssh key fingerprint: `ssh-keygen -lf ~/.ssh/id_rsa.pub`
 
-[About ssh agent](https://www.ssh.com/ssh/agent)
+* [Ssh agent](https://www.ssh.com/ssh/agent)
 
 * To easy add existing key (not .pub file) from this pc to host - `ssh-copy-id -i ~/.ssh/mykey user@host`
 
@@ -691,6 +697,8 @@ or just `ssh add`
 * Tunneling
 
     `ssh -N -L localhost:6379:localhost:6379 example.com` (`-L ... -L ...` to multiply number of ports)
+
+* [autossh](https://linux.die.net/man/1/autossh), [Permanent ssh tunnel](https://gon.gl/blog/2019/03/03/permanent-ssh-tunnel.html)
 
 * Mount fs via sftp
 
@@ -910,6 +918,8 @@ git push origin :refs/tags/TAGNAME
 # [PHP](https://www.php.net/manual/en/)
 
 0_O Wooot!?
+
+* [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 
 * one line terminal
 
@@ -1159,6 +1169,8 @@ fi
     * [Can i email](https://www.caniemail.com/)
 
     * [MDN](https://developer.mozilla.org/en-US/docs/Web)
+
+    * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/)
 
     * [W3C ORG](https://www.w3.org/)
 
