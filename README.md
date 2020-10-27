@@ -50,7 +50,7 @@ Ok, well, shuffling some another stuff...
 
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
-* [EventLoop](https://developer.mozilla.org/uk/docs/Web/JavaScript/EventLoop)
+* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop)
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
@@ -1256,7 +1256,7 @@ fi
 
     * [Nuxt.js](https://nuxtjs.org/)
 
-    * [React.js](https://uk.reactjs.org/docs/getting-started.html)
+    * [React.js](https://reactjs.org/docs/getting-started.html)
 
     * [Awesome React](https://github.com/enaqx/awesome-react)
 
