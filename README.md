@@ -344,6 +344,8 @@ export default {
 
 [Properly vuex state mutation](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
 
+[Set up Vue 3 linting in VSCode](https://simohamed.tech/blog/vue3-lint/)
+
 Init VUE PWA boilerplate
 
 ```
