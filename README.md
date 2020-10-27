@@ -50,6 +50,10 @@ Ok, well, shuffling some another stuff...
 
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
+* [EventLoop](https://developer.mozilla.org/uk/docs/Web/JavaScript/EventLoop)
+
+* [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
+
 * "Arraify" function arguments
 
     `Array.prototype.slice.call(arguments)`
@@ -410,7 +414,7 @@ Instant vue prototyping
 
 * [Global objects in Node](https://nodejs.org/api/globals.html)
 
-# SHELL (BASH)
+# SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
 * Pack dir to TAR + GZ
 
@@ -504,6 +508,8 @@ Instant vue prototyping
 
     `dd if=./image.iso of=/dev/sdx` ( should be `sda` or `sdb` or `sdc` )
 
+* [xargs](https://shapeshed.com/unix-xargs)
+
 * Install common dev stuff (like `ssh`, `vim` and `mc`) missing after clean install on debian-like os:
 
     ```
@@ -526,7 +532,7 @@ Instant vue prototyping
 * configure network adapter
 
     -- `eth1` - interface name
-   
+
     -- `sudo vi /etc/network/interfaces` :
 
     ```
