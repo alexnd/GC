@@ -388,6 +388,10 @@ Instant vue prototyping
 
 * [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
 
+* [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
+
+* [Global objects in Node](https://nodejs.org/api/globals.html)
+
 * Install module globally - `npm i -g jslint`
 
 * Add to package.json dependencies - `npm i -P <package>`
@@ -411,8 +415,6 @@ Instant vue prototyping
    ncu -u
    npm install
    ```
-
-* [Global objects in Node](https://nodejs.org/api/globals.html)
 
 # SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
