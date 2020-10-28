@@ -1019,7 +1019,9 @@ The most important feature of double-quoted strings is the fact that variable na
     =>
     `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
 
-# Mongo
+# Mongo DB
+
+* [Mongodb Indexes](https://docs.mongodb.com/manual/indexes/)
 
 ## Mongodb on OSX
 
@@ -1050,6 +1052,8 @@ Start/stop server: `brew services start|stop mongodb-community`
    - Comment out with `#` or delete `authorization: disabled` from mongod.conf
    
    - Restart service `brew services restart mongodb-community`
+
+* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html#apidoc.element.tingodb.tcoll.prototype.update)
 
 # VI(M)
 
@@ -1195,6 +1199,8 @@ fi
     * [MDN](https://developer.mozilla.org/en-US/docs/Web)
 
     * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/)
+
+    * [Microservices](https://microservices.io/patterns/index.html)
 
     * [W3C ORG](https://www.w3.org/)
 
