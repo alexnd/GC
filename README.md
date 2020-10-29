@@ -50,7 +50,7 @@ Ok, well, shuffling some another stuff...
 
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
-* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop)
+* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop) [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
@@ -422,37 +422,25 @@ Instant vue prototyping
 
 # SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
-* Pack dir to TAR + GZ
+* Create Symbolic Link: `ln -s source target`
 
-    `tar -zcvf name.tgz path`
+* Pack dir to TAR + GZ: `tar -zcvf name.tgz path`
 
-* Unpack TGZ
+* Unpack TGZ: `tar -xzf name.tgz`
 
-    `tar -xzf name.tgz`
+* Pack dir to BZ2 without absolute path: `tar -c -j -f site1.tbz -C /var/www site1`
 
-* Pack dir to BZ2 without absolute path
+* Pack 1 file (.gz added automatically): `gzip path`
 
-    `tar -c -j -f site1.tbz -C /var/www site1`
+* Copy from your pc to host over ssh: `scp source user@host:pathTo`
 
-* Pack 1 file (.gz added automatically)
+* Copy from host to your pc over ssh: `scp user@host:pathFrom pathTo`
 
-    `gzip path`
+* Download: `wget URL`
 
-* Copy from your pc to host over ssh 
+* Advanced download: `curl -fsSL URL -O` (or replace `-O` to `-o path`)
 
-    `scp source user@host:pathTo`
-
-* Copy from host to your pc over ssh
-
-    `scp user@host:pathFrom pathTo`
-
-* Download
-
-    `wget URL`
-
-* Advanced download
-
-    `curl -fsSL URL -O` (or replace `-O` to `-o path`)
+* Restart service in debian/ubuntu: `systemctl restart nginx`
 
 * Stats
 
@@ -472,13 +460,9 @@ Instant vue prototyping
 
     `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
-* Add user to root group
+* Add user to root group: `usermod -aG sudo username`
 
-    `usermod -aG sudo username`
-
-* Recursively set owner:group
-
-    `chown -R username:group /path/*`
+* Recursively set owner:group: `chown -R username:group /path/*`
 
 * Recursively fix R/W permissions
 
@@ -491,17 +475,11 @@ Instant vue prototyping
     chmod 644 $(find /path/to/base/dir -type f)
     ```
 
-* Show Debian/Ubuntu linux version
+* Show Debian/Ubuntu linux version: `lsb_release -a`
 
-    `lsb_release -a`
+* List media drives: `fdisk -l`
 
-* List media drives
-
-    `fdisk -l`
-
-* List usb devices
-
-    `lsusb`
+* List usb devices: `lsusb`
 
 * Backup disk to file, than restore it
 
