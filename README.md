@@ -54,21 +54,15 @@ Ok, well, shuffling some another stuff...
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
-* "Arraify" function arguments
+* "Arraify" function arguments: `Array.prototype.slice.call(arguments)`
 
-    `Array.prototype.slice.call(arguments)`
+* Last item of array: `var last = a.slice(-1)[0]`
 
-* Last item of array
+* Remove n-th array item: `var b = a.splice(n, 1)`
 
-    `var last = a.slice(-1)[0]`
+* Concatenate arrays `a` and `b`: `var c = a.concat(b)`
 
-* Concatenate arrays `a` and `b`
-
-   `var c = a.concat(b)`
-
-* Random array element
-
-    `a[Math.floor(Math.random() * a.length)]`
+* Random array element: `a[Math.floor(Math.random() * a.length)]`
 
 * Unique array elements
 
@@ -78,10 +72,6 @@ Ok, well, shuffling some another stuff...
 
     `var a = ['a','b','c']; for ( var i=a.length; i-- > 0; ) { console.log(a[i]) }`
 
-* Remove n-th array item
-
-    `var b = a.splice(n, 1)`
-
 * Part of array from n-th item to m-th
 
     `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
@@ -90,9 +80,7 @@ Ok, well, shuffling some another stuff...
 
     `new Date().toISOString().substr(0, 10)`
 
-* Timestamp
-
-    `Date.now()`
+* Unix timestamp for moment: `Date.now()`
 
 * Shift existing Date object by n milliseconds
 
@@ -1176,7 +1164,7 @@ fi
 
     * [MDN](https://developer.mozilla.org/en-US/docs/Web)
 
-    * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/)
+    * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
 
     * [Microservices](https://microservices.io/patterns/index.html)
 
