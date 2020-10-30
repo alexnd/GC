@@ -54,7 +54,7 @@ Ok, well, shuffling some another stuff...
 
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
-* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop) [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop), [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
