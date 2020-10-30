@@ -40,9 +40,13 @@ Ok, well, shuffling some another stuff...
 
 * [JS operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
-* [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of), [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+* [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `var A = [....]; for (var v in A) { /* v is A[i] */ }`
+
+* [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) `var OB = {....}; for (var K in) { /* K is key, OB[K] is val*/ }`
 
 * [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray), [Array.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes), [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from), [Array.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice), [Array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+* [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 
 * [Async loop issues](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop)
 
@@ -1112,6 +1116,8 @@ bitcoin-qt
 * [Coins Rates](https://coincap.io/)
 
 * [Coins calc (ETH - USD)](https://coinmarketcap.com/ru/converter/eth/usd/)
+
+* [Wallet](https://coinbase.com)
 
 * [Metamask](https://metamask.io/)
 
