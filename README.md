@@ -80,6 +80,40 @@ Ok, well, shuffling some another stuff...
 
     `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
 
+* Check 2 arrays for equality
+
+    - only the same values, without order conformity
+
+    ```
+    function arraysEqual(a, b) {
+      if (a === b) return true
+      if (a == null || b == null) return false
+      if (a.length !== b.length) return false
+      for (let v of b) {
+        if (!a.includes(v)) return false
+      }
+      return true
+    }
+    ```
+
+    - with order equality
+
+    ```
+    function arraysEqual(a, b) {
+      if (a === b) return true
+      if (a == null || b == null) return false
+      if (a.length !== b.length) return false
+      const c = Array.from(a)
+      c.sort()
+      const d = Array.from(b)
+      d.sort()
+      for (var i = 0; i < c.length; ++i) {
+        if (c[i] !== d[i]) return false
+      }
+      return true
+    }
+    ```
+
 * Date in SQL format
 
     `new Date().toISOString().substr(0, 10)`
