@@ -54,7 +54,7 @@ Ok, well, shuffling some another stuff...
 
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer), [Int32Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array), [BigInt64Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array), [btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
-* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop), [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+* [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop)
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
@@ -308,6 +308,8 @@ Ok, well, shuffling some another stuff...
 
 # HTML/CSS
 
+* [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
 * Minimal pic
 
 ```
@@ -420,23 +422,25 @@ Instant vue prototyping
 
 * [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
 
+* [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+
 * [Global objects in Node](https://nodejs.org/api/globals.html)
 
-* Install module globally - `npm i -g jslint`
+* Install module globally: `npm i -g jslint`
 
-* Add to package.json dependencies - `npm i -P <package>`
+* Add to package.json dependencies: `npm i -P <package>`
 
-* Add to package.json devDependencies - `npm i -D <package>`
+* Add to package.json devDependencies: `npm i -D <package>`
 
-* Full reinstall for project - rm -rf ./node_modules && rm ./package-lock.json && npm i
+* Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
 
-* Update npm itself - `sudo npm update -g`
+* Update npm itself: `sudo npm update -g`
 
-* List updatable - `npm outdated -g`
+* List updatable: `npm outdated -g`
 
-* Find installed foo - `npm list -g | grep foo`
+* Find installed foo: `npm list -g | grep foo`
 
-* Useful npms - `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose tingodb nodemailer multer bcrypt puppeteer web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt)
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose tingodb nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) 
 
 * upgrade package.json dependencies to latest versions
 
