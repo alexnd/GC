@@ -903,6 +903,8 @@ git push origin :refs/tags/TAGNAME
 
 * [Change the default web browser or email app on your Mac](https://support.apple.com/en-us/HT201607)
 
+* [TextEdit as ASCII editor](https://apple.stackexchange.com/questions/188240/built-in-gui-based-ascii-only-editor-for-os-x)
+
 # [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 * Install Guest Additions on guest Debian/Ubuntu:
