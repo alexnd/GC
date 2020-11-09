@@ -953,6 +953,12 @@ git push origin :refs/tags/TAGNAME
 
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 
+* [Setup VS Code for Efficient PHP development](https://blog.theodo.com/2019/07/vscode-php-development/)
+
+* [PHP in Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
+
+* [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
+
 * one line terminal
 
     ```
