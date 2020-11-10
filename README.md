@@ -152,6 +152,14 @@ Ok, well, shuffling some another stuff...
     })
     ```
 
+* Sleep for milliseconds implementation
+
+   ```
+   function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+   ```
+
 * void operator
 
     ```
@@ -1164,6 +1172,8 @@ bitcoin-qt
 * [Coins calc (ETH - USD)](https://coinmarketcap.com/ru/converter/eth/usd/)
 
 * [Wallet](https://coinbase.com)
+
+* [Miners pool](https://2miners.com/), [CryptoCalc](https://2cryptocalc.com/), [whattomine](https://whattomine.com/), [crypt0.zone](https://crypt0.zone/calculator)
 
 * [Metamask](https://metamask.io/)
 
