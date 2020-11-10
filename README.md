@@ -278,42 +278,6 @@ Ok, well, shuffling some another stuff...
     app.test()
     ```
 
-* Reading a *.py* config file into json-valid string
-
-
-    Python file `config.py`:
-
-    ```
-    #!/usr/bin/env python
-    config = {
-    	"foo": "Bar",
-	...
-    }
-    ```
-
-    Nodejs code to read python file:
-
-    ```
-    var pycfg = require('fs').readFileSync('../config.py').toString()
-    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
-    var cfg = JSON.parse(pycfg)
-    console.log(cfg.foo)
-    ```
-
-    Nodejs console input
-
-    ```
-    const readline = require('readline')
-    const rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    })
-    rl.question('Whatsup?', (answer) => {
-      console.log(`input: ${answer}`)
-      rl.close()
-    })
-    ```
-
 # HTML/CSS
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -448,7 +412,7 @@ Instant vue prototyping
 
 * Find installed foo: `npm list -g | grep foo`
 
-* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose tingodb nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) 
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) 
 
 * upgrade package.json dependencies to latest versions
 
@@ -457,6 +421,44 @@ Instant vue prototyping
    ncu -u
    npm install
    ```
+
+* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html#apidoc.element.tingodb.tcoll.prototype.update)
+
+* Reading a *.py* config file into json-valid string
+
+
+    Python file `config.py`:
+
+    ```
+    #!/usr/bin/env python
+    config = {
+    	"foo": "Bar",
+	...
+    }
+    ```
+
+    Nodejs code to read python file:
+
+    ```
+    var pycfg = require('fs').readFileSync('../config.py').toString()
+    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
+    var cfg = JSON.parse(pycfg)
+    console.log(cfg.foo)
+    ```
+
+    Nodejs console input
+
+    ```
+    const readline = require('readline')
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    })
+    rl.question('Whatsup?', (answer) => {
+      console.log(`input: ${answer}`)
+      rl.close()
+    })
+    ```
 
 # SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
@@ -1076,8 +1078,6 @@ Start/stop server: `brew services start|stop mongodb-community`
    - Comment out with `#` or delete `authorization: disabled` from mongod.conf
    
    - Restart service `brew services restart mongodb-community`
-
-* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html#apidoc.element.tingodb.tcoll.prototype.update)
 
 # VI(M)
 
