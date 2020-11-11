@@ -424,6 +424,8 @@ Instant vue prototyping
 
 * [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html#apidoc.element.tingodb.tcoll.prototype.update)
 
+* argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
+
 * Reading a *.py* config file into json-valid string
 
 
