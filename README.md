@@ -58,6 +58,14 @@ Ok, well, shuffling some another stuff...
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
+* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
+
+* [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
+
+* [JS code standart by Shopify](https://github.com/Shopify/javascript)
+
+* [JS code standart by AirBnb](https://github.com/airbnb/javascript)
+
 * "Arraify" function arguments: `Array.prototype.slice.call(arguments)`
 
 * Last item of array: `var last = a.slice(-1)[0]`
@@ -124,42 +132,6 @@ Ok, well, shuffling some another stuff...
 
     `d.setTime(d.getTime() + 1000)) // set 1 second shift`
 
-* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
-
-* [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
-
-* [JS code standart by Shopify](https://github.com/Shopify/javascript)
-
-* [JS code standart by AirBnb](https://github.com/airbnb/javascript)
-
-* Async IIFE
-
-    ```
-    // async block
-    (async (data) => {
-      // let b = await a(...)
-      // return b
-    })
-    
-    ({foo:'Bar'}) // input
-    
-    // output
-    .then(v => {
-      // result
-    })
-    .catch(e => {
-      // error
-    })
-    ```
-
-* Sleep for milliseconds implementation
-
-   ```
-   function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
-   }
-   ```
-
 * void operator
 
     ```
@@ -216,7 +188,16 @@ Ok, well, shuffling some another stuff...
     })
     ```
 
-* Default function argument value
+* Function default arguments
+
+    ```
+    function foo(v, p = true) {
+      console.log(v, p);
+    }
+    foo(1); // 1, true
+    ```
+
+* Default function argument value (when native default implementation fails on robust js engine)
 
     ```
     function test(v) {
@@ -226,6 +207,79 @@ Ok, well, shuffling some another stuff...
     test() // Foo
     test(1) // 1
     ```
+
+* Object pure clone, shallow copy, new object in memory
+
+    ```
+    /* make object's shallow copy
+     * src - source object
+     return new object */ 
+    function clone(src) {
+      let out, v, k;
+      if (typeof src !== 'object' || src === null) {
+        return src;
+      }
+      out = Array.isArray(src) ? [] : {}
+      for (k in src) {
+        v = src[k];
+        out[k] = clone(v);
+      }
+      return out;
+    }
+    ```
+
+* Object pure clone, filtered by keys
+
+    ```
+    /* make object's shallow copy, using key filter mask (only on root level)
+     * src - source object
+     * keys - array of keys to be filtered, strings
+     * includes - boolean flag means include or exclude operation, true by default
+     return new object
+     depends on clone() function */
+    function cloneFk(src, keys, includes = true) {
+      let out, v, k;
+      if (typeof src !== 'object' || src === null) {
+        return src;
+      }
+      out = Array.isArray(src) ? [] : {}
+      for (k in src) {
+        if (Array.isArray(keys) && !includes && keys.includes(k)) continue;
+        if (Array.isArray(keys) && includes && !keys.includes(k)) continue;
+        v = src[k];
+        out[k] = clone(v);
+      }
+      return out;
+    }
+    ```
+
+* Async IIFE
+
+    ```
+    // async block
+    (async (data) => {
+      // let b = await a(...)
+      // return b
+    })
+    
+    ({foo:'Bar'}) // input
+    
+    // output
+    .then(v => {
+      // result
+    })
+    .catch(e => {
+      // error
+    })
+    ```
+
+* Sleep for milliseconds implementation
+
+   ```
+   function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+   ```
 
 * Ajax call, [fetch polyfill](https://github.com/github/fetch)
 
