@@ -197,7 +197,7 @@ Ok, well, shuffling some another stuff...
     foo(1); // 1, true
     ```
 
-* Default function argument value (when native default implementation fails on robust js engine)
+* Default function argument value, when implementation above not supported by js engine
 
     ```
     function test(v) {
