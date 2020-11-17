@@ -1404,6 +1404,6 @@ fi
 
     * [Google Docs](https://docs.google.com/)
     
-    * [Youtube downloader](https://ymp4.download/en4/)
+    * [Youtube downloader](https://ymp4.download/en4/), [Youtube dl CLI](https://github.com/ytdl-org/youtube-dl)
 
     * [Everhour - time manager/tracker](https://everhour.com/)
