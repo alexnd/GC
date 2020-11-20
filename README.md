@@ -476,7 +476,7 @@ Instant vue prototyping
    npm install
    ```
 
-* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html#apidoc.element.tingodb.tcoll.prototype.update)
+* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
 
 * argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
 
@@ -1018,6 +1018,10 @@ git push origin :refs/tags/TAGNAME
 # [PHP](https://www.php.net/manual/en/)
 
 0_O Wooot!?
+
+* [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
+
+* [Laravel API](https://laravel.com/api/5.8/doc-index.html)
 
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 
