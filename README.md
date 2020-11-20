@@ -1021,9 +1021,13 @@ git push origin :refs/tags/TAGNAME
 
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 
+* [PHP Debugbar](http://phpdebugbar.com/)
+
 * [Laravel API](https://laravel.com/api/5.8/doc-index.html)
 
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
+
+* [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 
 * [Setup VS Code for Efficient PHP development](https://blog.theodo.com/2019/07/vscode-php-development/)
 
