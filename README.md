@@ -857,7 +857,9 @@ git tag -d TAGNAME
 git push origin :refs/tags/TAGNAME
 ```
 
-[list of GIT commands](https://github.com/joshnh/Git-Commands)
+* [Resolving a merge conflict](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
+
+* [list of GIT commands](https://github.com/joshnh/Git-Commands)
 
 * [fix git permission denied](https://gist.github.com/adamjohnson/5682757) like `git@github.com: Permission denied (publickey).` when `git clone <url>`,
 
