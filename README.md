@@ -1297,15 +1297,11 @@ fi
 
 * [MDN](https://developer.mozilla.org/en-US/docs/Web)
 
-* [WebP](https://developers.google.com/speed/webp)
-
-* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
-
-* [Microservices](https://microservices.io/patterns/index.html)
-
 * [W3C ORG](https://www.w3.org/)
 
 * [W3C API](https://www.w3.org/api/)
+
+* [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
 
 * [App manifest](https://app-manifest.firebaseapp.com/)
 
@@ -1324,6 +1320,8 @@ fi
 * [CSS grid generator](https://cssgrid-generator.netlify.com/)
 
 * [Flexbox Help](https://flexbox.help/)
+
+* [CSS Grid Guide](https://www.telerik.com/blogs/guide-css-grid)
 
 * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
 
@@ -1375,6 +1373,8 @@ fi
 
 * [Texture packer](https://www.codeandweb.com/texturepacker)
 
+* [WebP](https://developers.google.com/speed/webp)
+
 * [Tiled map editor](https://www.mapeditor.org/)
 
 * [Nest.js](https://nestjs.com/)
@@ -1405,7 +1405,9 @@ fi
 
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-* [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
+* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
+
+* [Microservices](https://microservices.io/patterns/index.html)
 
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 
