@@ -66,6 +66,8 @@ Ok, well, shuffling some another stuff...
 
 * [JS code standart by AirBnb](https://github.com/airbnb/javascript)
 
+* `"use strict"` enable [Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) in ES5/6
+
 * "Arraify" function arguments: `Array.prototype.slice.call(arguments)`
 
 * Last item of array: `var last = a.slice(-1)[0]`
@@ -643,7 +645,7 @@ Instant vue prototyping
     - `CTRL + A, capital K` than press `y` - to kill session
 
     - cool adjustment with display tabs, cpu, time - place this file on home dir `.screenrc`
- 
+
 ```
 vbell off
 altscreen on
@@ -800,7 +802,6 @@ or just `ssh add`
     add line: AllowUsers goodiman good2
     sudo systemctl restart sshd
     ```
-
 
 # GIT
 
@@ -1021,6 +1022,8 @@ git push origin :refs/tags/TAGNAME
 
 0_O Wooot!?
 
+* `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
+
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 
 * [PHP Debugbar](http://phpdebugbar.com/)
@@ -1110,6 +1113,8 @@ The most important feature of double-quoted strings is the fact that variable na
     `select from_unixtime(2147483647)`
     =>
     `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
+
+* [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
 # Mongo DB
 
@@ -1224,6 +1229,8 @@ done
 
 `ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
 
+# DECETRALIZATION
+
 * bitcoin
 
 ```
@@ -1270,152 +1277,162 @@ else
 fi
 ```
 
-* [reset MySQL root password](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
+# LINKS
 
-* Useful links:
+* [GIT](https://git-scm.com/downloads)
 
-    * [GIT](https://git-scm.com/downloads)
+* [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
 
-    * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
+* [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [SFTP Sync](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-    * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [SFTP Sync](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
 
-    * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
+* [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
 
-    * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
+* [ES2015 hints](https://devhints.io/es6)
 
-    * [ES2015 hints](https://devhints.io/es6)
+* [Can i use](https://caniuse.com/)
 
-    * [Can i use](https://caniuse.com/)
+* [Can i email](https://www.caniemail.com/)
 
-    * [Can i email](https://www.caniemail.com/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web)
 
-    * [MDN](https://developer.mozilla.org/en-US/docs/Web)
+* [WebP](https://developers.google.com/speed/webp)
 
-    * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
+* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
 
-    * [Microservices](https://microservices.io/patterns/index.html)
+* [Microservices](https://microservices.io/patterns/index.html)
 
-    * [W3C ORG](https://www.w3.org/)
+* [W3C ORG](https://www.w3.org/)
 
-    * [W3C API](https://www.w3.org/api/)
+* [W3C API](https://www.w3.org/api/)
 
-    * [App manifest](https://app-manifest.firebaseapp.com/)
+* [App manifest](https://app-manifest.firebaseapp.com/)
 
-    * [GIF converter](https://ezgif.com/)
+* [GIF converter](https://ezgif.com/)
 
-    * [MakeAppIcon](https://makeappicon.com/)
+* [MakeAppIcon](https://makeappicon.com/)
 
-    * [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
+* [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
 
-    * [Fonts icons generator](http://fontello.com/)
+* [Fonts icons generator](http://fontello.com/)
 
-    * [Vector editor](https://vectr.com/)
+* [Vector editor](https://vectr.com/)
     
-    * [Online Img Vectorizer](https://www.vectorizer.io)
+* [Online Img Vectorizer](https://www.vectorizer.io)
 
-    * [CSS grid generator](https://cssgrid-generator.netlify.com/)
+* [CSS grid generator](https://cssgrid-generator.netlify.com/)
 
-    * [Flexbox Help](https://flexbox.help/)
+* [Flexbox Help](https://flexbox.help/)
 
-    * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
+* [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
 
-    * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
+* [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
 
-    * [PDF converter](https://online2pdf.com)
+* [PDF converter](https://online2pdf.com)
 
-    * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
+* [HTML formatter](https://www.freeformatter.com/html-formatter.html)
 
-    * [CSS Code Beautifier](http://www.codebeautifier.com/)
+* [CSS Code Beautifier](http://www.codebeautifier.com/)
 
-    * [CSS Animations Playgroud](https://animista.net/)
+* [CSS Animations Playgroud](https://animista.net/)
 
-    * [HTML Color Codes](https://htmlcolorcodes.com/)
+* [HTML Color Codes](https://htmlcolorcodes.com/)
 
-    * [JSON formatter](https://jsonformatter.curiousconcept.com/)
+* [JSON formatter](https://jsonformatter.curiousconcept.com/)
 
-    * [Base64 decode](https://www.base64decode.org/)
+* [Base64 decode](https://www.base64decode.org/)
 
-    * [AST explorer](https://astexplorer.net/)
+* [AST explorer](https://astexplorer.net/)
 
-    * [TS Playground](https://www.typescriptlang.org/play)
+* [TS Playground](https://www.typescriptlang.org/play)
 
-    * [Frontend Checklist](https://frontendchecklist.io/)
+* [Frontend Checklist](https://frontendchecklist.io/)
 
-    * [swagger.json editor](https://editor.swagger.io/)
+* [swagger.json editor](https://editor.swagger.io/)
 
-    * [Postman - API test client](https://www.postman.com/)
+* [Postman - API test client](https://www.postman.com/)
 
-    * [Glitch.me - online dev toolbox](https://glitch.com/)
+* [Glitch.me - online dev toolbox](https://glitch.com/)
 
-    * [Figma - collaborative design tool](https://www.figma.com/)
+* [Figma - collaborative design tool](https://www.figma.com/)
 
-    * [Fontsource](https://github.com/fontsource/fontsource)
+* [Fontsource](https://github.com/fontsource/fontsource)
 
-    * [Tailwind.css](https://tailwindcss.com/)
+* [Tailwind.css](https://tailwindcss.com/)
 
-    * [Microbunle](https://github.com/developit/microbundle)
+* [Microbunle](https://github.com/developit/microbundle)
 
-    * [Code sandbox](https://codesandbox.io/)
+* [Code sandbox](https://codesandbox.io/)
 
-    * [JSPerf](https://jsperf.com/)
+* [JSPerf](https://jsperf.com/)
 
-    * [ESBench](https://esbench.com/)
+* [ESBench](https://esbench.com/)
 
-    * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
+* [JSON Placeholder](http://jsonplaceholder.typicode.com/)
 
-    * [Lorem Ipsum IO](https://loremipsum.io/)
+* [Lorem Ipsum IO](https://loremipsum.io/)
 
-    * [Texture packer](https://www.codeandweb.com/texturepacker)
+* [Texture packer](https://www.codeandweb.com/texturepacker)
 
-    * [Tiled map editor](https://www.mapeditor.org/)
+* [Tiled map editor](https://www.mapeditor.org/)
 
-    * [Nest.js](https://nestjs.com/)
+* [Nest.js](https://nestjs.com/)
 
-    * [Next.js](https://nextjs.org/)
+* [Next.js](https://nextjs.org/)
 
-    * [Nuxt.js](https://nuxtjs.org/)
+* [Nuxt.js](https://nuxtjs.org/)
 
-    * [React.js](https://reactjs.org/docs/getting-started.html)
+* [React.js](https://reactjs.org/docs/getting-started.html)
 
-    * [Awesome React](https://github.com/enaqx/awesome-react)
+* [Blueprint](https://blueprintjs.com/docs/)
 
-    * [Awesome Vue](https://github.com/vuejs/awesome-vue)
+* [Semantic-UI](https://react.semantic-ui.com/)
 
-    * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
+* [Material-UI](https://material-ui.com/)
 
-    * [Awesome Opensource](https://awesomeopensource.com/projects/)
+* [Ant Design](https://ant.design/)
 
-    * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
+* [Storybook](https://storybook.js.org/)
 
-    * [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
+* [Awesome React](https://github.com/enaqx/awesome-react)
 
-    * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
+* [Awesome Vue](https://github.com/vuejs/awesome-vue)
 
-    * [Rest Countries](https://restcountries.eu/)
+* [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 
-    * [Nomie tracker](https://nomie.app/)
+* [Awesome Opensource](https://awesomeopensource.com/projects/)
 
-    * [Blockstack apps](https://browser.blockstack.org/)
+* [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-    * [Ganache](http://truffleframework.com/ganache)
+* [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
 
-    * [Notion](https://www.notion.so/)
+* [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 
-    * [RoamResearch](https://roamresearch.com/)
-    
-    * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
+* [Rest Countries](https://restcountries.eu/)
 
-    * [Free SMS Online](https://receive-smss.com/)
+* [Nomie tracker](https://nomie.app/)
 
-    * [Temp Mail](https://temp-mail.org/en/)
+* [Blockstack apps](https://browser.blockstack.org/)
 
-    * [Google Analytics](http://analytics.google.com/)
+* [Ganache](http://truffleframework.com/ganache)
 
-    * [Google Drive](https://drive.google.com/)
+* [Notion](https://www.notion.so/)
 
-    * [Google Docs](https://docs.google.com/)
-    
-    * [Youtube downloader](https://ymp4.download/en4/), [Youtube dl CLI](https://github.com/ytdl-org/youtube-dl)
+* [RoamResearch](https://roamresearch.com/)
 
-    * [Everhour - time manager/tracker](https://everhour.com/)
+* [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
+
+* [Free SMS Online](https://receive-smss.com/)
+
+* [Temp Mail](https://temp-mail.org/en/)
+
+* [Google Analytics](http://analytics.google.com/)
+
+* [Google Drive](https://drive.google.com/)
+
+* [Google Docs](https://docs.google.com/)
+
+* [Youtube downloader](https://ymp4.download/en4/), [Youtube dl CLI](https://github.com/ytdl-org/youtube-dl)
+
+* [Everhour - time manager/tracker](https://everhour.com/)
