@@ -1229,7 +1229,7 @@ done
 
 `ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
 
-# DECETRALIZATION
+# DECENTRALIZATION
 
 * bitcoin
 
