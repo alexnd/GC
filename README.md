@@ -1338,6 +1338,8 @@ fi
 
     * [AST explorer](https://astexplorer.net/)
 
+    * [TS Playground](https://www.typescriptlang.org/play)
+
     * [Frontend Checklist](https://frontendchecklist.io/)
 
     * [swagger.json editor](https://editor.swagger.io/)
