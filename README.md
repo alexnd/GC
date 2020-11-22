@@ -1349,6 +1349,8 @@ fi
 
 * [swagger.json editor](https://editor.swagger.io/)
 
+* [Insomnia REST client](https://insomnia.rest/)
+
 * [Postman - API test client](https://www.postman.com/)
 
 * [Glitch.me - online dev toolbox](https://glitch.com/)
