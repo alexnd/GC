@@ -1030,6 +1030,8 @@ git push origin :refs/tags/TAGNAME
 
 * [PHP Debugbar](http://phpdebugbar.com/)
 
+* [PSR2+](https://www.php-fig.org/psr/psr-12/)
+
 * [Laravel API](https://laravel.com/api/5.8/doc-index.html)
 
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
@@ -1041,6 +1043,8 @@ git push origin :refs/tags/TAGNAME
 * [PHP in Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
 
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
+
+* [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/)
 
 * one line terminal
 
@@ -1330,6 +1334,8 @@ fi
 * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
 
 * [PDF converter](https://online2pdf.com)
+
+* [EditorConfig](https://editorconfig.org/)
 
 * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
 
