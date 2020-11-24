@@ -1044,8 +1044,6 @@ git push origin :refs/tags/TAGNAME
 
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
 
-* [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/)
-
 * one line terminal
 
     ```
@@ -1292,6 +1290,8 @@ fi
 * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [SFTP Sync](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
+
+* [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/) [PHPStorm EAP](https://www.jetbrains.com/phpstorm/nextversion/) [Jetbrains Toolbox](https://www.jetbrains.com/ru-ru/toolbox-app/)
 
 * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
 
