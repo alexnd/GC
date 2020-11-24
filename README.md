@@ -1371,8 +1371,6 @@ fi
 
 * [Fontsource](https://github.com/fontsource/fontsource)
 
-* [Tailwind.css](https://tailwindcss.com/)
-
 * [Microbunle](https://github.com/developit/microbundle)
 
 * [Code sandbox](https://codesandbox.io/)
@@ -1398,6 +1396,8 @@ fi
 * [Nuxt.js](https://nuxtjs.org/)
 
 * [React.js](https://reactjs.org/docs/getting-started.html)
+
+* [Tailwind.css](https://tailwindcss.com/) [Tailwind UI](https://tailwindui.com/)
 
 * [Blueprint](https://blueprintjs.com/docs/)
 
