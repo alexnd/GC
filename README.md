@@ -1268,7 +1268,7 @@ bitcoin-qt
 
 * [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
 
-* [TERA smart money](https://sourceforge.net/projects/tera/)
+* [TERA](https://terafoundation.org/) [codebase2](https://gitlab.com/terafoundation/tera2) [codebase1](https://sourceforge.net/projects/tera/)
 
 /usr/local/bin/tera
 
@@ -1323,6 +1323,8 @@ fi
     
 * [Online Img Vectorizer](https://www.vectorizer.io)
 
+* [Blobmaker](https://www.blobmaker.app/)
+
 * [CSS grid generator](https://cssgrid-generator.netlify.com/)
 
 * [Flexbox Help](https://flexbox.help/)
@@ -1352,6 +1354,8 @@ fi
 * [AST explorer](https://astexplorer.net/)
 
 * [TS Playground](https://www.typescriptlang.org/play)
+
+* [GSAP](https://github.com/greensock/GSAP)
 
 * [Frontend Checklist](https://frontendchecklist.io/)
 
@@ -1403,6 +1407,44 @@ fi
 
 * [Ant Design](https://ant.design/)
 
+* [React Bootstrap](https://react-bootstrap.github.io/)
+
+* [React Admin](https://marmelab.com/react-admin/)
+
+* [Shards React](https://designrevision.com/downloads/shards-react/)
+
+* [Material Kit React](https://www.creative-tim.com/product/material-kit-react)
+
+* [Argon](https://www.creative-tim.com/product/argon-design-system-react/)
+
+* [React Virtualized](https://bvaughn.github.io/react-virtualized/#/components/List)
+
+* [Onsen UI](https://onsen.io/react/)
+
+* [React Toolbox](http://react-toolbox.io/#/)
+
+* [React Decktop](https://reactdesktop.js.org/)
+
+* [Evergreen](https://evergreen.segment.com/)
+
+* [Reactstrap](https://reactstrap.github.io/)
+
+* [Rebass](https://rebassjs.org/)
+
+* [Grommet](https://v2.grommet.io/)
+
+* [React Suite](https://rsuitejs.com/)
+
+* [Elemental UI](http://elemental-ui.com/)
+
+* [Belle](https://nikgraf.github.io/belle/)
+
+* [React-md](https://react-md.dev/v1/)
+
+* [Prime React](https://www.primefaces.org/primereact/)
+
+* [Kendo React](https://www.telerik.com/kendo-react-ui/)
+
 * [Storybook](https://storybook.js.org/)
 
 * [Awesome React](https://github.com/enaqx/awesome-react)
@@ -1415,7 +1457,7 @@ fi
 
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/)
+* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/)
 
 * [Microservices](https://microservices.io/patterns/index.html)
 
