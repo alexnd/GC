@@ -1447,6 +1447,8 @@ fi
 
 * [Storybook](https://storybook.js.org/)
 
+* [Emmet plugin](https://emmet.io/)
+
 * [Awesome React](https://github.com/enaqx/awesome-react)
 
 * [Awesome Vue](https://github.com/vuejs/awesome-vue)
