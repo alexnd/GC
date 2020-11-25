@@ -1323,6 +1323,8 @@ fi
     
 * [Online Img Vectorizer](https://www.vectorizer.io)
 
+* [SVGBox](https://svgbox.net/)
+
 * [Blobmaker](https://www.blobmaker.app/)
 
 * [CSS grid generator](https://cssgrid-generator.netlify.com/)
