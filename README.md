@@ -1379,6 +1379,8 @@ fi
 
 * [Figma - collaborative design tool](https://www.figma.com/)
 
+* [Mobile Friendly test](https://search.google.com/test/mobile-friendly)
+
 * [Fontsource](https://github.com/fontsource/fontsource)
 
 * [Microbunle](https://github.com/developit/microbundle)
