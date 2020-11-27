@@ -1513,6 +1513,6 @@ fi
 
 * [Free Office](https://www.freeoffice.com/en/)
 
-* [Brave browser](https://brave.com/download/)
+* [Brave browser (chrome engine)](https://brave.com/download/), [Firefox developer edition](https://www.mozilla.org/uk/firefox/developer/), [Opera](https://www.opera.com/en/download)
 
 * [DOSBox](https://www.dosbox.com/)
