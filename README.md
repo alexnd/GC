@@ -1044,6 +1044,8 @@ git push origin :refs/tags/TAGNAME
 
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
 
+* [PHP 8](https://www.php.net/index.php#id2020-11-26-3)
+
 * one line terminal
 
     ```
@@ -1359,6 +1361,12 @@ fi
 
 * [GSAP](https://github.com/greensock/GSAP)
 
+* [PWA Asset generator](https://github.com/onderceylan/pwa-asset-generator)
+
+* [Webpack module federation](https://webpack.js.org/concepts/module-federation/)
+
+* [Upptime](https://github.com/upptime/upptime)
+
 * [Frontend Checklist](https://frontendchecklist.io/)
 
 * [swagger.json editor](https://editor.swagger.io/)
@@ -1461,7 +1469,7 @@ fi
 
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
-* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/)
+* [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
 
 * [Microservices](https://microservices.io/patterns/index.html)
 
@@ -1494,3 +1502,7 @@ fi
 * [Youtube downloader](https://ymp4.download/en4/), [Youtube dl CLI](https://github.com/ytdl-org/youtube-dl)
 
 * [Everhour - time manager/tracker](https://everhour.com/)
+
+* [Libreoffice](https://www.libreoffice.org/download/download)
+
+* [Freeoffice](https://www.freeoffice.com/en/)
