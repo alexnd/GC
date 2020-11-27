@@ -1268,7 +1268,7 @@ bitcoin-qt
 
 * [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
 
-* [TERA](https://terafoundation.org/) [codebase2](https://gitlab.com/terafoundation/tera2) [codebase1](https://sourceforge.net/projects/tera/)
+* [TERA](https://terafoundation.org/), [codebase2](https://gitlab.com/terafoundation/tera2), [codebase1](https://sourceforge.net/projects/tera/)
 
 /usr/local/bin/tera
 
@@ -1293,7 +1293,7 @@ fi
 
 * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
 
-* [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/) [PHPStorm EAP](https://www.jetbrains.com/phpstorm/nextversion/) [Jetbrains Toolbox](https://www.jetbrains.com/ru-ru/toolbox-app/)
+* [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/), [PHPStorm EAP](https://www.jetbrains.com/phpstorm/nextversion/), [Jetbrains Toolbox](https://www.jetbrains.com/ru-ru/toolbox-app/)
 
 * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
 
@@ -1417,7 +1417,7 @@ fi
 
 * [React.js](https://reactjs.org/docs/getting-started.html)
 
-* [Tailwind.css](https://tailwindcss.com/) [Tailwind UI](https://tailwindui.com/)
+* [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
 
 * [Blueprint](https://blueprintjs.com/docs/)
 
@@ -1512,3 +1512,7 @@ fi
 * [Libre Office](https://www.libreoffice.org/download/download)
 
 * [Free Office](https://www.freeoffice.com/en/)
+
+* [Brave browser](https://brave.com/download/)
+
+* [DOSBox](https://www.dosbox.com/)
