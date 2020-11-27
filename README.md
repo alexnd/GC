@@ -1383,7 +1383,15 @@ fi
 
 * [Fontsource](https://github.com/fontsource/fontsource)
 
+* [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
+
 * [Microbunle](https://github.com/developit/microbundle)
+
+* [Storybook](https://storybook.js.org/)
+
+* [Atomicdesign](https://atomizedesign.com/)
+
+* [Emmet plugin](https://emmet.io/)
 
 * [Code sandbox](https://codesandbox.io/)
 
@@ -1457,10 +1465,6 @@ fi
 
 * [Kendo React](https://www.telerik.com/kendo-react-ui/)
 
-* [Storybook](https://storybook.js.org/)
-
-* [Emmet plugin](https://emmet.io/)
-
 * [Awesome React](https://github.com/enaqx/awesome-react)
 
 * [Awesome Vue](https://github.com/vuejs/awesome-vue)
@@ -1505,6 +1509,6 @@ fi
 
 * [Everhour - time manager/tracker](https://everhour.com/)
 
-* [Libreoffice](https://www.libreoffice.org/download/download)
+* [Libre Office](https://www.libreoffice.org/download/download)
 
-* [Freeoffice](https://www.freeoffice.com/en/)
+* [Free Office](https://www.freeoffice.com/en/)
