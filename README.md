@@ -1399,6 +1399,8 @@ fi
 
 * [ESBench](https://esbench.com/)
 
+* [WebDev measure](https://web.dev/measure/)
+
 * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
 
 * [Lorem Ipsum IO](https://loremipsum.io/)
@@ -1406,6 +1408,10 @@ fi
 * [Texture packer](https://www.codeandweb.com/texturepacker)
 
 * [WebP](https://developers.google.com/speed/webp)
+
+* [Ruffle](https://ruffle.rs/)
+
+* [AMP](https://amp.dev/), [AMP validator](https://validator.ampproject.org/)
 
 * [Tiled map editor](https://www.mapeditor.org/)
 
