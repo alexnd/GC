@@ -354,6 +354,14 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 # [VUE](https://ru.vuejs.org/v3/guide/index.html)
 
+* [vue-cli](https://cli.vuejs.org/)
+
+* [vue-router](https://next.router.vuejs.org/)
+
+* [vuex](https://next.vuex.vuejs.org/)
+
+* [vue-devtools](https://github.com/vuejs/vue-devtools)
+
 component.vue
 
 ```
@@ -398,7 +406,7 @@ export default {
 </script>
 ```
 
-[Vue3 API]()
+[Vue3 Guide](https://v3.vuejs.org/guide/introduction.html)
 
 [Pass elements by refs composed by v-for](https://stackoverflow.com/questions/52086128/vue-js-ref-inside-the-v-for-loop)
 
