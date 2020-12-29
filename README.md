@@ -366,7 +366,10 @@ component.vue
 
 ```
 <template>
-  <foo-bar v-model="x" @click.prevent="barFoo">
+  <foo-bar v-model="x" @click.prevent.stop="barFoo" />
+  <!-- in VUE3 multiple root nodes supported -->
+  <img src="@/assets/logo.png" />
+  <form @submit.prevent><select v-model="ch" ref="selCh">...</select></form>
 </template>
 <script>
 /* eslint-disable no-console,vue/no-unused-components */
@@ -404,6 +407,9 @@ export default {
   }
 }
 </script>
+<style type="css">
+@import '~@/assets/css/main.css';
+</style>
 ```
 
 [Vue3 Guide](https://v3.vuejs.org/guide/introduction.html)
