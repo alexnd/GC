@@ -398,6 +398,10 @@ export default {
 </script>
 ```
 
+[Vue3 API]()
+
+[Pass elements by refs composed by v-for](https://stackoverflow.com/questions/52086128/vue-js-ref-inside-the-v-for-loop)
+
 [Properly vuex state mutation](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
 
 [Set up Vue 3 linting in VSCode](https://simohamed.tech/blog/vue3-lint/)
@@ -470,7 +474,7 @@ Instant vue prototyping
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) 
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [list.js](https://github.com/javve/list.js)
 
 * upgrade package.json dependencies to latest versions
 
@@ -1427,11 +1431,15 @@ fi
 
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
 
+* [1linelayouts](http://1linelayouts.glitch.me/)
+
 * [Blueprint](https://blueprintjs.com/docs/)
 
 * [Semantic-UI](https://react.semantic-ui.com/)
 
 * [Material-UI](https://material-ui.com/)
+
+* [MDBootstrap](https://mdbootstrap.github.io/bootstrap-material-design/docs)
 
 * [Ant Design](https://ant.design/)
 
@@ -1477,6 +1485,8 @@ fi
 
 * [Awesome Vue](https://github.com/vuejs/awesome-vue)
 
+* [Awesome Vue scaffold](https://awesome-vue.js.org/components-and-libraries/scaffold.html)
+
 * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
@@ -1495,6 +1505,8 @@ fi
 
 * [Blockstack apps](https://browser.blockstack.org/)
 
+* [BigchainDb](https://github.com/bigchaindb)
+
 * [Ganache](http://truffleframework.com/ganache)
 
 * [Notion](https://www.notion.so/)
@@ -1506,6 +1518,12 @@ fi
 * [Free SMS Online](https://receive-smss.com/)
 
 * [Temp Mail](https://temp-mail.org/en/)
+
+* [2captcha](https://2captcha.com/)
+
+* [Privacypass](https://privacypass.github.io/)
+
+* [GAOptout](https://tools.google.com/dlpage/gaoptout)
 
 * [Google Analytics](http://analytics.google.com/)
 
@@ -1524,3 +1542,7 @@ fi
 * [Brave browser (chrome engine)](https://brave.com/download/), [Firefox developer edition](https://www.mozilla.org/uk/firefox/developer/), [Opera](https://www.opera.com/en/download)
 
 * [DOSBox](https://www.dosbox.com/)
+
+* [exercism.io](https://exercism.io/)
+
+* [codewars](https://www.codewars.com/)
