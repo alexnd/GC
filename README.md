@@ -1375,6 +1375,8 @@ fi
 
 * [Base64 decode](https://www.base64decode.org/)
 
+* [JWTDecoder](http://calebb.net/)
+
 * [AST explorer](https://astexplorer.net/)
 
 * [TS Playground](https://www.typescriptlang.org/play)
@@ -1443,6 +1445,8 @@ fi
 
 * [React.js](https://reactjs.org/docs/getting-started.html)
 
+* [ReactNative](https://reactnative.dev/docs/environment-setup)
+
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
 
 * [1linelayouts](http://1linelayouts.glitch.me/)
@@ -1496,6 +1500,8 @@ fi
 * [Kendo React](https://www.telerik.com/kendo-react-ui/)
 
 * [Awesome React](https://github.com/enaqx/awesome-react)
+
+* [Awesome ReactNative](https://github.com/jondot/awesome-react-native)
 
 * [Awesome Vue](https://github.com/vuejs/awesome-vue)
 
