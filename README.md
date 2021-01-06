@@ -58,6 +58,8 @@ Ok, well, shuffling some another stuff...
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
+* [Custom DOM events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events)
+
 * [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
 
 * [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
@@ -65,6 +67,8 @@ Ok, well, shuffling some another stuff...
 * [JS code standart by Shopify](https://github.com/Shopify/javascript)
 
 * [JS code standart by AirBnb](https://github.com/airbnb/javascript)
+
+* [Eloquent Javascript Book](https://eloquentjavascript.net/index.html)
 
 * `"use strict"` enable [Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) in ES5/6
 
@@ -1423,6 +1427,8 @@ fi
 
 * [WebDev measure](https://web.dev/measure/)
 
+* [BrowserStack](https://www.browserstack.com/)
+
 * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
 
 * [Lorem Ipsum IO](https://loremipsum.io/)
@@ -1450,6 +1456,8 @@ fi
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
 
 * [1linelayouts](http://1linelayouts.glitch.me/)
+
+* [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
 
 * [Blueprint](https://blueprintjs.com/docs/)
 
