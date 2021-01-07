@@ -40,7 +40,7 @@ Ok, well, shuffling some another stuff...
 
 * [JS operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
-* [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `var A = [....]; for (var v in A) { /* v is A[i] */ }`
+* [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `var A = [....]; for (var v of A) { /* v is A[i] */ }`
 
 * [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) `var OB = {....}; for (var K in OB) { /* K is key, OB[K] is value */ }`
 
@@ -492,7 +492,7 @@ Instant vue prototyping
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [list.js](https://github.com/javve/list.js)
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js)
 
 * upgrade package.json dependencies to latest versions
 
