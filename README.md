@@ -871,6 +871,7 @@ git log --oneline
 git checkout -- .
 git reset --soft HEAD^
 git reset --hard HEAD^
+git reset HEAD <file>
 git revert HASHCODE
 git stash
 git stash list
@@ -930,7 +931,7 @@ git push origin :refs/tags/TAGNAME
 
     `#!/bin/sh`
 
-    Don't forget to set execute permissions - use `chmod +x /.../bin/foo` to set it
+    Don't forget to set executable permissions - use `chmod +x /.../bin/foo` to set it
 
 * Screenshots
 
@@ -939,6 +940,8 @@ git push origin :refs/tags/TAGNAME
     `CMD + SHIFT + 4` - rectangle selection dialog
     
     [Find recently made screenshots](https://osxdaily.com/2017/08/24/find-all-screenshots-mac/)
+
+* Degree symbol ° - `OPTION(ALT) + SHIFT + 8`
 
 * Process on port
 
@@ -1456,6 +1459,8 @@ fi
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
 
 * [1linelayouts](http://1linelayouts.glitch.me/)
+
+* [AnimXYZ](https://animxyz.com/)
 
 * [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
 
