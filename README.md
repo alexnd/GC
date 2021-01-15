@@ -470,7 +470,7 @@ Instant vue prototyping
 
 * [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
 
-* [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
+* [The Node.js Event Loop](https://nodejs.dev/learn/the-nodejs-event-loop) [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
 
 * [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
 
@@ -478,9 +478,11 @@ Instant vue prototyping
 
 * Install module globally: `npm i -g jslint`
 
-* Add to package.json dependencies: `npm i -P <package>`
+* Install and add to package.json dependencies: `npm i -P <package>`
 
-* Add to package.json devDependencies: `npm i -D <package>`
+* Install and add to package.json devDependencies: `npm i -D <package>`
+
+* UNinstall: `npm uninstall <package>`
 
 * Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
 
