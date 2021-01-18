@@ -58,7 +58,7 @@ Ok, well, shuffling some another stuff...
 
 * [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
 
-* [Custom DOM events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events)
+* [Custom DOM events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events), [Custom events in JavaScript: A complete guide](https://blog.logrocket.com/custom-events-in-javascript-a-complete-guide/)
 
 * [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
 
@@ -358,11 +358,11 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 # [VUE](https://ru.vuejs.org/v3/guide/index.html)
 
-* [vue-cli](https://cli.vuejs.org/)
+* [vue-cli](https://cli.vuejs.org/), [vue devserver-proxy](https://cli.vuejs.org/config/#devserver-proxy)
 
 * [vue-router](https://next.router.vuejs.org/)
 
-* [vuex](https://next.vuex.vuejs.org/)
+* [vuex](https://next.vuex.vuejs.org/), [vuex-persistedstate](https://www.npmjs.com/package/vuex-persistedstate)
 
 * [vue-devtools](https://github.com/vuejs/vue-devtools)
 
@@ -507,6 +507,8 @@ Instant vue prototyping
 * [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
 
 * argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
+
+* [https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
 
 * Reading a *.py* config file into json-valid string
 
@@ -1399,6 +1401,8 @@ fi
 * [Upptime](https://github.com/upptime/upptime)
 
 * [Frontend Checklist](https://frontendchecklist.io/)
+
+* [SSL For Free](https://www.sslforfree.com/)
 
 * [swagger.json editor](https://editor.swagger.io/)
 
