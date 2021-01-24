@@ -953,7 +953,7 @@ git push origin :refs/tags/TAGNAME
 
     `sudo lsof -nPi :6379`
 
-* Mount via sftp
+* Mount via sftp/sshfs
 
     - Install [osxfuse and sshfs](https://osxfuse.github.io/) for mac:
 
@@ -968,14 +968,15 @@ git push origin :refs/tags/TAGNAME
 
         `ssh -i ~/.ssh/keyfile username@hostname`
 
-    - Mount remoute share:
+    - Mount remote share:
 
         ```
         mkdir /mountpath
         sshfs username@hostname:/ /mountpath
         ```
+    - Unmount
 
-	`umount /mountpath` or `diskutil umount force /mountpath`
+        `umount /mountpath` or `diskutil umount force /mountpath`
 
 * Remote SSH to Mac
 
