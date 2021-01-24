@@ -494,7 +494,7 @@ Instant vue prototyping
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb mongoose nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js)
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js)
 
 * upgrade package.json dependencies to latest versions
 
@@ -955,7 +955,7 @@ git push origin :refs/tags/TAGNAME
 
 * Mount via sftp
 
-    - Install osxfuse and sshfs or mac:
+    - Install [osxfuse and sshfs](https://osxfuse.github.io/) for mac:
 
         ```
         brew cask install osxfuse
@@ -973,11 +973,9 @@ git push origin :refs/tags/TAGNAME
         ```
         mkdir /mountpath
         sshfs username@hostname:/ /mountpath
-        ...
-	umount /mountpath
-	or
-	diskutil umount force /mountpath
         ```
+
+	`umount /mountpath` or `diskutil umount force /mountpath`
 
 * Remote SSH to Mac
 
