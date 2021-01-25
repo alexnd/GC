@@ -834,9 +834,24 @@ or just `ssh add`
 # GIT
 
 ```
+git config --global --get user.name
+git config --global --get user.email
+```
+
+```
 git config --global --list
 git config --global user.name "John Doe"
 git config --global user.email john@example.com
+```
+
+```
+git config --get user.name
+git config --get user.email
+```
+
+```
+git config user.name "Your project specific name"
+git config user.email "your@project-specific-email.com"
 ```
 
 * Global git settings: `~/.gitconfig`
@@ -886,6 +901,19 @@ git stash drop
 git tag -d TAGNAME
 git push origin :refs/tags/TAGNAME
 ```
+
+* Convert existing non-empty directory into a Git working directory and push files to a remote repository
+
+```
+cd <localdir>
+git init
+git add .
+git commit -m 'message'
+git remote add origin <url>
+git push -u origin master
+```
+
+* Undo gid add: `git reset`
 
 * [list of GIT commands](https://github.com/joshnh/Git-Commands)
 
