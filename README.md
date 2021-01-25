@@ -620,6 +620,8 @@ Instant vue prototyping
 
 * [xargs](https://shapeshed.com/unix-xargs)
 
+* [xclip](https://opensource.com/article/19/7/xclip)
+
 * Install common dev stuff (like `ssh`, `vim` and `mc`) missing after clean install on debian-like os:
 
     ```
