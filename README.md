@@ -366,6 +366,8 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [vue-devtools](https://github.com/vuejs/vue-devtools)
 
+* [vue native](https://vue-native.io/)
+
 component.vue
 
 ```
@@ -482,7 +484,7 @@ Instant vue prototyping
 
 * Install and add to package.json devDependencies: `npm i -D <package>`
 
-* UNinstall: `npm uninstall <package>`
+* Uninstall: `npm uninstall <package>`
 
 * Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
 
@@ -494,7 +496,7 @@ Instant vue prototyping
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js)
+* Useful npms: `dotenv dotenv-expand pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam)
 
 * upgrade package.json dependencies to latest versions
 
@@ -545,6 +547,14 @@ Instant vue prototyping
       rl.close()
     })
     ```
+
+* `btoa` polyfill, encode to Base64 (Binary to Ascii)
+
+    `Buffer.from(asciiData).toString('base64')`
+
+* `atob` polyfill, decode from Base64 (Ascii to Binary)
+
+    `Buffer.from(b64Encoded, 'base64').toString()`
 
 # SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
@@ -1411,6 +1421,8 @@ fi
 
 * [HTML Color Codes](https://htmlcolorcodes.com/)
 
+* [RGBA Converter](https://tdekoning.github.io/rgba-converter/)
+
 * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 
 * [Base64 decode](https://www.base64decode.org/)
@@ -1440,6 +1452,10 @@ fi
 * [Postman - API test client](https://www.postman.com/)
 
 * [Glitch.me - online dev toolbox](https://glitch.com/)
+
+* [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
+
+* [Animate.css](https://animate.style/)
 
 * [Figma - collaborative design tool](https://www.figma.com/)
 
@@ -1559,15 +1575,25 @@ fi
 
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
 
+* [Three.js](https://threejs.org/)
+
+* [Canvas Oldshool Demo Effect Framework](http://codef.santo.fr/)
+
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
 
 * [Microservices](https://microservices.io/patterns/index.html)
 
+* [ASCII Table](https://www.asciitable.com)
+
+* [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
+
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 
 * [Rest Countries](https://restcountries.eu/)
+
+* [Codemirror - js editor](https://codemirror.net/)
 
 * [Nomie tracker](https://nomie.app/)
 
@@ -1576,6 +1602,8 @@ fi
 * [BigchainDb](https://github.com/bigchaindb)
 
 * [Ganache](http://truffleframework.com/ganache)
+
+* [WebRTC streamer](https://snapcraft.io/webrtc-streamer)
 
 * [Notion](https://www.notion.so/)
 
@@ -1614,3 +1642,5 @@ fi
 * [exercism.io](https://exercism.io/)
 
 * [codewars](https://www.codewars.com/)
+
+* [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
