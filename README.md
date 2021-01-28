@@ -1090,6 +1090,10 @@ git push -u origin master
 "id-match": ["error", "^[a-zA-Z0-9_$]*$", { "properties": true, "onlyDeclarations": false }]
 ```
 
+# [PYTHON](https://docs.python.org/3/)
+
+* [Awesome Python](https://awesome-python.com/)
+
 # [PHP](https://www.php.net/manual/en/)
 
 0_O Wooot!?
