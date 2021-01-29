@@ -1092,6 +1092,7 @@ git push -u origin master
 
 # [PYTHON](https://docs.python.org/3/)
 
+* [Python REPL](https://repl.it/languages/python3)
 * [Awesome Python](https://awesome-python.com/)
 
 # [PHP](https://www.php.net/manual/en/)
@@ -1101,23 +1102,17 @@ git push -u origin master
 * `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
 
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
-
 * [PHP Debugbar](http://phpdebugbar.com/)
-
-* [PSR2+](https://www.php-fig.org/psr/psr-12/)
-
+* [PSR-7](https://www.php-fig.org/psr/psr-7/)
+* [PSR-12](https://www.php-fig.org/psr/psr-12/)
+* [PSR-15](https://www.php-fig.org/psr/psr-15/)
+* [Slim framework](https://www.slimframework.com/docs/v4/)
 * [Laravel API](https://laravel.com/api/5.8/doc-index.html)
-
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
-
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
-
 * [Setup VS Code for Efficient PHP development](https://blog.theodo.com/2019/07/vscode-php-development/)
-
 * [PHP in Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
-
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
-
 * [PHP 8](https://www.php.net/index.php#id2020-11-26-3)
 
 * one line terminal
@@ -1187,6 +1182,14 @@ If the string is enclosed in double-quotes ("), PHP will interpret more escape s
 
 As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
 The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
+
+# DB
+
+* [Dbdiagram.io](https://dbdiagram.io/home)
+* [SqlDBM](https://sqldbm.com/Home/)
+* [Dbdesigner.net](https://www.dbdesigner.net/)
+* [Visual Paradigm](https://www.visual-paradigm.com/features/database-design-with-erd-tools/)
+* [Erwin Data Modeler](https://erwin.com/products/erwin-data-modeler/)
 
 # SQL
 
@@ -1598,6 +1601,8 @@ fi
 * [Rest Countries](https://restcountries.eu/)
 
 * [Codemirror - js editor](https://codemirror.net/)
+
+* [Count Lines of Code](https://github.com/AlDanial/cloc)
 
 * [Nomie tracker](https://nomie.app/)
 
