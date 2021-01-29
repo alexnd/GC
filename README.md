@@ -1298,6 +1298,13 @@ do
 done
 ```
 
+# WINDOWS
+
+* [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/)
+* [Notepad++](https://notepad-plus-plus.org/downloads/)
+* [Total Commander](https://www.ghisler.com/download.htm)
+* [Putty](https://www.putty.org/)
+
 # MISC
 
 * Get first line of string
