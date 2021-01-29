@@ -939,6 +939,8 @@ git push -u origin master
 
   then add it to Github/whatever (login to that website, than find ssh keys management in your account settings)
 
+* [GitLab](https://gitlab.com/)
+
 # YARN
 
 `npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
@@ -1114,6 +1116,7 @@ git push -u origin master
 * [PHP in Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
 * [PHP 8](https://www.php.net/index.php#id2020-11-26-3)
+* [FlyImg - resize and crop images on the fly](https://flyimg.io/)
 
 * one line terminal
 
@@ -1331,27 +1334,16 @@ bitcoin-qt
 ```
 
 * [Coins Rates](https://coincap.io/)
-
 * [Coins calc (ETH - USD)](https://coinmarketcap.com/ru/converter/eth/usd/)
-
 * [Wallet](https://coinbase.com)
-
 * [Miners pool](https://2miners.com/), [CryptoCalc](https://2cryptocalc.com/), [whattomine](https://whattomine.com/), [crypt0.zone](https://crypt0.zone/calculator)
-
 * [Metamask](https://metamask.io/)
-
 * [Ethereum](https://eth.wiki/)
-
 * [Ethereum Utils](https://github.com/ethereumjs/ethereumjs-util/)
-
 * [Ethereum Web3](https://github.com/ethereumjs/web3/)
-
 * [Metamask minimal dapp](https://github.com/MetaMask/test-dapp)
-
 * [Metamask state for 2020](https://medium.com/metamask/breaking-changes-to-the-metamask-inpage-provider-b4dde069dd0a)
-
 * [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
-
 * [TERA](https://terafoundation.org/), [codebase2](https://gitlab.com/terafoundation/tera2), [codebase1](https://sourceforge.net/projects/tera/)
 
 /usr/local/bin/tera
@@ -1370,293 +1362,149 @@ fi
 # LINKS
 
 * [GIT](https://git-scm.com/downloads)
-
 * [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
-
 * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [SFTP Sync](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
 * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
-
 * [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/), [PHPStorm EAP](https://www.jetbrains.com/phpstorm/nextversion/), [Jetbrains Toolbox](https://www.jetbrains.com/ru-ru/toolbox-app/)
-
 * [Vue-cli](https://github.com/vuejs/vue-cli), [Vue-devtools](https://github.com/vuejs/vue-devtools)
-
 * [ES2015 hints](https://devhints.io/es6)
-
 * [Can i use](https://caniuse.com/)
-
 * [Can i email](https://www.caniemail.com/)
-
 * [MDN](https://developer.mozilla.org/en-US/docs/Web)
-
 * [W3C ORG](https://www.w3.org/)
-
 * [W3C API](https://www.w3.org/api/)
-
 * [The Internet Engineering Task Force (IETF)](https://www.ietf.org/links/)
-
 * [App manifest](https://app-manifest.firebaseapp.com/)
-
 * [GIF converter](https://ezgif.com/)
-
 * [MakeAppIcon](https://makeappicon.com/)
-
 * [Favicon.io](https://favicon.io/), [Real Favicon Generator](https://realfavicongenerator.net/)
-
 * [Fonts icons generator](http://fontello.com/)
-
 * [Vector editor](https://vectr.com/)
-    
 * [Online Img Vectorizer](https://www.vectorizer.io)
-
 * [SVGBox](https://svgbox.net/)
-
 * [Blobmaker](https://www.blobmaker.app/)
-
 * [CSS grid generator](https://cssgrid-generator.netlify.com/)
-
 * [Flexbox Help](https://flexbox.help/)
-
 * [CSS Grid Guide](https://www.telerik.com/blogs/guide-css-grid)
-
 * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
-
 * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
-
 * [PDF converter](https://online2pdf.com)
-
 * [EditorConfig](https://editorconfig.org/)
-
 * [HTML formatter](https://www.freeformatter.com/html-formatter.html)
-
 * [CSS Code Beautifier](http://www.codebeautifier.com/)
-
 * [CSS Animations Playgroud](https://animista.net/)
-
 * [HTML Color Codes](https://htmlcolorcodes.com/)
-
 * [RGBA Converter](https://tdekoning.github.io/rgba-converter/)
-
 * [JSON formatter](https://jsonformatter.curiousconcept.com/)
-
 * [Base64 decode](https://www.base64decode.org/)
-
 * [JWTDecoder](http://calebb.net/)
-
 * [AST explorer](https://astexplorer.net/)
-
 * [TS Playground](https://www.typescriptlang.org/play)
-
 * [GSAP](https://github.com/greensock/GSAP)
-
 * [PWA Asset generator](https://github.com/onderceylan/pwa-asset-generator)
-
 * [Webpack module federation](https://webpack.js.org/concepts/module-federation/)
-
 * [Upptime](https://github.com/upptime/upptime)
-
 * [Frontend Checklist](https://frontendchecklist.io/)
-
 * [SSL For Free](https://www.sslforfree.com/)
-
 * [swagger.json editor](https://editor.swagger.io/)
-
 * [Insomnia REST client](https://insomnia.rest/)
-
 * [Postman - API test client](https://www.postman.com/)
-
 * [Glitch.me - online dev toolbox](https://glitch.com/)
-
 * [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
-
 * [Animate.css](https://animate.style/)
-
 * [Figma - collaborative design tool](https://www.figma.com/)
-
 * [Mobile Friendly test](https://search.google.com/test/mobile-friendly)
-
 * [Fontsource](https://github.com/fontsource/fontsource)
-
 * [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
-
 * [Microbunle](https://github.com/developit/microbundle)
-
 * [Storybook](https://storybook.js.org/)
-
 * [Atomicdesign](https://atomizedesign.com/)
-
 * [Emmet plugin](https://emmet.io/)
-
 * [Code sandbox](https://codesandbox.io/)
-
 * [JSPerf](https://jsperf.com/)
-
 * [ESBench](https://esbench.com/)
-
 * [WebDev measure](https://web.dev/measure/)
-
 * [BrowserStack](https://www.browserstack.com/)
-
 * [JSON Placeholder](http://jsonplaceholder.typicode.com/)
-
 * [Lorem Ipsum IO](https://loremipsum.io/)
-
 * [Texture packer](https://www.codeandweb.com/texturepacker)
-
 * [WebP](https://developers.google.com/speed/webp)
-
 * [Ruffle](https://ruffle.rs/)
-
 * [AMP](https://amp.dev/), [AMP validator](https://validator.ampproject.org/)
-
 * [Tiled map editor](https://www.mapeditor.org/)
-
 * [Nest.js](https://nestjs.com/)
-
 * [Next.js](https://nextjs.org/)
-
 * [Nuxt.js](https://nuxtjs.org/)
-
 * [React.js](https://reactjs.org/docs/getting-started.html)
-
 * [ReactNative](https://reactnative.dev/docs/environment-setup)
-
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
-
 * [1linelayouts](http://1linelayouts.glitch.me/)
-
 * [AnimXYZ](https://animxyz.com/)
-
 * [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
-
 * [Blueprint](https://blueprintjs.com/docs/)
-
 * [Semantic-UI](https://react.semantic-ui.com/)
-
 * [Material-UI](https://material-ui.com/)
-
 * [MDBootstrap](https://mdbootstrap.github.io/bootstrap-material-design/docs)
-
 * [Ant Design](https://ant.design/)
-
 * [React Bootstrap](https://react-bootstrap.github.io/)
-
 * [React Admin](https://marmelab.com/react-admin/)
-
 * [Shards React](https://designrevision.com/downloads/shards-react/)
-
 * [Material Kit React](https://www.creative-tim.com/product/material-kit-react)
-
 * [Argon](https://www.creative-tim.com/product/argon-design-system-react/)
-
 * [React Virtualized](https://bvaughn.github.io/react-virtualized/#/components/List)
-
 * [Onsen UI](https://onsen.io/react/)
-
 * [React Toolbox](http://react-toolbox.io/#/)
-
 * [React Decktop](https://reactdesktop.js.org/)
-
 * [Evergreen](https://evergreen.segment.com/)
-
 * [Reactstrap](https://reactstrap.github.io/)
-
 * [Rebass](https://rebassjs.org/)
-
 * [Grommet](https://v2.grommet.io/)
-
 * [React Suite](https://rsuitejs.com/)
-
 * [Elemental UI](http://elemental-ui.com/)
-
 * [Belle](https://nikgraf.github.io/belle/)
-
 * [React-md](https://react-md.dev/v1/)
-
 * [Prime React](https://www.primefaces.org/primereact/)
-
 * [Kendo React](https://www.telerik.com/kendo-react-ui/)
-
 * [Awesome React](https://github.com/enaqx/awesome-react)
-
 * [Awesome ReactNative](https://github.com/jondot/awesome-react-native)
-
 * [Awesome Vue](https://github.com/vuejs/awesome-vue)
-
 * [Awesome Vue scaffold](https://awesome-vue.js.org/components-and-libraries/scaffold.html)
-
 * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
-
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
-
 * [Three.js](https://threejs.org/)
-
 * [Canvas Oldshool Demo Effect Framework](http://codef.santo.fr/)
-
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
-
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
-
 * [Microservices](https://microservices.io/patterns/index.html)
-
+* [ImageKit.io image CDN](https://imagekit.io/)
 * [ASCII Table](https://www.asciitable.com)
-
 * [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
-
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
-
 * [Rest Countries](https://restcountries.eu/)
-
 * [Codemirror - js editor](https://codemirror.net/)
-
 * [Count Lines of Code](https://github.com/AlDanial/cloc)
-
 * [Nomie tracker](https://nomie.app/)
-
 * [Blockstack apps](https://browser.blockstack.org/)
-
 * [BigchainDb](https://github.com/bigchaindb)
-
 * [Ganache](http://truffleframework.com/ganache)
-
 * [WebRTC streamer](https://snapcraft.io/webrtc-streamer)
-
 * [Notion](https://www.notion.so/)
-
 * [RoamResearch](https://roamresearch.com/)
-
 * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
-
 * [Free SMS Online](https://receive-smss.com/)
-
 * [Temp Mail](https://temp-mail.org/en/)
-
 * [2captcha](https://2captcha.com/)
-
 * [Privacypass](https://privacypass.github.io/)
-
 * [GAOptout](https://tools.google.com/dlpage/gaoptout)
-
 * [Google Analytics](http://analytics.google.com/)
-
 * [Google Drive](https://drive.google.com/)
-
 * [Google Docs](https://docs.google.com/)
-
 * [Youtube downloader](https://ymp4.download/en4/), [Youtube dl CLI](https://github.com/ytdl-org/youtube-dl)
-
 * [Everhour - time manager/tracker](https://everhour.com/)
-
 * [Libre Office](https://www.libreoffice.org/download/download)
-
 * [Free Office](https://www.freeoffice.com/en/)
-
 * [Brave browser (chrome engine)](https://brave.com/download/), [Firefox developer edition](https://www.mozilla.org/uk/firefox/developer/), [Opera](https://www.opera.com/en/download)
-
 * [DOSBox](https://www.dosbox.com/)
-
 * [exercism.io](https://exercism.io/)
-
 * [codewars](https://www.codewars.com/)
-
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
