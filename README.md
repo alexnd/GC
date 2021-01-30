@@ -1108,7 +1108,7 @@ git push -u origin master
 * [PSR-7](https://www.php-fig.org/psr/psr-7/)
 * [PSR-12](https://www.php-fig.org/psr/psr-12/)
 * [PSR-15](https://www.php-fig.org/psr/psr-15/)
-* [Slim framework](https://www.slimframework.com/docs/v4/)
+* [Slim framework](https://www.slimframework.com/docs/v4/), [Slim4 Tutorial](https://github.com/odan/slim4-tutorial)
 * [Laravel API](https://laravel.com/api/5.8/doc-index.html)
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
@@ -1301,6 +1301,13 @@ do
 done
 ```
 
+# [DOCKER](https://www.docker.com/get-started)
+
+* [Docker Installation](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+* [Docker Toolbox](https://github.com/docker/toolbox/releases)
+* [Docker Compose](https://docs.docker.com/compose/install/)
+* [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
 # WINDOWS
 
 * [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/)
@@ -1362,7 +1369,6 @@ fi
 # LINKS
 
 * [GIT](https://git-scm.com/downloads)
-* [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Docker Toolbox](https://github.com/docker/toolbox/releases), [Docker Compose](https://docs.docker.com/compose/install/)
 * [VSCode](https://code.visualstudio.com/docs/setup/setup-overview), [SFTP Sync](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp), [npm-scripts](https://marketplace.visualstudio.com/items?itemName=traBpUkciP.vscode-npm-scripts), [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [Sublime text editor](https://www.sublimetext.com/3), [Vue highlight](https://github.com/vuejs/vue-syntax-highlight), [Linux setup](https://www.sublimetext.com/docs/3/linux_repositories.html)
 * [WebStorm EAP](https://www.jetbrains.com/ru-ru/webstorm/nextversion/), [PHPStorm EAP](https://www.jetbrains.com/phpstorm/nextversion/), [Jetbrains Toolbox](https://www.jetbrains.com/ru-ru/toolbox-app/)
@@ -1403,7 +1409,7 @@ fi
 * [GSAP](https://github.com/greensock/GSAP)
 * [PWA Asset generator](https://github.com/onderceylan/pwa-asset-generator)
 * [Webpack module federation](https://webpack.js.org/concepts/module-federation/)
-* [Upptime](https://github.com/upptime/upptime)
+* [Upptime - uptime monitor and status page](https://github.com/upptime/upptime)
 * [Frontend Checklist](https://frontendchecklist.io/)
 * [SSL For Free](https://www.sslforfree.com/)
 * [swagger.json editor](https://editor.swagger.io/)
@@ -1475,6 +1481,7 @@ fi
 * [Canvas Oldshool Demo Effect Framework](http://codef.santo.fr/)
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
+* [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Microservices](https://microservices.io/patterns/index.html)
 * [ImageKit.io image CDN](https://imagekit.io/)
 * [ASCII Table](https://www.asciitable.com)
@@ -1507,4 +1514,5 @@ fi
 * [DOSBox](https://www.dosbox.com/)
 * [exercism.io](https://exercism.io/)
 * [codewars](https://www.codewars.com/)
+* [LLVM](https://github.com/apple/llvm-project)
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
