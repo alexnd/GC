@@ -281,11 +281,32 @@ Ok, well, shuffling some another stuff...
 
 * Sleep for milliseconds implementation
 
-   ```
-   function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
-   }
-   ```
+    ```
+    function sleep(ms) {
+       return new Promise(resolve => setTimeout(resolve, ms))
+    }
+    ```
+
+* Parse *form-urlencoded* string to *Object*
+
+    ```
+    function url_decode(s) {
+        return s
+            .split('&')
+            .map(s => s.split('='))
+            .map(pair => pair.map(decodeURIComponent))
+            .reduce(function(memo, [key, value]) {
+                if (!(key in memo)) { memo[key] = value }
+                else {
+                    if (!(memo[key] instanceof Array))
+                        memo[key] = [memo[key], value]
+                    else
+                        memo[key].push(value)
+                }
+                return memo
+            }, {})
+    }
+    ```
 
 * Ajax call, [fetch polyfill](https://github.com/github/fetch)
 
