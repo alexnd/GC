@@ -94,6 +94,10 @@ Ok, well, shuffling some another stuff...
 
     `var b = a.slice(n, m)` or `a.slice(0, n)` - take first n items
 
+* You don't need *lodash* to do that, *Array.prototype* has *filter*, *map*, *reduce*...
+
+    `arr.filter(function (v){ return v !== '' }) // return new array from arr, removing empty items`
+
 * Check 2 arrays for equality
 
     - only the same values, without order conformity
@@ -127,6 +131,10 @@ Ok, well, shuffling some another stuff...
       return true
     }
     ```
+
+* Normalize string, removing duplicated spaces (or any repeating 'format character') 
+
+    `str.replace(/  +/g, ' ')` or `str.replace(/\s\s+/g, ' ')`
 
 * Date in SQL format
 
