@@ -367,7 +367,7 @@ Ok, well, shuffling some another stuff...
     app.test()
     ```
 
-# [JQuery]()
+# [JQuery](https://api.jquery.com)
 
 * Entrypoint
 
@@ -386,12 +386,46 @@ $('#mybutton').on('click', function(e) {
 })
 ```
 
-* Trigger event
+* Trigger DOM event
+
+```
+$('selector').trigger('click')
+```
+
+* Trigger focus event and do extra stuff
 
 ```
 $('selector').focus(function() {
   $(this).next('span').css('display', 'inline').fadeOut(1000)
 });
+```
+
+* AJAX request
+
+```
+$.ajax({
+  url: '/api/endpoint',
+  type: 'POST',
+  data: { foo: 'Bar' },
+  cache : false,
+  processData: false,
+  contentType: false,
+  headers: {
+    'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+    // customize request headers
+  },
+  error: function(xhr) {
+    var errors = xhr.responseJSON.errors || {}
+    //handle errors
+  },
+  beforeSend: function(xhr) {
+    //show loader indicator
+  },
+  success: function(data) {
+    console.log('*[XHR SUCCESS], data)
+    //OK
+  }
+})
 ```
 
 # HTML/CSS
