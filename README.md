@@ -367,6 +367,33 @@ Ok, well, shuffling some another stuff...
     app.test()
     ```
 
+# [JQuery]()
+
+* Entrypoint
+
+```
+$(document).ready(function() {
+  //job
+})
+```
+
+* Bind event handler to element with attribute `<a href="#action" id="mybutton"></a>`
+
+```
+$('#mybutton').on('click', function(e) {
+  e.preventDefault()
+  //job
+})
+```
+
+* Trigger event
+
+```
+$('selector').focus(function() {
+  $(this).next('span').css('display', 'inline').fadeOut(1000)
+});
+```
+
 # HTML/CSS
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
