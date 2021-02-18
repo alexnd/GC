@@ -436,6 +436,21 @@ $.ajax({
 })
 ```
 
+* [Extending JQuery](https://learn.jquery.com/plugins/basic-plugin-creation/)
+
+```
+// add custom function
+(function( $ ) {
+
+    $.fn.superFeature = function() {
+        // super feature code
+    };
+
+}( jQuery ));
+// use us
+$().superFeature();
+```
+
 # HTML/CSS
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
