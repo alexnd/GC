@@ -367,6 +367,14 @@ Ok, well, shuffling some another stuff...
     app.test()
     ```
 
+* [Trigger DOM Event](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events)
+
+```
+var event = new MouseEvent('click');
+var target = document.getElementById('target'); 
+target.dispatchEvent(event);
+```
+
 # [JQuery](https://api.jquery.com)
 
 * Entrypoint
