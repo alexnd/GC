@@ -1277,6 +1277,23 @@ If the string is enclosed in double-quotes ("), PHP will interpret more escape s
 As in single quoted strings, escaping any other character will result in the backslash being printed too. Before PHP 5.1.1, the backslash in ```\{$var}``` had not been printed.
 The most important feature of double-quoted strings is the fact that variable names will be expanded. See [string parsing](https://php.net/manual/en/language.types.string.php#language.types.string.parsing) for details.
 
+# [NGINX](https://www.nginx.com/resources/wiki/start/index.html)
+
+```
+server {
+
+  index index.html;
+  server_name test.example.com;
+
+  root /www/example.com/www;
+
+  location /static/ {
+    alias /www/example.com/static/;
+  }
+
+}
+```
+
 # DB
 
 * [Dbdiagram.io](https://dbdiagram.io/home)
