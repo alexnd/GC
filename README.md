@@ -1446,6 +1446,10 @@ done
 * [Total Commander](https://www.ghisler.com/download.htm)
 * [Putty](https://www.putty.org/)
 
+# [ANDROID](https://developer.android.com/studio)
+
+* [How to Install ADB on Windows, macOS, and Linux](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+
 # MISC
 
 * Get first line of string
