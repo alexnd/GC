@@ -132,6 +132,50 @@ Ok, well, shuffling some another stuff...
     }
     ```
 
+* Check are 2 arrays have intersection
+
+```
+    function arraysIntersect (a, b) {
+      try {
+        for (let i = a.length; i--;) {
+          for (let j = b.length; j--;) {
+            if (a[i] === b[j]) return true
+          }
+        }
+        return false
+      } catch (e) {
+        return null
+      }
+    }
+```
+
+* Random float number between *min* and *max*
+
+```
+    function rndA(min, max) {
+      return Math.random() * (max - min) + min
+    }
+```
+
+* Random integer number between *min* and *max*
+
+```
+    function rndB (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min
+    }
+```
+
+* Random point in unit circle
+
+```
+    function rndC() {
+      let t = 2 * Math.PI * Math.random()
+      let u = Math.random() + Math.random()
+      let r = (u>1) ? 2 - u : u
+      return [r * Math.cos(t), r * Math.sin(t)]
+    }
+```
+
 * Normalize string, removing duplicated spaces (or any repeating 'format character') 
 
     `str.replace(/  +/g, ' ')` or `str.replace(/\s\s+/g, ' ')`
@@ -1562,7 +1606,22 @@ fi
 * [Storybook](https://storybook.js.org/)
 * [Atomicdesign](https://atomizedesign.com/)
 * [Emmet plugin](https://emmet.io/)
+* [JSFiddle](https://jsfiddle.net/)
 * [Code sandbox](https://codesandbox.io/)
+* [JS Bin](https://jsbin.com/)
+* [GitHub Gist](https://gist.github.com/)
+* [CodePen](http://codepen.io/)
+* [Snipplr](http://snipplr.com/)
+* [Codeply](http://www.codeply.com/)
+* [Codeshare](https://codeshare.io/)
+* [Codepad](https://codepad.co/)
+* [Dabblet](http://dabblet.com/)
+* [Liveweave](http://liveweave.com/)
+* [CSSDeck](http://cssdeck.com/)
+* [CodeProject](http://www.codeproject.com/)
+* [CollabEdit](http://collabedit.com/)
+* [Pasted.co](http://pasted.co/)
+* [Etherpad](http://etherpad.org/)
 * [JSPerf](https://jsperf.com/)
 * [ESBench](https://esbench.com/)
 * [WebDev measure](https://web.dev/measure/)
