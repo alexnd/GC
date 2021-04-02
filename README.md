@@ -1692,6 +1692,7 @@ fi
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
 * [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Microservices](https://microservices.io/patterns/index.html)
+* [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 * [ImageKit.io image CDN](https://imagekit.io/)
 * [ASCII Table](https://www.asciitable.com)
 * [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
