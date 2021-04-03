@@ -1260,7 +1260,7 @@ git push -u origin master
 * [Python REPL](https://repl.it/languages/python3)
 * [Awesome Python](https://awesome-python.com/)
 
-# [PHP](https://www.php.net/manual/en/)
+# [PHP](https://www.php.net/manual/en/), [php-src](https://github.com/php/php-src/)
 
 0_O Wooot!?
 
@@ -1693,6 +1693,7 @@ fi
 * [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Microservices](https://microservices.io/patterns/index.html)
 * [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+* [SonarQube](https://docs.sonarqube.org/latest/)
 * [ImageKit.io image CDN](https://imagekit.io/)
 * [ASCII Table](https://www.asciitable.com)
 * [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
