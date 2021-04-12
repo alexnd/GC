@@ -1573,6 +1573,7 @@ fi
 * [Vector editor](https://vectr.com/)
 * [Online Img Vectorizer](https://www.vectorizer.io)
 * [SVGBox](https://svgbox.net/)
+* [SVG Generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 * [Blobmaker](https://www.blobmaker.app/)
 * [CSS grid generator](https://cssgrid-generator.netlify.com/)
 * [Flexbox Help](https://flexbox.help/)
