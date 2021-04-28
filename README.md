@@ -495,6 +495,8 @@ $.ajax({
 $().superFeature();
 ```
 
+* [Peaks.js - audio waveform viewer](https://github.com/bbc/peaks.js)
+
 # HTML/CSS
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -1276,11 +1278,15 @@ git push -u origin master
 * [Laravel API](https://laravel.com/api/5.8/doc-index.html)
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
+* [Laravel CORS](https://github.com/fruitcake/laravel-cors)
 * [Setup VS Code for Efficient PHP development](https://blog.theodo.com/2019/07/vscode-php-development/)
 * [PHP in Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
 * [PHP 8](https://www.php.net/index.php#id2020-11-26-3)
 * [FlyImg - resize and crop images on the fly](https://flyimg.io/)
+* [Awesome PHP](https://github.com/ziadoz/awesome-php)
+* [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
+* [PHP The Right Way](https://phptherightway.com/)
 
 * one line terminal
 
@@ -1601,6 +1607,7 @@ fi
 * [swagger.json editor](https://editor.swagger.io/)
 * [Insomnia REST client](https://insomnia.rest/)
 * [Postman - API test client](https://www.postman.com/)
+* [Pusher - message service](https://pusher.com/)
 * [Glitch.me - online dev toolbox](https://glitch.com/)
 * [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
 * [SVG shape generator](https://www.softr.io/tools/svg-shape-generator)
