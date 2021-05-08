@@ -515,6 +515,95 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
+# [NODE.JS](https://nodejs.org/api/index.html)
+
+* [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
+
+* [The Node.js Event Loop](https://nodejs.dev/learn/the-nodejs-event-loop) [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
+
+* [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+
+* [Global objects in Node](https://nodejs.org/api/globals.html)
+
+* Install module globally: `npm i -g jslint`
+
+* Install and add to package.json dependencies: `npm i -P <package>`
+
+* Install and add to package.json devDependencies: `npm i -D <package>`
+
+* Uninstall: `npm uninstall <package>`
+
+* Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
+
+* Update npm itself: `sudo npm update -g`
+
+* List updatable: `npm outdated -g`
+
+* Find installed foo: `npm list -g | grep foo`
+
+* Fix broken npm: `npm cache clean --force`
+
+* Useful npms: `dotenv [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)
+
+* upgrade package.json dependencies to latest versions
+
+   ```
+   npm i -g npm-check-updates
+   ncu -u
+   npm install
+   ```
+
+* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
+
+* argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
+
+* [https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
+
+* Reading a *.py* config file into json-valid string
+
+
+    Python file `config.py`:
+
+    ```
+    #!/usr/bin/env python
+    config = {
+    	"foo": "Bar",
+	...
+    }
+    ```
+
+    Nodejs code to read python file:
+
+    ```
+    var pycfg = require('fs').readFileSync('../config.py').toString()
+    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
+    var cfg = JSON.parse(pycfg)
+    console.log(cfg.foo)
+    ```
+
+    Nodejs console input
+
+    ```
+    const readline = require('readline')
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    })
+    rl.question('Whatsup?', (answer) => {
+      console.log(`input: ${answer}`)
+      rl.close()
+    })
+    ```
+
+* `btoa` polyfill, encode to Base64 (Binary to Ascii)
+
+    `Buffer.from(asciiData).toString('base64')`
+
+* `atob` polyfill, decode from Base64 (Ascii to Binary)
+
+    `Buffer.from(b64Encoded, 'base64').toString()`
+
+
 # [VUE](https://ru.vuejs.org/v3/guide/index.html)
 
 * [vue-cli](https://cli.vuejs.org/), [vue devserver-proxy](https://cli.vuejs.org/config/#devserver-proxy)
@@ -627,93 +716,11 @@ Instant vue prototyping
 
 * Optionally existing `index.html` will be reused
 
-# [NODE.JS](https://nodejs.org/api/index.html)
+# [Nuxt.js](https://ru.nuxtjs.org/docs/2.x/get-started/installation)
 
-* [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
+* `npm init nuxt-app@latest NAME`
 
-* [The Node.js Event Loop](https://nodejs.dev/learn/the-nodejs-event-loop) [Nodejs event loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
-
-* [Don't block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
-
-* [Global objects in Node](https://nodejs.org/api/globals.html)
-
-* Install module globally: `npm i -g jslint`
-
-* Install and add to package.json dependencies: `npm i -P <package>`
-
-* Install and add to package.json devDependencies: `npm i -D <package>`
-
-* Uninstall: `npm uninstall <package>`
-
-* Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
-
-* Update npm itself: `sudo npm update -g`
-
-* List updatable: `npm outdated -g`
-
-* Find installed foo: `npm list -g | grep foo`
-
-* Fix broken npm: `npm cache clean --force`
-
-* Useful npms: `dotenv [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)
-
-* upgrade package.json dependencies to latest versions
-
-   ```
-   npm i -g npm-check-updates
-   ncu -u
-   npm install
-   ```
-
-* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
-
-* argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
-
-* [https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
-
-* Reading a *.py* config file into json-valid string
-
-
-    Python file `config.py`:
-
-    ```
-    #!/usr/bin/env python
-    config = {
-    	"foo": "Bar",
-	...
-    }
-    ```
-
-    Nodejs code to read python file:
-
-    ```
-    var pycfg = require('fs').readFileSync('../config.py').toString()
-    pycfg = pycfg.replace(/#.*\n|\r/g, '').replace('config = ', '').replace(/'/g, '"')
-    var cfg = JSON.parse(pycfg)
-    console.log(cfg.foo)
-    ```
-
-    Nodejs console input
-
-    ```
-    const readline = require('readline')
-    const rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    })
-    rl.question('Whatsup?', (answer) => {
-      console.log(`input: ${answer}`)
-      rl.close()
-    })
-    ```
-
-* `btoa` polyfill, encode to Base64 (Binary to Ascii)
-
-    `Buffer.from(asciiData).toString('base64')`
-
-* `atob` polyfill, decode from Base64 (Ascii to Binary)
-
-    `Buffer.from(b64Encoded, 'base64').toString()`
+* [@nuxtjs/proxy](https://www.npmjs.com/package/@nuxtjs/proxy)
 
 # SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
 
@@ -1692,10 +1699,12 @@ fi
 * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
 * [Three.js](https://threejs.org/)
+* [Playcanvas](https://playcanvas.com/), [playcanvas github](https://github.com/playcanvas/engine)
 * [Angular.js](https://github.com/angular/angular.js), [angularjs api](https://code.angularjs.org/1.2.9/docs/api)
 * [Angular](https://angular.io/), [Angular api](https://angular.io/api)
 * [Pfolios - portfolio insiration](https://pfolios.net/)
 * [Canvas Oldshool Demo Effect Framework](http://codef.santo.fr/)
+* [Hammer.js](https://hammerjs.github.io/)
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
 * [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
@@ -1738,3 +1747,4 @@ fi
 * [codewars](https://www.codewars.com/)
 * [LLVM](https://github.com/apple/llvm-project)
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
+* [portfolio.zxh.io](https://portfolio.zxh.io/), [macos.vercel.app](https://macos.vercel.app), [vivek9patel.github.io](https://vivek9patel.github.io/)
