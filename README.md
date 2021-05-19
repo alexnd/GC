@@ -1618,6 +1618,7 @@ fi
 * [Glitch.me - online dev toolbox](https://glitch.com/)
 * [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
 * [SVG shape generator](https://www.softr.io/tools/svg-shape-generator)
+* [Online Sprite Sheet Atlas Editor](https://www.leshylabs.com/apps/sstool/)
 * [Animate.css](https://animate.style/)
 * [Figma - collaborative design tool](https://www.figma.com/)
 * [Mobile Friendly test](https://search.google.com/test/mobile-friendly)
