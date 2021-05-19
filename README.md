@@ -1606,7 +1606,7 @@ fi
 * [AST explorer](https://astexplorer.net/)
 * [TS Playground](https://www.typescriptlang.org/play)
 * [GSAP](https://github.com/greensock/GSAP)
-* [Online Sprite Sheet Atlas Editor](https://www.leshylabs.com/apps/sstool/), [Online Sprite Sheet Packer](https://www.codeandweb.com/free-sprite-sheet-packer), [Glue tool](https://glue.readthedocs.io/en/latest/)
+* [Online Sprite Sheet Atlas Editor](https://www.leshylabs.com/apps/sstool/), [Online Sprite Sheet Packer](https://www.codeandweb.com/free-sprite-sheet-packer), [Glue tool](https://glue.readthedocs.io/en/latest/), [Spritesheet.js](https://github.com/krzysztof-o/spritesheet.js/)
 * [PWA Asset generator](https://github.com/onderceylan/pwa-asset-generator)
 * [Webpack module federation](https://webpack.js.org/concepts/module-federation/)
 * [Upptime - uptime monitor and status page](https://github.com/upptime/upptime)
