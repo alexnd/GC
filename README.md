@@ -497,6 +497,13 @@ $().superFeature();
 
 * [Peaks.js - audio waveform viewer](https://github.com/bbc/peaks.js)
 
+# [PIXIJS](https://pixijs.download/dev/docs/index.html)
+
+* [pixi-viewport](https://github.com/davidfig/pixi-viewport), [pixi-viewport docs](https://davidfig.github.io/pixi-viewport/jsdoc/)
+* [@pixi/tilemap](https://github.com/pixijs/tilemap)
+* [pixi-ease](https://github.com/davidfig/pixi-ease)
+* [tiled-to-pixi](https://github.com/axaq/tiled-to-pixi)
+
 # HTML/CSS
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -1210,7 +1217,7 @@ git push -u origin master
 
     - If you cannot login, restart the firewall or reboot.
 
-* Create bootable installation USB drive
+* [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
    - Install proper installation app from Appstore (Install macOS X*)
 
@@ -1219,6 +1226,8 @@ git push -u origin master
 * [Change the default web browser or email app on your Mac](https://support.apple.com/en-us/HT201607)
 
 * [TextEdit as ASCII editor](https://apple.stackexchange.com/questions/188240/built-in-gui-based-ascii-only-editor-for-os-x)
+
+* [Supporting Associated Domains](https://developer.apple.com/documentation/xcode/supporting-associated-domains)
 
 # [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
