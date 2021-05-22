@@ -1132,6 +1132,10 @@ git push -u origin master
 
 # OSX
 
+* Install [Homebrew](https://brew.sh)
+
+  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 * Monitor highest consuming processes
 
   `top -o cpu`
