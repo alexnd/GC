@@ -1680,7 +1680,7 @@ fi
 * [Nuxt.js](https://nuxtjs.org/)
 * [React.js](https://reactjs.org/docs/getting-started.html)
 * [ReactNative](https://reactnative.dev/docs/environment-setup)
-* [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/)
+* [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/), [WickedBlocks](https://wickedblocks.dev/)
 * [1linelayouts](http://1linelayouts.glitch.me/)
 * [AnimXYZ](https://animxyz.com/)
 * [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
