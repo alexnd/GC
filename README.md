@@ -1615,6 +1615,7 @@ fi
 * [RGBA Converter](https://tdekoning.github.io/rgba-converter/)
 * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 * [Base64 decode](https://www.base64decode.org/)
+* [Hat.sh file encryptor](https://hat.sh/)
 * [JWTDecoder](http://calebb.net/)
 * [AST explorer](https://astexplorer.net/)
 * [TS Playground](https://www.typescriptlang.org/play)
