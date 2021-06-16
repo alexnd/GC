@@ -1309,11 +1309,11 @@ git push -u origin master
 * [Awesome PHP](https://github.com/ziadoz/awesome-php)
 * [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
 * [PHP The Right Way](https://phptherightway.com/)
-* [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/)
+* [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/), [Filter user input](https://phppot.com/php/php-input-filtering/)
 
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
-* Filter input: strip_tags(), html entities encoding, mysqli_real_escape_string()
+* Filter input: `strip_tags()`, `filter_input()`, `mysqli_real_escape_string()`
 
 * One line terminal
 
