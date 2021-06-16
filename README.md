@@ -1309,7 +1309,7 @@ git push -u origin master
 * [Awesome PHP](https://github.com/ziadoz/awesome-php)
 * [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
 * [PHP The Right Way](https://phptherightway.com/)
-* [Prevent XSS]()
+* [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/)
 
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
