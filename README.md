@@ -38,6 +38,8 @@ Ok, well, shuffling some another stuff...
 
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
+* [Js basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics), [GO](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects), [types](https://javascript.info/types), [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions), [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this), [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new), [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined), [=>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+
 * [JS operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 * [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `var A = [....]; for (var v of A) { /* v is A[i] */ }`
@@ -1307,14 +1309,19 @@ git push -u origin master
 * [Awesome PHP](https://github.com/ziadoz/awesome-php)
 * [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
 * [PHP The Right Way](https://phptherightway.com/)
+* [Prevent XSS]()
 
-* one line terminal
+* Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
+
+* Filter input: strip_tags(), html entities encoding, mysqli_real_escape_string()
+
+* One line terminal
 
     ```
     php -r "echo PHP_EOL;" > eol
     ```
 
-internally have we equal to this?:
+Internally have we equal to this?:
 
 ```
 String.fromCharCode(13,10)
