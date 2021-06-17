@@ -1548,6 +1548,7 @@ done
 * [git-scm](https://git-scm.com/download/win), [Putty](https://www.putty.org/)
 * [sshfs-win](https://github.com/billziss-gh/sshfs-win), [winfsp](https://github.com/billziss-gh/winfsp), [Mapping network driv over ssh](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows)
 * [autologon](https://docs.microsoft.com/ru-ru/sysinternals/downloads/autologon)
+* [GIMP](https://www.gimp.org/downloads/), [Inkscape](https://inkscape.org/release/inkscape-1.1/windows/64-bit/exe/dl/)
 
 # [ANDROID](https://developer.android.com/studio)
 
