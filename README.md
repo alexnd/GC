@@ -1545,7 +1545,9 @@ done
 * [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/)
 * [Notepad++](https://notepad-plus-plus.org/downloads/)
 * [Total Commander](https://www.ghisler.com/download.htm)
-* [Putty](https://www.putty.org/)
+* [git-scm](https://git-scm.com/download/win), [Putty](https://www.putty.org/)
+* [sshfs-win](https://github.com/billziss-gh/sshfs-win), [winfsp](https://github.com/billziss-gh/winfsp), [Mapping network driv over ssh](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows)
+* [autologon](https://docs.microsoft.com/ru-ru/sysinternals/downloads/autologon)
 
 # [ANDROID](https://developer.android.com/studio)
 
