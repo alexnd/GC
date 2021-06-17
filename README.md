@@ -48,7 +48,7 @@ Ok, well, shuffling some another stuff...
 
 * [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray), [Array.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes), [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from), [Array.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice), [Array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [Array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
-* [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+* [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 
 * [Async loop issues](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop)
 
@@ -58,7 +58,7 @@ Ok, well, shuffling some another stuff...
 
 * [JS Event Loop](https://developer.mozilla.org/en/docs/Web/JavaScript/EventLoop)
 
-* [Web Api](https://developer.mozilla.org/en-US/docs/Web/API)
+* [Web Api](https://developer.mozilla.org/en-US/docs/Web/API), [WebAssembly](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly)
 
 * [Custom DOM events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events), [Custom events in JavaScript: A complete guide](https://blog.logrocket.com/custom-events-in-javascript-a-complete-guide/)
 
@@ -70,7 +70,7 @@ Ok, well, shuffling some another stuff...
 
 * [JS code standart by AirBnb](https://github.com/airbnb/javascript)
 
-* [Eloquent Javascript Book](https://eloquentjavascript.net/index.html)
+* [Eloquent Javascript Book](https://eloquentjavascript.net/index.html), [WTFJS](https://github.com/denysdovhan/wtfjs)
 
 * `"use strict"` enable [Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) in ES5/6
 
@@ -411,6 +411,24 @@ Ok, well, shuffling some another stuff...
     console.log(app)
     app.init({foo2: 'Bar2'})
     app.test()
+    ```
+
+* Load JS
+
+    ```
+    let el = document.createElement('script')
+    el.setAttribute('src', url)
+    document.head.appendChild(el)
+    ```
+
+* Load CSS
+
+    ```
+    let el = document.createElement('link')
+    el.type = 'text/css'
+    el.rel = 'stylesheet'
+    el.href = url
+    document.getElementsByTagName('head')[0].appendChild(el)
     ```
 
 * [Trigger DOM Event](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events)
