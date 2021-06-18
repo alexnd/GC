@@ -789,6 +789,10 @@ Instant vue prototyping
 
     `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
+* Create user: `sudo useradd -m username`
+
+* Set user password: `sudo passwd username`
+
 * Add user to root group: `usermod -aG sudo username`
 
 * Recursively set owner:group: `chown -R username:group /path/*`
@@ -912,9 +916,7 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
        locale -a
     ```
 
-* Install [Certbot](https://certbot.eff.org) on [nginx](http://nginx.org/ru/docs/)-based web server
-
-    `apt install -y certbot python-certbot-nginx`
+* [Install Certbot](https://certbot.eff.org)
 
 * Generate new certificates on working system with nginx
 
