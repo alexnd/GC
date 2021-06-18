@@ -1308,6 +1308,8 @@ git push -u origin master
 
 0_O Wooot!?
 
+* `apt-get install -y php7.4 php7.4-fpm php7.4-cli php7.4-mysql php7.4-curl php7.4-json`
+
 * `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
 
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
@@ -1408,13 +1410,20 @@ The most important feature of double-quoted strings is the fact that variable na
 ```
 server {
 
-  index index.html;
+  index index.html index.php;
   server_name test.example.com;
 
   root /www/example.com/www;
 
   location /static/ {
     alias /www/example.com/static/;
+  }
+  
+  location ~ \.php$ {
+    include snippets/fastcgi-php.conf;
+    fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+    #fastcgi_pass 127.0.0.1:9000;
+    #fastcgi_pass docker-servicename:9999;
   }
 
 }
