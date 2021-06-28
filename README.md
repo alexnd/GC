@@ -789,6 +789,8 @@ Instant vue prototyping
 
     `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
+* Show listening ports: `sudo netstat -tunlp`
+
 * Create user: `sudo useradd -m username`
 
 * Set user password: `sudo passwd username`
