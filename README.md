@@ -1304,7 +1304,19 @@ git push -u origin master
 # [PYTHON](https://docs.python.org/3/)
 
 * [Python REPL](https://repl.it/languages/python3)
+
 * [Awesome Python](https://awesome-python.com/)
+
+* Check os for python support: `python --version`, `python3 --version`, `pip -V`
+
+* Linux installation: `sudo apt install python3 python3-pip`
+
+* OSX installation: `brew install python3`
+
+* Install [PIP](https://pypi.org/) manager:
+
+  - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+  - `python3 get-pip.py`
 
 # [PHP](https://www.php.net/manual/en/), [php-src](https://github.com/php/php-src/)
 
