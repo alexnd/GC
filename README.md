@@ -1352,7 +1352,7 @@ git push -u origin master
 
 * Filter input: `strip_tags()`, `filter_input()`, `mysqli_real_escape_string()`
 
-* SQL date: `php -r 'echo  date("Y-m-d").PHP_EOL;'`
+* SQL date: `php -r 'echo  date('Y-m-d').PHP_EOL;'`, next day sql date: `date('Y-m-d', strtotime('+1 day'))`
 
 * One line terminal
 
