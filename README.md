@@ -1330,6 +1330,7 @@ git push -u origin master
 * [21 VSCode Shortcuts To Code Faster and Funner](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
 * [PHP 8](https://www.php.net/index.php#id2020-11-26-3)
 * [FlyImg - resize and crop images on the fly](https://flyimg.io/)
+* [RxPHP](https://github.com/ReactiveX/RxPHP), [ReactPHP](https://reactphp.org/), [Typescript cms](http://typescript.org/)
 * [Awesome PHP](https://github.com/ziadoz/awesome-php)
 * [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
 * [PHP The Right Way](https://phptherightway.com/)
@@ -1338,6 +1339,8 @@ git push -u origin master
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
 * Filter input: `strip_tags()`, `filter_input()`, `mysqli_real_escape_string()`
+
+* SQL date: `php -r 'echo  date("Y-m-d").PHP_EOL;'`
 
 * One line terminal
 
