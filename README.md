@@ -1352,22 +1352,53 @@ git push -u origin master
 
 * Filter input: `strip_tags()`, `filter_input()`, `mysqli_real_escape_string()`
 
+* Remote IP
+
+```
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+  $ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+  $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+  $ip = $_SERVER['REMOTE_ADDR'];
+}
+```
+
 * SQL date: `php -r 'echo  date('Y-m-d').PHP_EOL;'`, next day sql date: `date('Y-m-d', strtotime('+1 day'))`
 
-* One line terminal
+* File upload
+
+```
+$uploaddir = './public/';
+$tmpdir = './tmp/';
+$fileKey = 'file1';
+$fileSizeLimit = 2097152; // 2MB
+$allowedFileTypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'];
+$file = $_FILES[$fileKey] ?? null;
+if ($file) {
+  $fileName = $file['name'];
+  $fileSize = $file['size'];
+  $fileType = $file['type'];
+  if ($fileName && $fileSize < $fileSizeLimit && in_array($fileType, $allowedFileTypes)) {
+    $fileTmpPath = $tmpdir . $file['tmp_name'];
+    if (is_uploaded_file($fileTmpPath)) {
+      $fileExtension = strtolower(end(explode(".", $fileName)));
+      $uploadFileName = explode(basename($fileName), '.')[0] . '.' . $fileExtension;
+      $uploadPath = $uploaddir . $uploadFileName;
+      @move_uploaded_file($fileTmpPath, $uploadPath);
+      // Upload success
+    }
+  }
+}
+```
+
+* Strings
 
     ```
     php -r "echo PHP_EOL;" > eol
     ```
 
-Internally have we equal to this?:
-
-```
-String.fromCharCode(13,10)
-```
-
-or just
-```'\n'```
+Have we equal output of file to `String.fromCharCode(13,10)` or just `'\n'` ?
 
 what about this ```\x0A \x0D``` , ```x13 x10``` ?
 
