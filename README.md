@@ -1375,22 +1375,77 @@ $fileKey = 'file1';
 $fileSizeLimit = 2097152; // 2MB
 $allowedFileTypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'];
 $file = $_FILES[$fileKey] ?? null;
-if ($file) {
-  $fileName = $file['name'];
+if ($file && $file['tmp_name']) {
+  $fileName = basename($file['name']);
   $fileSize = $file['size'];
   $fileType = $file['type'];
   if ($fileName && $fileSize < $fileSizeLimit && in_array($fileType, $allowedFileTypes)) {
-    $fileTmpPath = $tmpdir . $file['tmp_name'];
-    if (is_uploaded_file($fileTmpPath)) {
-      $fileExtension = strtolower(end(explode(".", $fileName)));
-      $uploadFileName = explode(basename($fileName), '.')[0] . '.' . $fileExtension;
+    $fileTmpPath = $tmpdir . ;
+    if (is_uploaded_file($file['tmp_name'])) {
+      $fp = explode('.', $fileName);
+      $fileExtension = strtolower(array_pop($fp));
+      $uploadFileName = join('.', $fp) . '.' . $fileExtension;
       $uploadPath = $uploaddir . $uploadFileName;
-      @move_uploaded_file($fileTmpPath, $uploadPath);
-      // Upload success
+      if (move_uploaded_file($file['tmp_name'], $uploadPath)) {
+        // Upload success
+      }
     }
   }
 }
 ```
+
+* Simple Auth (2 files)
+
+  1) cms.php (login + password required to enter)
+
+  ```
+  <?php
+  session_start();
+  if (empty($_SESSION['user'])) {
+    header("Location: login.php");
+    exit;
+  }
+  if (!empty($_GET['logout'])){
+   unset($_SESSION['user']);
+   session_destroy();
+   header("Location: login.php");
+  }
+  ?>
+  <div>
+  <h1>Restricted resource<h1>
+  <a href="?logout=true">Logout</a>
+  </div>
+  ```
+
+  2) login.php (login form + authenticator)
+
+  ```
+  <?php
+  session_start();
+  $users = [
+    'admin' => 'a029d0df84eb5549c641e04a9ef389e5'
+  ];
+  $login = $_POST['login'] ?? null;
+  $password = $_POST['password'] ?? null;
+  if (
+    $login !== null && $login !== ''
+    && $password !== null && $password !== ''
+    && array_key_exists($login, $users) && $users[$login] === md5($password)
+  ) {
+    $_SESSION['users'] = [
+      'login' => $login,
+      'password' => $password
+    ];
+    header("Location: cms.php");
+    exit;
+  } 
+  ?>
+  <form method="post">
+  <div>Username: <input type="text" name="login"></div>
+  <div>Password: <input type="password" name="password"></div>
+  <input type="submit" name="submit" value="Login">
+  </form>
+  ```
 
 * Strings
 
