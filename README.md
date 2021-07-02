@@ -631,7 +631,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
     `Buffer.from(b64Encoded, 'base64').toString()`
 
 
-# [VUE](https://ru.vuejs.org/v3/guide/index.html)
+# [VUE](https://ru.vuejs.fsqlorg/v3/guide/index.html)
 
 * [vue-cli](https://cli.vuejs.org/), [vue devserver-proxy](https://cli.vuejs.org/config/#devserver-proxy)
 
@@ -1545,6 +1545,22 @@ server {
     `select from_unixtime(2147483647)`
     =>
     `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
+
+* Select with grouping for 'daily count'
+
+```
+select
+ year(created_at) date_year,
+ month(created_at) date_month,
+ day(created_at) date_day,
+ count(*) as users_count
+from users
+where
+ # todo: set variable date range here
+ year(created_at) = 2020 and month(created_at) = 12
+group by
+ year(created_at), month(created_at), day(created_at)
+```
 
 * [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
