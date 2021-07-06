@@ -918,6 +918,28 @@ hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%
        locale -a
     ```
 
+* Current date in SQL fotmat: `cdate +'%F %T'`
+
+* Erase and watch Laravel log file
+
+```
+#!/bin/bash
+DT=`date +'%F'`
+truncate -s 0 ./storage/logs/laravel-$DT.log
+tail -f ./storage/logs/laravel-$DT.log
+```
+
+* Import environment variables from **.env** file
+
+    ```
+    unamestr=$(uname)
+    if [ "$unamestr" = 'Linux' ]; then
+        export $(grep -v '^#' .env | xargs -d '\n')
+    elif [[ "$unamestr" = 'FreeBSD' || "$unamestr" = 'Darwin' ]]; then
+        export $(grep -v '^#' .env | xargs -0)
+    fi
+    ```
+
 * [Install Certbot](https://certbot.eff.org)
 
 * Generate new certificates on working system with nginx
