@@ -1568,6 +1568,12 @@ server {
     =>
     `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
 
+* Date/time conversion functions:
+
+    `SELECT FROM_UNIXTIME(UNIX_TIMESTAMP(STR_TO_DATE('Oct 19 2018 10:00PM', '%M %d %Y %h:%i%p')),'%m-%d-%Y %h:%i:%p');`
+    =>
+    `10-19-2018 10:00:PM`
+
 * Select with grouping for 'daily count'
 
 ```
