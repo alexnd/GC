@@ -1726,6 +1726,10 @@ done
 
 `ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
 
+* ssl
+
+- [mkcert](https://github.com/FiloSottile/mkcert)
+
 # DECENTRALIZATION
 
 * bitcoin
