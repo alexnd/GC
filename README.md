@@ -542,6 +542,8 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
+* [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639)
+
 # [NODE.JS](https://nodejs.org/api/index.html)
 
 * [Install Nodejs](https://nodejs.org/en/download/current/), [node distributions](https://github.com/nodesource/distributions/blob/master/README.md)
@@ -1369,7 +1371,7 @@ git push -u origin master
 * [Design Patterns PHP](https://designpatternsphp.readthedocs.io/en/latest/README.html)
 * [PHP The Right Way](https://phptherightway.com/)
 * [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/), [Filter user input](https://phppot.com/php/php-input-filtering/)
-* [Json 2 DTO Class](https://json2dto.atymic.dev/)
+* [Json 2 DTO Class](https://json2dto.atymic.dev/), [DTO](https://github.com/spatie/data-transfer-object)
 
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
@@ -1698,6 +1700,7 @@ done
 * [Docker Toolbox](https://github.com/docker/toolbox/releases)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 * [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+* [Docker in WSL2](https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2)
 
 # WINDOWS
 
