@@ -1391,6 +1391,22 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 
 * SQL date: `php -r 'echo  date('Y-m-d').PHP_EOL;'`, next day sql date: `date('Y-m-d', strtotime('+1 day'))`
 
+* Parse .json file
+
+```
+$json = file_get_contents("./data.json");
+if ($json) {
+    try {
+      $data = json_decode($json, true);
+    } catch(Exception $e) {
+      // handle parse error
+      // $e->getMessage()
+    }
+} else {
+  // error, no input data
+}
+```
+
 * File upload
 
 ```
