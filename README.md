@@ -1557,10 +1557,14 @@ server {
   index index.html index.php;
   server_name test.example.com;
 
-  root /www/example.com/www;
+  root /var/www/domain/public;
+
+  location ~ /\.ht {
+    deny all;
+  }
 
   location /static/ {
-    alias /www/example.com/static/;
+    alias /var/www/domain/static/;
   }
   
   location ~ \.php$ {
@@ -1569,6 +1573,15 @@ server {
     #fastcgi_pass 127.0.0.1:9000;
     #fastcgi_pass docker-servicename:9999;
   }
+
+  location /api {
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header Host $http_host;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_pass "http://127.0.0.1:3000";
+    proxy_http_version 1.1;
+ }
 
 }
 ```
