@@ -1553,27 +1553,39 @@ The most important feature of double-quoted strings is the fact that variable na
 
 ```
 server {
-
-  index index.html index.php;
-  server_name test.example.com;
-
+  listen 80;
+  server_name domain;
   root /var/www/domain/public;
-
+  disable_symlinks off;
+  set $path_info "";
+  location / {
+    index index.html;
+    try_files $uri $uri/ /index.html;
+    location = /favicon.ico {
+      log_not_found off;
+    }
+    location = /robots.txt {
+      log_not_found off;
+    }
+    location ~ /\. {
+      return 404;
+    }
+  }
+  location ~ ^/(login|logout|profile|register)/ {
+    index index.html;
+  }
   location ~ /\.ht {
     deny all;
   }
-
   location /static/ {
     alias /var/www/domain/static/;
   }
-  
   location ~ \.php$ {
     include snippets/fastcgi-php.conf;
     fastcgi_pass unix:/run/php/php7.4-fpm.sock;
     #fastcgi_pass 127.0.0.1:9000;
     #fastcgi_pass docker-servicename:9999;
   }
-
   location /api {
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header Host $http_host;
@@ -1581,8 +1593,7 @@ server {
     proxy_set_header Upgrade $http_upgrade;
     proxy_pass "http://127.0.0.1:3000";
     proxy_http_version 1.1;
- }
-
+  }
 }
 ```
 
