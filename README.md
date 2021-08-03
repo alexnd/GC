@@ -1040,6 +1040,8 @@ or just `ssh add`
 
     edit `.ssh/known_hosts` deleting old cached host fingerprint,
     than it will be recreated at next attemp
+    
+    or fix with terminal cmd: `ssh-keygen -R *ip_address_or_hostname*`
 
 * Tunneling
 
@@ -1967,7 +1969,8 @@ fi
 * [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 * [Rest Countries](https://restcountries.eu/)
-* [Codemirror - js editor](https://codemirror.net/)
+* [public-apis](https://github.com/public-apis/public-apis), [free-apis](https://apilist.fun/collection/free-apis), [mockapi](https://mockapi.io/), [fakestoreapi](https://fakestoreapi.com/docs), [dnd5eapi](https://www.dnd5eapi.co/), [yesno.wtf](https://yesno.wtf/api), [pokeapi](https://pokeapi.co/)
+* [Codemirror - js editor](https://codemirror.net/), [vpic.nhtsa.gov/api](https://vpic.nhtsa.dot.gov/api/), [SpaceX-API](https://github.com/r-spacex/SpaceX-API/blob/master/docs/README.md)
 * [Count Lines of Code](https://github.com/AlDanial/cloc)
 * [Nomie tracker](https://nomie.app/)
 * [Blockstack apps](https://browser.blockstack.org/)
