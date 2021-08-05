@@ -313,6 +313,64 @@ Ok, well, shuffling some another stuff...
     }
     ```
 
+* Prototype extending
+
+```
+var world = {
+  width: 2048,
+  heigh: 2048,
+  spawnX: 420,
+  spawnY: 420
+}
+function Entity(o) {
+  console.log('*[Entity]', o)
+  var _ = o || {}
+  this.x = _.x || 0
+  this.y = _.y || 0
+}
+Entity.prototype.draw = function(t) {
+  console.log('*[Entity.draw]', this.x, this.y, t)
+}
+function Player (o) {
+  console.log('*[Player]', o)
+  Entity.call(this, o)
+  this.x = world.spawnX
+  this.y = world.spawnY
+  this.width = 42
+  this.height = 42
+}
+Player.prototype = Object.create(Entity.prototype)
+Player.prototype.constructor = Player
+Player.prototype.draw = function(t) {
+  console.log('*[Player.draw]', this.x, this.y, this.width, this.height, t)
+}
+function Sky() {
+  console.log('*[Sky]', arguments)
+  Entity.apply(this, arguments)
+}
+Sky.prototype = Object.create(Entity.prototype, {
+  foo: {
+    writable: true,
+    configurable: true,
+    value: 'Bazz'
+  },
+  draw: {
+    writable: false,
+    configurable: false,
+    value: function(t) {
+        console.log('*[Sky.draw]', this.x, this.y, t)
+    }
+  },
+})
+Sky.prototype.constructor = Sky
+var sky = new Sky()
+var player = new Player()
+var target = new Entity({ x: 1000, y: 1000 })
+sky.draw()
+target.draw()
+player.draw()
+```
+
 * Async IIFE
 
     ```
