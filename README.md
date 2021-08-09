@@ -817,6 +817,8 @@ Instant vue prototyping
 
 * Unpack TGZ: `tar -xzf name.tgz`
 
+* Unpack gzipped file: `gunzip -k db.sql.gz`
+
 * Pack dir to BZ2 without absolute path: `tar -c -j -f site1.tbz -C /var/www site1`
 
 * Pack 1 file (.gz added automatically): `gzip path`
