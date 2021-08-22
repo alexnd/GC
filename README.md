@@ -644,7 +644,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
 
-* [https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
+* (socket.io)[https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
 
 * Reading a *.py* config file into json-valid string
 
@@ -1757,6 +1757,12 @@ Start/stop server: `brew services start|stop mongodb-community`
    - Comment out with `#` or delete `authorization: disabled` from mongod.conf
    
    - Restart service `brew services restart mongodb-community`
+
+$ [Redis](https://redis.io/commands)
+
+`redis-cli`
+
+[npm redis](https://github.com/NodeRedis/node-redis)
 
 # VI(M)
 
