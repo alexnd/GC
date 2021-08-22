@@ -630,7 +630,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)
+* Useful npms: `dotenv [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)`
 
 * upgrade package.json dependencies to latest versions
 
@@ -1699,7 +1699,34 @@ group by
 
 # Mongo DB
 
-* [Mongodb Indexes](https://docs.mongodb.com/manual/indexes/)
+[Mongodb Indexes](https://docs.mongodb.com/manual/indexes/)
+
+Nodejs connection to mongo (Mongoose installed via `npm i mongoose`):
+
+`mongoose.connect(MONGO_URI, options, (err) => { ... })`
+
+    - `const MONGO_URI = mongodb+srv://<username>:<password>@<cluster_name>.<host>/<database>`
+
+    - `const options = {useNewUrlParser: true, useUnifiedTopology: true}`
+    
+    - `(err) => { ... }` callback, if no `err` object in first argument - connection success
+
+## Mongo CLI - authorize as db admin
+
+```
+mongo
+use admin
+db.auth('admin', passwordPrompt())
+```
+
+## Mongo CLI - create normal user with credentials and full access to DB_NAME
+
+  - Authorize as admin
+
+  - ```
+    use DB_NAME
+    db.createUser({user:'USERNAME', pwd:'PASW', roles:[{role:'readWrite', db:'DB_NAME'}]})
+    ```
 
 ## Mongodb on OSX
 
