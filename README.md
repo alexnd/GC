@@ -1758,7 +1758,7 @@ Start/stop server: `brew services start|stop mongodb-community`
    
    - Restart service `brew services restart mongodb-community`
 
-$ [Redis](https://redis.io/commands)
+# [Redis](https://redis.io/commands)
 
 `redis-cli`
 
