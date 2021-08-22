@@ -630,7 +630,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb [mongoose](https://mongoosejs.com) nodemailer multer bcrypt web3 passport [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)`
+* Useful npms: `dotenv` [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) `pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb` [mongoose](https://mongoosejs.com) `nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)
 
 * upgrade package.json dependencies to latest versions
 
