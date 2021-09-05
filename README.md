@@ -847,7 +847,7 @@ Instant vue prototyping
 
     `ip link show` - list network interfaces 
 
-    `ifconfig`, `iwconfig`, `ping google.com` - network
+    `ifconfig`, `iwconfig`, `arp -a`, `ping google.com` - network
 
     `netstat -lntp`, `netstat -Ana|grep LISTEN|grep 80` - find process bind to port
 
@@ -2062,6 +2062,7 @@ fi
 * [100% JavaScript Pure Data runtime using Web Audio API ](https://github.com/sebpiq/WebPd/)
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 * [Rest Countries](https://restcountries.eu/)
+* [TimeZoneDB - Free Time Zone Database & API](https://timezonedb.com/)
 * [public-apis](https://github.com/public-apis/public-apis), [free-apis](https://apilist.fun/collection/free-apis), [mockapi](https://mockapi.io/), [fakestoreapi](https://fakestoreapi.com/docs), [dnd5eapi](https://www.dnd5eapi.co/), [yesno.wtf](https://yesno.wtf/api), [pokeapi](https://pokeapi.co/)
 * [Codemirror - js editor](https://codemirror.net/), [vpic.nhtsa.gov/api](https://vpic.nhtsa.dot.gov/api/), [SpaceX-API](https://github.com/r-spacex/SpaceX-API/blob/master/docs/README.md)
 * [Count Lines of Code](https://github.com/AlDanial/cloc)
