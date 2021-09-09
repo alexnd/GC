@@ -1703,13 +1703,15 @@ group by
 
 Nodejs connection to mongo (Mongoose installed via `npm i mongoose`):
 
-`mongoose.connect(MONGO_URI, options, (err) => { ... })`
+```mongoose.connect(MONGO_URI, options, (err) => { ... })```
 
-    - `const MONGO_URI = mongodb+srv://<username>:<password>@<cluster_name>.<host>/<database>`
+Where:
 
-    - `const options = {useNewUrlParser: true, useUnifiedTopology: true}`
+  - `const MONGO_URI = mongodb+srv://<username>:<password>@<cluster_name>.<host>/<database>`
+
+  - `const options = {useNewUrlParser: true, useUnifiedTopology: true}`
     
-    - `(err) => { ... }` callback, if no `err` object in first argument - connection success
+  - `(err) => { ... }` callback, if no `err` object in first argument - connection success
 
 ## Mongo CLI - authorize as db admin
 
