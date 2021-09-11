@@ -703,6 +703,8 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [vue native](https://vue-native.io/)
 
+* [awesome-vue-3](https://github.com/vuesomedev/awesome-vue-3)
+
 component.vue
 
 ```
