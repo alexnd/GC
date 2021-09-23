@@ -1406,7 +1406,7 @@ git push -u origin master
   - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
   - `python3 get-pip.py`
 
-# [PHP](https://www.php.net/manual/en/), [php-src](https://github.com/php/php-src/)
+# [PHP](https://www.php.net/manual/en/)
 
 0_O Wooot!?
 
@@ -1414,8 +1414,10 @@ git push -u origin master
 
 * `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
 
+* [PHP for Windows](https://windows.php.net/download)
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 * [PHP Debugbar](http://phpdebugbar.com/)
+* [php-src](https://github.com/php/php-src/)
 * [PSR-7](https://www.php-fig.org/psr/psr-7/)
 * [PSR-12](https://www.php-fig.org/psr/psr-12/)
 * [PSR-15](https://www.php-fig.org/psr/psr-15/)
@@ -1671,9 +1673,13 @@ server {
 
 # SQL
 
-    `select from_unixtime(2147483647)`
-    =>
-    `2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
+* [Mysql for Windows](https://dev.mysql.com/downloads/installer/)
+
+`select from_unixtime(2147483647)`
+
+  =>
+
+`2038-01-19 05:14:07` - 32-bit time_t limit (2038-year timestamp overflow)
 
 * Date/time conversion functions:
 
@@ -1701,9 +1707,11 @@ group by
 
 # Mongo DB
 
-[Mongodb Indexes](https://docs.mongodb.com/manual/indexes/)
+* [Mongo for Windows](https://www.mongodb.com/try/download/community)
 
-Nodejs connection to mongo (Mongoose installed via `npm i mongoose`):
+* [Mongodb Indexes](https://docs.mongodb.com/manual/indexes/)
+
+* Nodejs connection to mongo (Mongoose installed via `npm i mongoose`):
 
 ```mongoose.connect(MONGO_URI, options, (err) => { ... })```
 
@@ -1766,7 +1774,9 @@ Start/stop server: `brew services start|stop mongodb-community`
 
 `redis-cli`
 
-[npm redis](https://github.com/NodeRedis/node-redis)
+* [Redis for Windows](https://github.com/microsoftarchive/redis/releases)
+
+* [npm redis](https://github.com/NodeRedis/node-redis)
 
 # VI(M)
 
