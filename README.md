@@ -1028,6 +1028,14 @@ tail -f ./storage/logs/laravel-$DT.log
     
     **YOU SHOULD USE [WEBHOOKS](https://developer.github.com/webhooks/) / [GITLAB CI](https://about.gitlab.com/product/continuous-integration/) INSTEAD!**
 
+* fix issues with video driver
+
+```
+add-apt-repository ppa:graphics-drivers/ppa
+apt-get update
+ubuntu-drivers autoinstall
+```
+
 # APT
 
 `dpkg --get-selections | grep foo` - find all packages by name `foo`
