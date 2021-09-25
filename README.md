@@ -1075,6 +1075,8 @@ Run every 10 minutes: `*/10 * * * *`
 
 * [SSH keygen](https://www.ssh.com/ssh/keygen)
 
+`ssh-keygen -t rsa -b 4096 -C "username@example.com"`
+
 * Prevent `git@gitlab.com: Permission denied (publickey).` connection error
 
     ```
