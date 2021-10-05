@@ -914,6 +914,18 @@ Instant vue prototyping
 
     `nullmailer mailutils`
 
+* Web developer env:
+
+```
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+apt install -y nginx curl nodejs npm php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+```
+
+Edit /etc/php/7.4/fpm/php.ini, set correct path's (like upload_tmp_dir) and other critical PHP settings
+
 * configure network adapter
 
     -- `eth1` - interface name
