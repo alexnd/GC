@@ -971,6 +971,13 @@ hardstatus alwayslastline
 hardstatus string '%{= w}%-w[ %{= W}%n %t%{-} ]%+w%=[ %{= W}%H%{-} ] [ %{= W}%l%{-} ] [ %{= W}%d.%m.%Y %c:%s%{-} ]'
 ```
 
+* Network scan
+
+```
+sudo apt-get install nmap -y
+nmap -sP 192.168.1.0/24
+```
+
 * `locale: Cannot set LC_*` errors
 
     ```
