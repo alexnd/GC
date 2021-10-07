@@ -863,7 +863,7 @@ Instant vue prototyping
 
 * Recursively set owner:group: `chown -R username:group /path/*`
 
-* Recursively fix R/W permissions
+* Recursively fix R/W permissions:
 
     `cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;`
 
@@ -873,6 +873,7 @@ Instant vue prototyping
     chmod 755 $(find /path/to/base/dir -type d)
     chmod 644 $(find /path/to/base/dir -type f)
     ```
+* Remove user: `sudo killall -u username && sudo deluser --remove-home -f username`
 
 * Show Debian/Ubuntu linux version: `lsb_release -a`
 
