@@ -1258,7 +1258,7 @@ git push -u origin master
 
 # YARN
 
-`npm -i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
+`sudo npm i -g yarn` or `brew install yarn` to install [Yarn](https://yarnpkg.com/en/)
 
 `yarn` - bring yarn into existing npm project
 
