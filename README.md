@@ -2098,6 +2098,7 @@ fi
 * [Hammer.js](https://hammerjs.github.io/)
 * [Game Engines](https://github.com/bebraw/jswiki/wiki/Game-Engines), [Intro HTML5 Gamedev](https://developer.mozilla.org/ru/docs/Games), [Getting Started HTML5 Gamedev](https://hacks.mozilla.org/2013/09/getting-started-with-html5-game-development/)
 * [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
+* [Big O cheatsheet](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course)
 * [Design Patterns](https://refactoring.guru/design-patterns), [3 Design Patterns You should know](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/) [DDD](https://www.geeksforgeeks.org/domain-driven-design-ddd/), [Catalog of PEAA](https://martinfowler.com/eaaCatalog/), [GoF](https://springframework.guru/gang-of-four-design-patterns/), [BFF](https://samnewman.io/patterns/architectural/bff/)
 * [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Microservices](https://microservices.io/patterns/index.html)
