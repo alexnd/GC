@@ -1444,6 +1444,7 @@ git push -u origin master
 
 * `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
 
+* [php8 attributes](https://php.watch/articles/php-attributes)
 * [PHP for Windows](https://windows.php.net/download)
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 * [PHP Debugbar](http://phpdebugbar.com/)
@@ -1453,7 +1454,8 @@ git push -u origin master
 * [PSR-15](https://www.php-fig.org/psr/psr-15/)
 * [Slim framework](https://www.slimframework.com/docs/v4/), [Slim4 Tutorial](https://github.com/odan/slim4-tutorial)
 * [Session Middleware](https://odan.github.io/session/v5/)
-* [Laravel API](https://laravel.com/api/5.8/doc-index.html)
+* [Laravel Sail](https://laravel.com/docs/8.x/sail)
+* [Laravel 5.x API](https://laravel.com/api/5.8/doc-index.html)
 * [Laravel Blade Templates](https://laravel.com/docs/5.8/blade)
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 * [Laravel CORS](https://github.com/fruitcake/laravel-cors)
