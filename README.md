@@ -656,7 +656,24 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Fix broken npm: `npm cache clean --force`
 
-* Useful npms: `dotenv` [dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7) `pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb` [mongoose](https://mongoosejs.com) `nodemailer multer bcrypt web3 passport` [passport-jwt](http://www.passportjs.org/packages/passport-jwt) [puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline) [jimp](https://github.com/oliver-moran/jimp) [node-ipc](https://www.npmjs.com/package/node-ipc) [list.js](https://github.com/javve/list.js) [node-webcam](https://github.com/chuckfairy/node-webcam) [johnny-five](http://johnny-five.io/)
+* Useful npms:
+
+`dotenv`
+[dotenv-expand](https://itnext.io/master-environment-variables-on-node-js-with-dotenv-expand-f9724b310bc7)
+`pm2 nodemon serve http-server eslint express body-parser socket.io knex cron redis mongodb`
+[mongoose](https://mongoosejs.com)
+`nodemailer multer bcrypt web3 passport`
+[passport-jwt](http://www.passportjs.org/packages/passport-jwt)
+[puppeteer](https://pptr.dev/#?product=Puppeteer&version=v5.4.1&show=outline)
+[jimp](https://github.com/oliver-moran/jimp)
+[node-ipc](https://www.npmjs.com/package/node-ipc)
+[list.js](https://github.com/javve/list.js)
+[node-webcam](https://github.com/chuckfairy/node-webcam)
+[johnny-five](http://johnny-five.io/)
+
+* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
+
+* [socket.io](https://socket.io/docs/v3) [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
 
 * upgrade package.json dependencies to latest versions
 
@@ -666,11 +683,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
    npm install
    ```
 
-* [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
-
 * argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
-
-* (socket.io)[https://socket.io/docs/v3] [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
 
 * Reading a *.py* config file into json-valid string
 
