@@ -636,6 +636,8 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [Global objects in Node](https://nodejs.org/api/globals.html)
 
+* [Nexe](https://github.com/nexe/nexe)
+
 * Install module globally: `npm i -g jslint`
 
 * Install and add to package.json dependencies: `npm i -P <package>`
