@@ -1775,6 +1775,14 @@ group by
  year(created_at), month(created_at), day(created_at)
 ```
 
+* Add user with credentials (myuser mypassword) and set all privilegies to mydb
+
+```
+CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypassword';
+GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%';
+```
+
+
 * [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
 # Mongo DB
