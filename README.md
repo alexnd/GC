@@ -898,7 +898,9 @@ Instant vue prototyping
 
 * Set user password: `sudo passwd username`
 
-* Add user to root group: `usermod -aG sudo username`
+* Add user to root group: `sudo usermod -a -G sudo username`
+
+* Add user FOO to group BAR: `sudo usermod -a -G BAR FOO`
 
 * Recursively set owner:group: `chown -R username:group /path/*`
 
