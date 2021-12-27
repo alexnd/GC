@@ -1745,6 +1745,7 @@ server {
 
 # SQL
 
+* [Install MySQL 5.7 on Ubuntu](https://www.how2shout.com/linux/add-repository-to-install-mysql-5-7-on-ubuntu-20-04-lts-linux/)
 * [Mysql for Windows](https://dev.mysql.com/downloads/installer/)
 
 `select from_unixtime(2147483647)`
