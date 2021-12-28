@@ -36,7 +36,7 @@ To be clear, this is not just a garbage-like log, but mix of proven solutions ev
 
 Enjoy!
 
-[img placeholder]
+[HTML Colors Table](./hexcolors.png)
 
 # [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
