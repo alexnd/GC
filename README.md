@@ -904,16 +904,24 @@ Instant vue prototyping
 
 * Recursively set owner:group: `chown -R username:group /path/*`
 
+* Recursively fix read/write permissions:
+
+    ```
+    chmod 755 $(find /path/to -type d)
+    chmod 644 $(find /path/to -type f)
+    ```
+
+* Grant read/write permissions required by the web application:
+
+    ```
+    cd /var/www/website
+    find . -type d -exec chmod 755 {} \;
+    find . -type f -exec chmod 644 {} \;
+    chown -R www-data:www-data .
+    ```
+
 * Recursively fix R/W permissions:
 
-    `cd somewhere && find . -type d -exec chmod 777 {} \; && find . -type f -exec chmod 666 {} \;`
-
-    or
-
-    ```
-    chmod 755 $(find /path/to/base/dir -type d)
-    chmod 644 $(find /path/to/base/dir -type f)
-    ```
 * Remove user: `sudo killall -u username && sudo deluser --remove-home -f username`
 
 * Show Debian/Ubuntu linux version: `lsb_release -a`
