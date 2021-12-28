@@ -946,8 +946,6 @@ Instant vue prototyping
     chown -R www-data:www-data .
     ```
 
-* Recursively fix R/W permissions:
-
 * Remove user: `sudo killall -u username && sudo deluser --remove-home -f username`
 
 * Show Debian/Ubuntu linux version: `lsb_release -a`
