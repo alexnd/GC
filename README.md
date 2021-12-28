@@ -1,5 +1,12 @@
 # GC
 
+[BASH](#bash)
+[GIT](#git)
+[SSH](#ssh)
+[PHP](#js)
+[VUE](#js)
+[JS](#js)
+
 *Goodness Corp*? or *Garbage Collector*? Who knows...
 
 Maybe its *Gists Collection*, no its *Gone Cuties*! LOL! ROFL! and LMAO...
