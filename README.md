@@ -22,17 +22,23 @@ Navigation: [BASH](#shellbash)
 |
 [Links](#links)
 
+## WTF?
+
 *Goodness Corp*? or *Garbage Collector*? Who knows...
 
 Maybe its *Gists Collection*, no its *Gone Cuties*! LOL! ROFL! and LMAO...
 
-I started this collection named "GC" in relationship but not only for JS.
+I started this collection named "GC" in relationship but not only for [JS](#js).
 
 You would feel as on a dump waste as well as happiest of happy-nanny nyan cat!
 
 To be clear, this is not just a garbage-like log, but mix of proven solutions even with copy-paste from good sites.
 
 Enjoy!
+
+[img placeholder]
+
+# [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
 So, why **Javascript**?
 
@@ -55,8 +61,6 @@ Or *IIFE*, *JIT*, *events bubbling*, *functions binding*, whatever... you know?
 Nevermind, if you do ;) Its kick your ASs! Just remember - GC!
 
 Ok, well, shuffling some another stuff...
-
-# [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
