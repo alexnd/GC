@@ -1,11 +1,25 @@
 # GC
 
 [BASH](#bash)
+|
 [GIT](#git)
+|
 [SSH](#ssh)
-[PHP](#js)
-[VUE](#js)
+|
+[PHP](#php)
+|
+[SQL](#sql)
+|
+[VUE](#vue)
+|
 [JS](#js)
+|
+[CSS](#css)
+|
+[Mac](#osx)
+|
+[LINKS](#links)
+
 
 *Goodness Corp*? or *Garbage Collector*? Who knows...
 
