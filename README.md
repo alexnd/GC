@@ -14,7 +14,7 @@ Navigation: [BASH](#shell/bash)
 |
 [JS](#js)
 |
-[CSS](#css)
+[NODE](#node.js)
 |
 [MacOSX](#osx)
 |
@@ -870,7 +870,7 @@ Instant vue prototyping
 
 * [@nuxtjs/proxy](https://www.npmjs.com/package/@nuxtjs/proxy)
 
-# SHELL/[BASH](https://learnxinyminutes.com/docs/bash/)
+# [SHELL/BASH](https://learnxinyminutes.com/docs/bash/)
 
 * Create Symbolic Link: `ln -s source target`
 
