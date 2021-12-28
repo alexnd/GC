@@ -40,6 +40,8 @@ Enjoy!
 
 # [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
+# [JS](https://stackify.com/learn-javascript-tutorials/)
+
 So, why **Javascript**?
 
 I really not have an answer immediately...
@@ -61,8 +63,6 @@ Or *IIFE*, *JIT*, *events bubbling*, *functions binding*, whatever... you know?
 Nevermind, if you do ;) Its kick your ASs! Just remember - GC!
 
 Ok, well, shuffling some another stuff...
-
-# [JS](https://stackify.com/learn-javascript-tutorials/)
 
 * [Js basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics), [GO](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects), [types](https://javascript.info/types), [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions), [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this), [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new), [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined), [=>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 
