@@ -1,6 +1,6 @@
 # GC
 
-Navigation: [BASH](#bash)
+Navigation: [BASH](#shell/bash)
 |
 [GIT](#git)
 |
