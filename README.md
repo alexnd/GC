@@ -10,11 +10,13 @@ Navigation: [BASH](#shell/bash)
 |
 [SQL](#sql)
 |
-[VUE](#vue)
+[NODE](#nodejs)
 |
 [JS](#js)
 |
-[NODE](#node.js)
+[jQuery](#jquery)
+|
+[VUE](#vue)
 |
 [MacOSX](#osx)
 |
