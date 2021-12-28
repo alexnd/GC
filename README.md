@@ -1,6 +1,6 @@
 # GC
 
-[BASH](#bash)
+Navigation: [BASH](#bash)
 |
 [GIT](#git)
 |
@@ -16,10 +16,9 @@
 |
 [CSS](#css)
 |
-[Mac](#osx)
+[MacOSX](#osx)
 |
-[LINKS](#links)
-
+[Links](#links)
 
 *Goodness Corp*? or *Garbage Collector*? Who knows...
 
