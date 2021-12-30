@@ -1524,7 +1524,7 @@ git push -u origin master
 * `declare(strict_types=1);` [Strict mode in PHP](https://www.php.net/manual/en/migration70.new-features.php)
 
 * [php8 attributes](https://php.watch/articles/php-attributes)
-* [PHP for Windows](https://windows.php.net/download)\
+* [PHP for Windows](https://windows.php.net/download)
 * [Php Composer](https://getcomposer.org/download/)
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 * [PHP Debugbar](http://phpdebugbar.com/)
