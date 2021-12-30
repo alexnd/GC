@@ -1737,8 +1737,8 @@ server {
   disable_symlinks off;
   set $path_info "";
   location / {
-    index index.html;
-    try_files $uri $uri/ /index.html;
+    index index.php index.html;
+    try_files $uri $uri/ /index.php?$query_string /index.html;
     location = /favicon.ico {
       log_not_found off;
     }
