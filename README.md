@@ -1230,6 +1230,12 @@ or just `ssh add`
     add line: AllowUsers goodiman good2
     sudo systemctl restart sshd
     ```
+* Pass user password to ssh cmd (last resort, if you cannot `ssh -i key...`)
+
+    ```
+    sudo apt install sshpass
+    sshpass -p "password" ssh user@host
+    ```
 
 # GIT
 
