@@ -674,7 +674,7 @@ sudo apt-get install -y nodejs
 
 * List global modules: `npm -g list`
 
-* Install module globally: `npm i -g live-stream-radio`
+* [Install](https://docs.npmjs.com/cli/v6/commands/npm-install) module globally: `npm i -g live-stream-radio`
 
 * Developer's Must Have globally: `npm i -g @vue/cli-service-global @vue/cli npm-check-updates serve nmv pm2 nodemon`
 
@@ -682,11 +682,9 @@ sudo apt-get install -y nodejs
 
 * Install and add to package.json devDependencies: `npm i -D <package>`
 
-* Install ignoring dependencies versions check: `npm i --force`
-
 * Uninstall: `npm uninstall <package>`
 
-* Full reinstall for project: rm -rf ./node_modules && rm ./package-lock.json && npm i
+* Full re-install npm-managed project: `rm -rf ./node_modules && rm ./package-lock.json && npm i --force`
 
 * Update npm itself: `sudo npm update -g`
 
