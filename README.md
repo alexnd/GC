@@ -711,7 +711,7 @@ sudo apt-get install -y nodejs
 
 * [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
 
-* [socket.io](https://socket.io/docs/v3) [socket.io server](https://socket.io/docs/v3/server-installation/) [socket.io client](https://socket.io/docs/v3/client-api/)
+* [socket.io](https://socket.io/docs/v3) [socket.io-server](https://socket.io/docs/v3/server-installation/) [socket.io-client](https://socket.io/docs/v3/client-api/)
 
 * upgrade package.json dependencies to latest versions
 
