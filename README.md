@@ -676,7 +676,7 @@ sudo apt-get install -y nodejs
 
 * Install module globally: `npm i -g live-stream-radio`
 
-* Developer's Must Have globally: `npm i -g npm-check-updates serve @vue/cli-service-global @vue/cli nvm nmv pm2 nodemon`
+* Developer's Must Have globally: `npm i -g @vue/cli-service-global @vue/cli npm-check-updates serve nmv pm2 nodemon`
 
 * Install and add to package.json dependencies: `npm i -P <package>`
 
