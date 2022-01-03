@@ -664,11 +664,15 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [Nexe](https://github.com/nexe/nexe)
 
+* List global modules: `npm -g list`
+
 * Install module globally: `npm i -g jslint`
 
 * Install and add to package.json dependencies: `npm i -P <package>`
 
 * Install and add to package.json devDependencies: `npm i -D <package>`
+
+* Install ignoring dependencies versions check: `npm i --force`
 
 * Uninstall: `npm uninstall <package>`
 
