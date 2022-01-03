@@ -664,6 +664,14 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [Nexe](https://github.com/nexe/nexe)
 
+* Upgrade ubuntu host to current LTS version:
+
+```
+apt-get install gcc g++ make curl build-essential
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 * List global modules: `npm -g list`
 
 * Install module globally: `npm i -g jslint`
