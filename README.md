@@ -2084,6 +2084,7 @@ fi
 * [Fonts icons generator](http://fontello.com/)
 * [Vector editor](https://vectr.com/)
 * [Online Img Vectorizer](https://www.vectorizer.io)
+* [Boxy](https://boxy-svg.com/app)
 * [SVGBox](https://svgbox.net/)
 * [SVG Generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 * [Blobmaker](https://www.blobmaker.app/)
