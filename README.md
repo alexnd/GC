@@ -664,7 +664,7 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [Nexe](https://github.com/nexe/nexe)
 
-* Upgrade ubuntu host to current LTS version:
+* Upgrade nodejs on ubuntu host to current LTS version:
 
 ```
 apt-get install gcc g++ make curl build-essential
@@ -674,7 +674,9 @@ sudo apt-get install -y nodejs
 
 * List global modules: `npm -g list`
 
-* Install module globally: `npm i -g jslint`
+* Install module globally: `npm i -g live-stream-radio`
+
+* Developer's Must Have globally: `npm i -g npm-check-updates serve @vue/cli-service-global @vue/cli nvm nmv pm2 nodemon`
 
 * Install and add to package.json dependencies: `npm i -P <package>`
 
