@@ -40,6 +40,27 @@ Enjoy!
 
 # [MARKDOWN](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax)
 
+# HTML/CSS
+
+* [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
+* Minimal pic
+
+```
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==">
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==">
+```
+
+```
+background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==);
+
+background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+```
+
+* [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639)
+
+
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
 So, why **Javascript**?
@@ -631,26 +652,6 @@ $().superFeature();
 * [@pixi/tilemap](https://github.com/pixijs/tilemap)
 * [pixi-ease](https://github.com/davidfig/pixi-ease)
 * [tiled-to-pixi](https://github.com/axaq/tiled-to-pixi)
-
-# HTML/CSS
-
-* [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-
-* Minimal pic
-
-```
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==">
-
-<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==">
-```
-
-```
-background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==);
-
-background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
-```
-
-* [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639)
 
 # [NODE.JS](https://nodejs.org/api/index.html)
 
