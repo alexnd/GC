@@ -2086,6 +2086,7 @@ fi
 * [Online Img Vectorizer](https://www.vectorizer.io)
 * [Boxy](https://boxy-svg.com/app)
 * [SVGBox](https://svgbox.net/)
+* [SVG2PNG](https://svgtopng.com/)
 * [SVG Generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 * [Blobmaker](https://www.blobmaker.app/)
 * [griddy](https://griddy.io/), [layoutit](https://grid.layoutit.com/), [css-grid-layout](https://css-grid-layout-generator.pw/), [CSS grid generator](https://cssgrid-generator.netlify.com/), [cssgr.id](https://cssgr.id), [cssgridgenerator](https://github.com/sdras/cssgridgenerator)
