@@ -2087,6 +2087,7 @@ fi
 * [Online Img Vectorizer](https://www.vectorizer.io)
 * [Boxy](https://boxy-svg.com/app)
 * [SVGBox](https://svgbox.net/)
+* [SVGOMG](https://jakearchibald.github.io/svgomg/) [SVGO](https://github.com/svg/svgo)
 * [SVG2PNG](https://svgtopng.com/)
 * [SVG Generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 * [Blobmaker](https://www.blobmaker.app/)
