@@ -58,6 +58,16 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
+* [What Is A CSS Reset?](https://cssdeck.com/blog/what-is-a-css-reset/)
+
+* [Reset.css](https://github.com/richclark/HTML5resetCSS)
+
+* [Nomalize.css](https://github.com/necolas/normalize.css)
+
+* [Reboot.css](https://getbootstrap.com/docs/5.0/content/reboot/)
+
+* [Destyle.css](https://github.com/nicolas-cusan/destyle.css/blob/master/Readme.md)
+
 * [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639)
 
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes)
