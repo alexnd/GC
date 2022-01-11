@@ -2179,7 +2179,7 @@ fi
 * [Nuxt.js](https://nuxtjs.org/)
 * [React.js](https://reactjs.org/docs/getting-started.html)
 * [ReactNative](https://reactnative.dev/docs/environment-setup)
-* [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/), [WickedBlocks](https://wickedblocks.dev/)
+* [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/), [WickedBlocks](https://wickedblocks.dev/), [Cleopatra - Tailwind Admin Dashboard](https://github.com/moesaid/cleopatra)
 * [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
 * [Blueprint](https://blueprintjs.com/docs/)
 * [Semantic-UI](https://react.semantic-ui.com/)
