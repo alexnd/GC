@@ -122,7 +122,9 @@ Ok, well, shuffling some another stuff...
 
 * [Custom DOM events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events), [Custom events in JavaScript: A complete guide](https://blog.logrocket.com/custom-events-in-javascript-a-complete-guide/)
 
-* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips) 
+* [JS debugging tips](https://raygun.com/learn/javascript-debugging-tips)
+
+* [console.assert](https://developer.mozilla.org/en-US/docs/Web/API/Console/assert)
 
 * [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
 
