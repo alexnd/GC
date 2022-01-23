@@ -2093,6 +2093,7 @@ fi
 * [RGBA Converter](https://tdekoning.github.io/rgba-converter/)
 * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 * [Base64 decode](https://www.base64decode.org/), [Base64 encode](https://www.base64encode.org/)
+* [MsgPack decoder/encoder](https://kawanet.github.io/msgpack-lite/) [MsgPack bindings](https://msgpack.org/)
 * [Google images search](https://www.google.com/imghp)
 * [GIF converter](https://ezgif.com/)
 * [MakeAppIcon](https://makeappicon.com/)
