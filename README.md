@@ -2090,7 +2090,7 @@ fi
 * [CSS Code Beautifier](http://www.codebeautifier.com/)
 * [CSS Animations Playgroud](https://animista.net/)
 * [HTML Color Codes](https://htmlcolorcodes.com/)
-* [RGBA Converter](https://tdekoning.github.io/rgba-converter/)
+* [RGBA Converter](https://tdekoning.github.io/rgba-converter/) [RGBtoHEX](https://www.rgbtohex.net/)
 * [JSON formatter](https://jsonformatter.curiousconcept.com/)
 * [Base64 decode](https://www.base64decode.org/), [Base64 encode](https://www.base64encode.org/)
 * [MsgPack decoder/encoder](https://kawanet.github.io/msgpack-lite/) [MsgPack bindings](https://msgpack.org/)
