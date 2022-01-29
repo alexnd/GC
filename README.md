@@ -1696,6 +1696,17 @@ if ($file && $file['tmp_name']) {
   </form>
   ```
 
+*  Guzzle HTTP request CurlFactory exception `cURL error 60: SSL certificate problem: unable to get local issuer certificate` fix
+
+    - Download [cert file for CURL](https://curl.haxx.se/ca/cacert.pem)
+
+    - Set php.ini variable `openssl.cafile` pointing to this file:
+
+    ```
+    [openssl]
+    openssl.cafile=c:\webserver\php\extras\ssl\cacert.pem
+    ```
+
 * Strings
 
     ```
