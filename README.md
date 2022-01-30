@@ -68,9 +68,9 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [Destyle.css](https://github.com/nicolas-cusan/destyle.css/blob/master/Readme.md)
 
-* [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639)
-
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes)
+
+* [22 css ninja tricks](https://betterprogramming.pub/22-css-tricks-that-can-make-you-a-layout-ninja-452847fba639), [css box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
 
 * [The div that look different in every browser, Codepen](https://codepen.io/MartijnCuppens/pen/MXojmw)
 
