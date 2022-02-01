@@ -785,6 +785,7 @@ sudo apt-get install -y nodejs
 
     `Buffer.from(b64Encoded, 'base64').toString()`
 
+* [node-weak](https://www.npmjs.com/package/weak)
 
 # [VUE](https://ru.vuejs.fsqlorg/v3/guide/index.html)
 
