@@ -1827,6 +1827,13 @@ server {
 
 # SQL
 
+* Install: `sudo apt-get install -y mysql-server`
+* Init root user: `sudo mysql_secure_installation`
+* Set root(user) credentials:
+- `sudo mysql`
+- `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';`
+- `FLUSH PRIVILEGES;`
+
 * [Install MySQL 5.7 on Ubuntu](https://www.how2shout.com/linux/add-repository-to-install-mysql-5-7-on-ubuntu-20-04-lts-linux/)
 * [Mysql for Windows](https://dev.mysql.com/downloads/installer/)
 
