@@ -2050,7 +2050,13 @@ done
 
 - Set permission for video device: `usermod -a -G video USERNAME`
 
-- Install **ffmpeg**: `sudo apt-get install ffmpeg`
+- Install **v41-utils**: `sudo apt-get install -y v4l-utils`
+
+- Check available devices: `sudo v4l2-ctl --list-devices`
+
+- Get info about device: `sudo v4l2-ctl --device=/dev/video0 --all`
+
+- Install **ffmpeg**: `sudo apt-get install -y ffmpeg`
 
 - Run capture: `ffmpeg -f oss -f video4linux2 -s 640x480 -t 24 -i /dev/video0 ./www/video0.mpg`
 
