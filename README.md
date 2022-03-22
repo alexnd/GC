@@ -2044,7 +2044,15 @@ done
 
 * ssl
 
-- [mkcert](https://github.com/FiloSottile/mkcert)
+- [mkcert](https://github.com/FiloSottile/mkcert)]
+
+* Capture webcam
+
+- Set permission for video device: `usermod -a -G video USERNAME`
+
+- Install **ffmpeg**: `sudo apt-get install ffmpeg`
+
+- Run capture: `ffmpeg -f oss -f video4linux2 -s 640x480 -t 24 -i /dev/video0 ./www/video0.mpg`
 
 # DECENTRALIZATION
 
@@ -2068,20 +2076,6 @@ bitcoin-qt
 * [Metamask minimal dapp](https://github.com/MetaMask/test-dapp)
 * [Metamask state for 2020](https://medium.com/metamask/breaking-changes-to-the-metamask-inpage-provider-b4dde069dd0a)
 * [Dapp tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app)
-* [TERA](https://terafoundation.org/), [codebase2](https://gitlab.com/terafoundation/tera2), [codebase1](https://sourceforge.net/projects/tera/)
-
-/usr/local/bin/tera
-
-```
-#!/bin/sh
-
-if pgrep -f "run-node.js" > /dev/null
-then
-  pm2 show run-node.js
-else
-  cd /root/wallet/Source/ && pm2 start run-node.js
-fi
-```
 
 # LINKS
 
