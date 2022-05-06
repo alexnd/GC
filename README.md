@@ -128,6 +128,8 @@ Ok, well, shuffling some another stuff...
 
 * [console.assert](https://developer.mozilla.org/en-US/docs/Web/API/Console/assert)
 
+* [export statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export), [CommonJS modules](https://nodejs.org/api/modules.html)
+
 * [Clean JS](https://github.com/ryanmcdermott/clean-code-javascript)
 
 * [JS code standart by Shopify](https://github.com/Shopify/javascript)
