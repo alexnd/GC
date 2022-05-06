@@ -2133,6 +2133,7 @@ bitcoin-qt
 * [CSS Grid Guide](https://www.telerik.com/blogs/guide-css-grid)
 * [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/)
 * [Img to Base64](https://stephanwagner.me/online-image-to-base64-data-uri-converter)
+* [Excalidraw](https://excalidraw.com/)
 * [PDF converter](https://online2pdf.com)
 * [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler), [Apache Flex](https://flex.apache.org/)
 * [EditorConfig](https://editorconfig.org/)
