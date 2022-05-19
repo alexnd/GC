@@ -589,6 +589,8 @@ target.dispatchEvent(event);
 
 # [TS](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
+* [TS Playground](https://www.typescriptlang.org/play)
+
 # [JQuery](https://api.jquery.com)
 
 * Entrypoint
@@ -2146,7 +2148,6 @@ bitcoin-qt
 * [Hat.sh file encryptor](https://hat.sh/)
 * [JWTDecoder](http://calebb.net/), [JWT.io](https://jwt.io/)
 * [AST explorer](https://astexplorer.net/)
-* [TS Playground](https://www.typescriptlang.org/play)
 * [GSAP](https://github.com/greensock/GSAP)
 * [Online Sprite Sheet Atlas Editor](https://www.leshylabs.com/apps/sstool/), [Online Sprite Sheet Packer](https://www.codeandweb.com/free-sprite-sheet-packer), [Glue tool](https://glue.readthedocs.io/en/latest/), [Spritesheet.js](https://github.com/krzysztof-o/spritesheet.js/)
 * [PWA Asset generator](https://github.com/onderceylan/pwa-asset-generator)
@@ -2157,6 +2158,8 @@ bitcoin-qt
 * [swagger.json editor](https://editor.swagger.io/)
 * [Insomnia REST client](https://insomnia.rest/)
 * [Postman - API test client](https://www.postman.com/)
+* [Robo 3T MongoDB Client](https://robomongo.org/)
+* [Altair GraphQL Client](https://altair.sirmuel.design/)
 * [Pusher - message service](https://pusher.com/)
 * [Glitch.me - online dev toolbox](https://glitch.com/)
 * [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
