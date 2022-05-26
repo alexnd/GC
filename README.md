@@ -2136,6 +2136,7 @@ bitcoin-qt
 * [Blobmaker](https://www.blobmaker.app/)
 * [FreeConvert](https://www.freeconvert.com/), [CloudConvert](https://cloudconvert.com/)
 * [griddy](https://griddy.io/), [layoutit](https://grid.layoutit.com/), [css-grid-layout](https://css-grid-layout-generator.pw/), [CSS grid generator](https://cssgrid-generator.netlify.com/), [cssgr.id](https://cssgr.id), [cssgridgenerator](https://github.com/sdras/cssgridgenerator)
+* [Gradient Border Generator](https://codepen.io/amit_sheen/pen/LYNKerG), [CSS Generators](https://html-css-js.com/css/generator/border-outline/), [CSS Gradient](https://cssgradient.io/)
 * [1linelayouts](http://1linelayouts.glitch.me/)
 * [Flexbox Help](https://flexbox.help/)
 * [CSS Grid Guide](https://www.telerik.com/blogs/guide-css-grid)
