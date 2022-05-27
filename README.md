@@ -2161,6 +2161,7 @@ bitcoin-qt
 * [Postman - API test client](https://www.postman.com/)
 * [Robo 3T MongoDB Client](https://robomongo.org/)
 * [Altair GraphQL Client](https://altair.sirmuel.design/), [Chrome GraphQL Network Inspector](https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln)
+* [SQLite Browser](https://sqlitebrowser.org/dl/)
 * [Pusher - message service](https://pusher.com/)
 * [Glitch.me - online dev toolbox](https://glitch.com/)
 * [Piskel - pixelart/sprite editor](https://www.piskelapp.com/)
