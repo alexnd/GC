@@ -2282,6 +2282,7 @@ bitcoin-qt
 * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
 * [Foresty.io - Git-backed CMS](https://forestry.io/)
 * [Jekyll - static site generator](https://jekyllrb.com/)
+* [MailHog](https://github.com/mailhog/MailHog), (How to Use MailHog to Test Emails Locally)[https://kinsta.com/blog/mailhog/]
 * [Mailtrap - Safe Email Testing](https://mailtrap.io/)
 * [Temp Mail](https://temp-mail.org/en/)
 * [Free SMS Online](https://receive-smss.com/)
