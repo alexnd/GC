@@ -2300,6 +2300,7 @@ bitcoin-qt
 * [DOSBox](https://www.dosbox.com/)
 * [exercism.io](https://exercism.io/)
 * [codewars](https://www.codewars.com/)
+* [GeoGebra](https://www.geogebra.org/calculator)
 * [LLVM](https://github.com/apple/llvm-project)
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
 * [portfolio.zxh.io](https://portfolio.zxh.io/), [macos.vercel.app](https://macos.vercel.app), [vivek9patel.github.io](https://vivek9patel.github.io/)
