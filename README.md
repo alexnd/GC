@@ -76,6 +76,8 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * [The div that look different in every browser, Codepen](https://codepen.io/MartijnCuppens/pen/MXojmw)
 
+* Download website icon via Google S2: `http://www.google.com/s2/favicons?domain=example.com`
+
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
 So, why **Javascript**?
