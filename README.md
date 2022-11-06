@@ -2216,7 +2216,7 @@ bitcoin-qt
 * [Next.js](https://nextjs.org/)
 * [Nuxt.js](https://nuxtjs.org/)
 * [React.js](https://reactjs.org/docs/getting-started.html), [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-* [React Online Playground](https://playcode.io/react)
+* [React Online Playground](https://playcode.io/react), [Playcode react sample](https://playcode.io/1004160)
 * [ReactNative](https://reactnative.dev/docs/environment-setup)
 * [Tailwind.css](https://tailwindcss.com/), [Tailwind UI](https://tailwindui.com/), [WickedBlocks](https://wickedblocks.dev/), [Cleopatra - Tailwind Admin Dashboard](https://github.com/moesaid/cleopatra)
 * [Adaptivejs](http://adaptivejs.mobify.com/v2.0/docs/what-is-adaptivejs/)
