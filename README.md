@@ -2250,7 +2250,7 @@ bitcoin-qt
 * [Awesome Vue scaffold](https://awesome-vue.js.org/components-and-libraries/scaffold.html)
 * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
-* [Flutter](https://docs.flutter.dev/), [Dart](https://dart.dev/guides/language/effective-dart/design), [Dart Pub (packages)](https://pub.dev/packages), [Dart Pad](https://dartpad.dev/?)
+* [Flutter](https://docs.flutter.dev/), [Dart](https://dart.dev/guides/language/effective-dart/design), [Dart Pub (packages)](https://pub.dev/packages), [Dart Pad](https://dartpad.dev/?), [Awesome Flutter](https://github.com/Solido/awesome-flutter)
 * [Three.js](https://threejs.org/)
 * [Playcanvas](https://playcanvas.com/), [playcanvas github](https://github.com/playcanvas/engine)
 * [Angular.js](https://github.com/angular/angular.js), [angularjs api](https://code.angularjs.org/1.2.9/docs/api)
