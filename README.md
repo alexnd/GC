@@ -1280,6 +1280,12 @@ or just `ssh add`
 
 # GIT
 
+* Pretty printed commits history
+
+`git log --pretty=oneline --abbrev-commit`
+
+* Config
+
 ```
 git config --global --get user.name
 git config --global --get user.email
@@ -1299,6 +1305,13 @@ git config --get user.email
 ```
 git config user.name "Your project specific name"
 git config user.email "your@project-specific-email.com"
+```
+
+* Disable Fast-forward strategy
+
+```
+git config merge.ff false
+git config --get merge.ff
 ```
 
 * Global git settings: `~/.gitconfig`
