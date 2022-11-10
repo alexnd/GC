@@ -1583,6 +1583,7 @@ git push -u origin master
 * [PHP Sandbox](https://sandbox.onlinephpfunctions.com/)
 * [PHP Debugbar](http://phpdebugbar.com/)
 * [php-src](https://github.com/php/php-src/)
+* [PHP RFC](https://wiki.php.net/rfc)
 * [PSR-7](https://www.php-fig.org/psr/psr-7/)
 * [PSR-12](https://www.php-fig.org/psr/psr-12/)
 * [PSR-15](https://www.php-fig.org/psr/psr-15/)
@@ -1604,6 +1605,7 @@ git push -u origin master
 * [PHP The Right Way](https://phptherightway.com/)
 * [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/), [Filter user input](https://phppot.com/php/php-input-filtering/)
 * [Json 2 DTO Class](https://json2dto.atymic.dev/), [DTO](https://github.com/spatie/data-transfer-object)
+* [Wordpress guide](https://easywpguide.com/wordpress-manual/)
 
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
