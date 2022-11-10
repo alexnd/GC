@@ -2070,9 +2070,11 @@ done
 
     py: ```s.split('\n', 1)[0]``` or another py: ```s.splitlines()[0]```
 
-* cyrillic
+* cyrillic characters
 
 `ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
+
+* [emoji characters list](https://unicode.org/emoji/charts/emoji-list.html) [emojipedia](https://emojipedia.org/)
 
 * ssl
 
