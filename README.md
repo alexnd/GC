@@ -1605,7 +1605,7 @@ git push -u origin master
 * [PHP The Right Way](https://phptherightway.com/)
 * [Prevent XSS](https://www.cloudways.com/blog/prevent-laravel-xss-exploits/), [Filter user input](https://phppot.com/php/php-input-filtering/)
 * [Json 2 DTO Class](https://json2dto.atymic.dev/), [DTO](https://github.com/spatie/data-transfer-object)
-* [Wordpress guide](https://easywpguide.com/wordpress-manual/)
+* [Wordpress Codex](https://codex.wordpress.org/Main_Page), [WP Code Reference](https://developer.wordpress.org/reference/), [WP Organizing Theme](https://developer.wordpress.org/themes/basics/organizing-theme-files/), [Wordpress guide](https://easywpguide.com/wordpress-manual/), [WP Themes](https://wordpress.org/themes/), [WP Plugins](https://wordpress.org/plugins/), [A Deep Introduction to WordPress Block Themes](https://css-tricks.com/a-deep-introduction-to-wordpress-block-themes)
 
 * Filter output: `echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');`
 
@@ -2267,7 +2267,7 @@ bitcoin-qt
 * [Awesome Vue scaffold](https://awesome-vue.js.org/components-and-libraries/scaffold.html)
 * [Awesome Nodejs](https://github.com/sindresorhus/awesome-nodejs)
 * [Awesome Opensource](https://awesomeopensource.com/projects/)
-* [Flutter](https://docs.flutter.dev/), [Dart](https://dart.dev/guides/language/effective-dart/design), [Dart Pub (packages)](https://pub.dev/packages), [Dart Pad](https://dartpad.dev/?), [Awesome Flutter](https://github.com/Solido/awesome-flutter)
+* [Flutter](https://docs.flutter.dev/), [Dart](https://dart.dev/guides/language/effective-dart/design), [Dart Pub (packages)](https://pub.dev/packages), [Dart Pad](https://dartpad.dev/?), [Awesome Flutter](https://github.com/Solido/awesome-flutter), [Dart cheat sheet](https://simplecheatsheet.com/tag/dart-cheat-sheet)
 * [Three.js](https://threejs.org/)
 * [Playcanvas](https://playcanvas.com/), [playcanvas github](https://github.com/playcanvas/engine)
 * [Angular.js](https://github.com/angular/angular.js), [angularjs api](https://code.angularjs.org/1.2.9/docs/api)
