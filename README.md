@@ -2273,6 +2273,7 @@ bitcoin-qt
 * [Angular.js](https://github.com/angular/angular.js), [angularjs api](https://code.angularjs.org/1.2.9/docs/api)
 * [Angular](https://angular.io/), [Angular api](https://angular.io/api)
 * [Pfolios - portfolio insiration](https://pfolios.net/)
+* [Undraw Illustrations](https://undraw.co/)
 * [Canvas Oldshool Demo Effect Framework](http://codef.santo.fr/)
 * [Hammer.js](https://hammerjs.github.io/)
 * [Game Engines](https://github.com/bebraw/jswiki/wiki/Game-Engines), [Intro HTML5 Gamedev](https://developer.mozilla.org/ru/docs/Games), [Getting Started HTML5 Gamedev](https://hacks.mozilla.org/2013/09/getting-started-with-html5-game-development/)
