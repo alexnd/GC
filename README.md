@@ -2270,7 +2270,7 @@ bitcoin-qt
 * [Playcanvas](https://playcanvas.com/), [playcanvas github](https://github.com/playcanvas/engine)
 * [Angular.js](https://github.com/angular/angular.js), [angularjs api](https://code.angularjs.org/1.2.9/docs/api)
 * [Angular](https://angular.io/), [Angular api](https://angular.io/api)
-* [JSON Placeholder](http://jsonplaceholder.typicode.com/)
+* [JSON Placeholder](http://jsonplaceholder.typicode.com/) [https://httpbin.org/](HttpBin)
 * [public-apis](https://github.com/public-apis/public-apis), [free-apis](https://apilist.fun/collection/free-apis), [mockapi](https://mockapi.io/), [fakestoreapi](https://fakestoreapi.com/docs), [dnd5eapi](https://www.dnd5eapi.co/), [yesno.wtf](https://yesno.wtf/api), [pokeapi](https://pokeapi.co/)
 * [Natural Earth Data](https://github.com/nvkelso/natural-earth-vector)
 * [Rest Countries](https://restcountries.eu/)
