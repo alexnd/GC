@@ -735,6 +735,7 @@ sudo apt-get install -y nodejs
 [node-ipc](https://www.npmjs.com/package/node-ipc)
 [list.js](https://github.com/javve/list.js)
 [node-webcam](https://github.com/chuckfairy/node-webcam)
+[mediasoup](https://mediasoup.org/documentation/v3/)
 [johnny-five](http://johnny-five.io/)
 
 * [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
@@ -1151,6 +1152,8 @@ tail -f ./storage/logs/laravel-$DT.log
 * Update expired sertificates
 
     `certbot renew`
+
+* [Generate SSL certificate for localhost](https://gist.github.com/cecilemuller/9492b848eb8fe46d462abeb26656c4f8)
 
 * **CI** in 1 line of code ;)
     
@@ -2312,6 +2315,7 @@ bitcoin-qt
 * [2captcha](https://2captcha.com/)
 * [Privacypass](https://privacypass.github.io/)
 * [GAOptout](https://tools.google.com/dlpage/gaoptout)
+* [OpenAI API](https://beta.openai.com/docs/api-reference)
 * [Google Analytics](http://analytics.google.com/)
 * [Google Drive](https://drive.google.com/)
 * [Google Docs](https://docs.google.com/)
