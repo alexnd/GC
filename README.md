@@ -78,6 +78,13 @@ background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAAL
 
 * Download website icon via Google S2 Converter: `http://www.google.com/s2/favicons?domain=example.com`
 
+* Fonts databases, lookup Google/Adobe by url:
+
+```
+https://fonts.google.com/specimen/FONTNAME
+https://fonts.adobe.com/fonts/FONTNAME
+```
+
 # [JS](https://stackify.com/learn-javascript-tutorials/)
 
 So, why **Javascript**?
@@ -964,6 +971,8 @@ Instant vue prototyping
 
 * Copy from host to your pc over ssh: `scp user@host:pathFrom pathTo`
 
+For example: `scp -P 2222 root@IP-ADDR:/root/.bash_profile ./bash_profile.txt`
+
 * Download: `wget URL`
 
 * Advanced download: `curl -fsSL URL -O` (or replace `-O` to `-o path`)
@@ -1199,6 +1208,36 @@ tail -f ./storage/logs/laravel-$DT.log
 add-apt-repository ppa:graphics-drivers/ppa
 apt-get update
 ubuntu-drivers autoinstall
+```
+* Upload via CURL
+
+```
+curl -i -X POST -H "Content-Type: multipart/form-data" 
+-F "data=@test.mp3;userid=1234" http://mysuperserver/media/upload/
+```
+
+```
+curl \
+  -F "userid=1" \
+  -F "filecomment=This is an image file" \
+  -F "image=@/home/user1/Desktop/test.jpg" \
+  http://URL
+```
+
+* CURL Ajax POST request with Authorization header:
+
+```
+#!/bin/bash
+
+token=${@: -1}
+if [ -z "${token}" ]; then
+echo Enter token:
+read token
+fi
+
+curl -H 'content-type: application/json' \
+-H "Authorization: Bearer $token" \
+-v -X POST -d '{"foo": "Bar", "baz": 0.842}' http://127.0.0.1:3000/api/fun
 ```
 
 # APT
