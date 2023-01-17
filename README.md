@@ -532,7 +532,7 @@ player.draw()
       return res.json();
     })
     .then(function(data) {
-      console.log('*[responce]', data);
+      console.log('*[response]', data);
     })
     .catch(function(err) {
       console.error(err)
@@ -786,6 +786,34 @@ sudo apt-get install -y nodejs
       console.log(`input: ${answer}`)
       rl.close()
     })
+    ```
+
+    Nodejs list network interfaces
+
+    ```
+    // long
+    const hostname = os.hostname();
+    const { networkInterfaces } = os;
+    const nets = networkInterfaces();
+    const interfaces = {}
+    for (const name of Object.keys(nets)) {
+      for (const net of nets[name]) {
+          // Skip over non-IPv4 and internal (i.e. 127.0.0.1) addresses
+          // 'IPv4' is in Node <= 17, from 18 it's a number 4 or 6
+          const familyV4Value = typeof net.family === 'string' ? 'IPv4' : 4
+          if (net.family === familyV4Value && !net.internal) {
+              if (!interfaces[name]) {
+                  interfaces[name] = [];
+              }
+              interfaces[name].push(net.address);
+          }
+      }
+    }
+    console.log('*interfaces', interfaces);
+    // short, but with callback
+    dns.lookup(os.hostname(), function (err, addr, fam) {
+      console.log('*ADDR:', addr);
+    });
     ```
 
 * `btoa` polyfill, encode to Base64 (Binary to Ascii)
@@ -1834,13 +1862,29 @@ server {
     #fastcgi_pass 127.0.0.1:9000;
     #fastcgi_pass docker-servicename:9999;
   }
-  location /api {
-    proxy_set_header X-Forwarded-For $remote_addr;
+  location ~ ^/(login|logout|profile|register|reset|reset-confirm) {
+    rewrite /(.*) /$1 break;
+    proxy_redirect off;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
     proxy_set_header Host $http_host;
-    proxy_set_header Connection "upgrade";
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_pass "http://127.0.0.1:3000";
+    proxy_pass http://api:${API_PORT};
+  }
+  location /api {
+    rewrite /(.*) /$1 break;
+    proxy_redirect off;
     proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header Host $http_host;
+    proxy_pass http://api:3001;
+    proxy_buffering off;
   }
 }
 ```
@@ -2081,7 +2125,7 @@ done
 
 * ssl
 
-- [mkcert](https://github.com/FiloSottile/mkcert)]
+- [mkcert](https://github.com/FiloSottile/mkcert)
 
 * Capture webcam
 
@@ -2316,6 +2360,7 @@ bitcoin-qt
 * [Privacypass](https://privacypass.github.io/)
 * [GAOptout](https://tools.google.com/dlpage/gaoptout)
 * [OpenAI API](https://beta.openai.com/docs/api-reference)
+* [Cryptocompare - exchange rates](https://cryptocompare.com), [Fixer - foreign exchange rates and currency conversion](https://fixer.io)
 * [Google Analytics](http://analytics.google.com/)
 * [Google Drive](https://drive.google.com/)
 * [Google Docs](https://docs.google.com/)
