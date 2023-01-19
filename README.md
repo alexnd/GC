@@ -816,6 +816,7 @@ sudo apt-get install -y nodejs
           }
       }
     }
+    // { en0: [ '192.168.1.72' ] }
     console.log('*interfaces', interfaces);
     // short, but with callback
     dns.lookup(os.hostname(), function (err, addr, fam) {
