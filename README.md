@@ -2411,7 +2411,7 @@ bitcoin-qt
 * [Libre Office](https://www.libreoffice.org/download/download)
 * [Free Office](https://www.freeoffice.com/en/)
 * [Brave browser (chrome engine)](https://brave.com/download/), [Firefox developer edition](https://www.mozilla.org/uk/firefox/developer/), [Opera](https://www.opera.com/en/download)
-* [Chrome extensions development](https://developer.chrome.com/docs/extensions/)
+* [Chrome extensions development](https://developer.chrome.com/docs/extensions/), [Chrome extensions API reference](https://developer.chrome.com/docs/extensions/reference/)
 * [DOSBox](https://www.dosbox.com/)
 * [exercism.io](https://exercism.io/)
 * [codewars](https://www.codewars.com/)
