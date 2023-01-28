@@ -2403,6 +2403,7 @@ bitcoin-qt
 * [Privacypass](https://privacypass.github.io/)
 * [GAOptout](https://tools.google.com/dlpage/gaoptout)
 * [OpenAI API](https://beta.openai.com/docs/api-reference)
+* [Google Colaboratory](https://colab.research.google.com/), [Jupyter Notebook (IPython)](https://ipython.org/notebook.html)
 * [Cryptocompare - exchange rates](https://cryptocompare.com), [Fixer - foreign exchange rates and currency conversion](https://fixer.io)
 * [Google Analytics](http://analytics.google.com/)
 * [Google Drive](https://drive.google.com/)
