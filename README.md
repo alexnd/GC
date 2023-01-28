@@ -2402,7 +2402,7 @@ bitcoin-qt
 * [2captcha](https://2captcha.com/)
 * [Privacypass](https://privacypass.github.io/)
 * [GAOptout](https://tools.google.com/dlpage/gaoptout)
-* [OpenAI API](https://beta.openai.com/docs/api-reference)
+* [OpenAI API](https://beta.openai.com/docs/api-reference), [OpenAI Playground](https://beta.openai.com/playground)
 * [Google Colaboratory](https://colab.research.google.com/), [Jupyter Notebook (IPython)](https://ipython.org/notebook.html)
 * [Cryptocompare - exchange rates](https://cryptocompare.com), [Fixer - foreign exchange rates and currency conversion](https://fixer.io)
 * [Google Analytics](http://analytics.google.com/)
