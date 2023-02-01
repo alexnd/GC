@@ -2389,7 +2389,7 @@ bitcoin-qt
 * [BigchainDb](https://github.com/bigchaindb)
 * [Ganache](http://truffleframework.com/ganache)
 * [WebRTC streamer](https://snapcraft.io/webrtc-streamer)
-* [Xmind Mindmap editor](https://xmind.works/), [https://xmind.app](https://xmind.app/)
+* [Diagrams.net](https://app.diagrams.net/), [Xmind Mindmap editor](https://xmind.works/), [https://xmind.app](https://xmind.app/)
 * [Notion](https://www.notion.so/)
 * [RoamResearch](https://roamresearch.com/)
 * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
