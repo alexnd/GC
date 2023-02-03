@@ -596,6 +596,15 @@ var target = document.getElementById('target');
 target.dispatchEvent(event);
 ```
 
+* Fix npm install errors like next:
+
+```
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name ">=^16.0.0" of package "react@>=^16.0.0": Tags may not have any characters that encodeURIComponent encodes.
+```
+
+  - Run `npm install --legacy-peer-deps`
+
 # [TS](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
 * [TS Playground](https://www.typescriptlang.org/play)
