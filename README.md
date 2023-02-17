@@ -532,7 +532,7 @@ player.draw()
       },
       mode: 'cors',
       cache: 'no-cache',
-      credentials: 'include'
+      credentials: 'include',
       body: form
     })
     .then(function(res) {
