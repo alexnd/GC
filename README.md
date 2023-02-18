@@ -299,6 +299,11 @@ Ok, well, shuffling some another stuff...
 
    let key = 'z'
    let {[key]: foo} = {z: 'bar'}  // `foo` is 'bar' in context
+   
+   let userFields = {
+      ...(email && {email}),
+      ...(name && {name}),
+   }
    ```
 
 * Variables as object keys
