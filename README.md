@@ -253,6 +253,14 @@ Ok, well, shuffling some another stuff...
     }
 ```
 
+* Capitalize string
+
+```
+    function capitalize(s) {
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+```
+
 * Normalize string, removing duplicated spaces (or any repeating 'format character') 
 
     `str.replace(/  +/g, ' ')` or `str.replace(/\s\s+/g, ' ')`
