@@ -157,6 +157,8 @@ Ok, well, shuffling some another stuff...
 
 * Concatenate arrays `a` and `b`: `var c = a.concat(b)`
 
+* Insert element at the beginning of array `var a = [.....]; [item].concat(a)` 
+
 * Random array element: `a[Math.floor(Math.random() * a.length)]`
 
 * Unique array elements
