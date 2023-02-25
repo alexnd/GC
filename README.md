@@ -2009,7 +2009,24 @@ group by
 CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypassword';
 GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%';
 ```
+* Add privilegies for user on db
 
+```
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%';
+FLUSH PRIVILEGES;
+```
+
+* Rename database olddb newdb
+
+```
+CREATE DATABASE newdb DEFAULT CHARSET utf8;
+
+RENAME TABLE olddb.table1 TO newdb.table1;
+RENAME TABLE olddb.table2 TO newdb.table2;
+...
+
+DROP DATABASE olddb;
+```
 
 * [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
