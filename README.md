@@ -768,6 +768,7 @@ sudo apt-get install -y nodejs
 [node-webcam](https://github.com/chuckfairy/node-webcam)
 [mediasoup](https://mediasoup.org/documentation/v3/)
 [johnny-five](http://johnny-five.io/)
+[handlebars](https://handlebarsjs.com/guide/), [>130 handlebars helpers](https://github.com/helpers/handlebars-helpers)
 
 * [Tingodb](http://www.tingodb.com/) - embedded db version with storage in filesystem and API close to Mongodb, [tingodb api](https://npmdoc.github.io/node-npmdoc-tingodb/build/apidoc.html)
 
