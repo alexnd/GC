@@ -621,7 +621,7 @@ target.dispatchEvent(event);
           var el = document.querySelector(selector);
           if (el) return resolve(el);
           if (Date.now() - ts > timeout) {
-            return reject(new Error('Element not found'));
+            return reject(new Error('Element ' + selector + ' not found'));
           }
           setTimeout(queryEl, 1000);
         }
@@ -629,11 +629,11 @@ target.dispatchEvent(event);
       });
     }
     
-    // Awaiting 30 seconds for element with class="test"
+    // Usage example: awaiting 30 seconds for element with class="test"
     waitForElement('.test', 30000)
       .then(function(el) {
         // TEST PASSED
-	console.error('Found element .test:', el.innerText);
+        console.error('Found element .test:', el.innerText);
       })
       .catch(function(err) {
         // element not found and time is out
