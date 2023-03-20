@@ -611,6 +611,36 @@ var target = document.getElementById('target');
 target.dispatchEvent(event);
 ```
 
+* Wait for Element promise
+
+    ```
+    function waitForElement(selector, timeout) {
+      return new Promise(function(resolve, reject) {
+        var ts = Date.now();
+        function queryEl() {
+          var el = document.querySelector(selector);
+          if (el) return resolve(el);
+          if (Date.now() - ts > timeout) {
+            return reject(new Error('Element not found'));
+          }
+          setTimeout(queryEl, 1000);
+        }
+        queryEl();
+      });
+    }
+    
+    // Awaiting 30 seconds for element with class="test"
+    waitForElement('.test', 30000)
+      .then(function(el) {
+        // TEST PASSED
+	console.error('Found element .test:', el.innerText);
+      })
+      .catch(function(err) {
+        // element not found and time is out
+        console.error(err.message);
+      });
+    ```
+
 * Fix npm install errors like next:
 
 ```
