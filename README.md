@@ -650,30 +650,6 @@ npm ERR! Invalid tag name ">=^16.0.0" of package "react@>=^16.0.0": Tags may not
 
   - Run `npm install --legacy-peer-deps`
 
-* Convert commonJS node app to ESmodule, not modifying type to "module" in package.json and not refactoring all existing exports
-
-    - **do not** change type of module in package.json
-
-    - rename entrypoint file from **JS** to **MJS** (e.g. app.js to app.mjs)
-
-    - now you can use new export style like `import { Foo } from 'bar'` and `export { Foo }`
-
-    - add **require()** function polyfill to save all existing require's imports:
-
-    ```
-    import { createRequire } from 'module';
-    const require = createRequire(import.meta.url);
-    ```
-    
-    - **__dirname** global polyfill:
-
-    ```
-    const url = require('node:url');
-    const __filename = url.fileURLToPath(import.meta.url);
-    const __dirname = path.dirname(__filename);
-    ```
-    
-
 # [TS](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
 * [TS Playground](https://www.typescriptlang.org/play)
@@ -860,7 +836,7 @@ sudo apt-get install -y nodejs
     console.log(cfg.foo)
     ```
 
-    Nodejs console input
+* Nodejs console input
 
     ```
     const readline = require('readline')
@@ -874,7 +850,7 @@ sudo apt-get install -y nodejs
     })
     ```
 
-    Nodejs list network interfaces
+* Nodejs list network interfaces
 
     ```
     // long
@@ -905,15 +881,40 @@ sudo apt-get install -y nodejs
     });
     ```
 
-* `btoa` polyfill, encode to Base64 (Binary to Ascii)
+* [node-weak](https://www.npmjs.com/package/weak)
+
+* `btoa()` polyfill for Nodejs, encode to Base64 (Binary to Ascii)
 
     `Buffer.from(asciiData).toString('base64')`
 
-* `atob` polyfill, decode from Base64 (Ascii to Binary)
+* `atob()` polyfill for Nodejs, decode from Base64 (Ascii to Binary)
 
     `Buffer.from(b64Encoded, 'base64').toString()`
 
-* [node-weak](https://www.npmjs.com/package/weak)
+* `fetch()` polyfill for Nodejs: `import fetch from 'isomorphic-unfetch'` (should be installed via `npm i isomorphic-unfetch`)
+
+* Convert commonJS node app to ESmodule, not modifying type to "module" in package.json and not refactoring all existing exports
+
+    - **do not** change type of module in package.json
+
+    - rename entrypoint file from **JS** to **MJS** (e.g. app.js to app.mjs)
+
+    - now you can use new export style like `import { Foo } from 'bar'` and `export { Foo }`
+
+    - add **require()** function polyfill to save all existing require's imports:
+
+    ```
+    import { createRequire } from 'module';
+    const require = createRequire(import.meta.url);
+    ```
+    
+    - **__dirname** global polyfill:
+
+    ```
+    const url = require('node:url');
+    const __filename = url.fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    ```
 
 # [VUE](https://ru.vuejs.fsqlorg/v3/guide/index.html)
 
