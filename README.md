@@ -650,6 +650,30 @@ npm ERR! Invalid tag name ">=^16.0.0" of package "react@>=^16.0.0": Tags may not
 
   - Run `npm install --legacy-peer-deps`
 
+* Convert commonJS node app to ESmodule, not modifying type to "module" in package.json and not refactoring all existing exports
+
+    - **do not** change type of module in package.json
+
+    - rename entrypoint file from **JS** to **MJS** (e.g. app.js to app.mjs)
+
+    - now you can use new export style like `import { Foo } from 'bar'` and `export { Foo }`
+
+    - add **require()** function polyfill to save all existing require's imports:
+
+    ```
+    import { createRequire } from 'module';
+    const require = createRequire(import.meta.url);
+    ```
+    
+    - **__dirname** global polyfill:
+
+    ```
+    const url = require('node:url');
+    const __filename = url.fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    ```
+    
+
 # [TS](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
 * [TS Playground](https://www.typescriptlang.org/play)
