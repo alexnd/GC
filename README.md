@@ -812,6 +812,15 @@ sudo apt-get install -y nodejs
    npm install
    ```
 
+* async block in main context
+
+    ```
+    (async () => {
+      await foo();
+      // rest of code
+    })();
+    ```
+
 * argc/argv example: `const doClean = process.argv.length > 2 && process.argv.indexOf('--clean') !== -1`
 
 * Reading a *.py* config file into json-valid string
