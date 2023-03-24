@@ -2269,7 +2269,7 @@ done
 
 `ы Ы э Э ё Ё ъ Ъ і І ї Ї є Є ґ Ґ №`
 
-* [emoji characters list](https://unicode.org/emoji/charts/emoji-list.html) [emojipedia](https://emojipedia.org/)
+* [emoji characters list](https://unicode.org/emoji/charts/emoji-list.html) [emojipedia](https://emojipedia.org/) [emoji symbols (emojinarium)](https://emojinarium.com/symbols/)
 
 * ssl
 
