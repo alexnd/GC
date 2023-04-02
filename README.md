@@ -1797,6 +1797,14 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 
 * SQL date: `php -r 'echo  date('Y-m-d').PHP_EOL;'`, next day sql date: `date('Y-m-d', strtotime('+1 day'))`
 
+* Timestamps:
+
+```
+$beginOfDay = strtotime('today', $timestamp);
+$endOfDay   = strtotime('tomorrow', $beginOfDay) - 1;
+$endOf2Weeks = strtotime('today', strtotime('+2 weeks'));
+```
+
 * Parse .json file
 
 ```
