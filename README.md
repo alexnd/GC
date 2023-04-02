@@ -1795,6 +1795,8 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 }
 ```
 
+* Set correct timzone for script: `date_default_timezone_set('Europe/Kiev');`
+
 * SQL date: `php -r 'echo  date('Y-m-d').PHP_EOL;'`, next day sql date: `date('Y-m-d', strtotime('+1 day'))`
 
 * Timestamps:
