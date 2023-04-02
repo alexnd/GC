@@ -46,6 +46,16 @@ Enjoy!
 
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
+* Embed css to html
+
+```
+<style>
+@import '/main.css';
+</style>
+<!-- or -->
+<link rel="stylesheet" href="/main.css">
+```
+
 * Minimal pic
 
 ```
