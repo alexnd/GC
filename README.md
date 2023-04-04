@@ -70,7 +70,7 @@ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAA
 background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 ```
 
-* Fixed-width mreakpoints media queries
+* Fixed-width breakpoints media queries:
 
 ```
 @media (min-width: 576px) {
