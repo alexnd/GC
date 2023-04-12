@@ -2573,7 +2573,7 @@ bitcoin-qt
 * [Chrome extensions development](https://developer.chrome.com/docs/extensions/), [Chrome extensions API reference](https://developer.chrome.com/docs/extensions/reference/)
 * [DOSBox](https://www.dosbox.com/)
 * [exercism.io](https://exercism.io/)
-* [codewars](https://www.codewars.com/)
+* [codewars](https://www.codewars.com/) [https://leetcode.com/](Leetcode) [Neetcode](https://neetcode.io/) [Hackerrank](https://www.hackerrank.com/)
 * [GeoGebra](https://www.geogebra.org/calculator)
 * [LLVM](https://github.com/apple/llvm-project)
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
