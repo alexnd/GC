@@ -2089,6 +2089,8 @@ server {
 
 * [Install MySQL 5.7 on Ubuntu](https://www.how2shout.com/linux/add-repository-to-install-mysql-5-7-on-ubuntu-20-04-lts-linux/)
 * [Mysql for Windows](https://dev.mysql.com/downloads/installer/)
+* [MySQL Reference Manual](https://dev.mysql.com/doc/)
+* [MySQL Workbench (GUI Client)](https://dev.mysql.com/downloads/workbench/)
 
 `select from_unixtime(2147483647)`
 
@@ -2472,8 +2474,8 @@ bitcoin-qt
 * [Tiled map editor](https://www.mapeditor.org/)
 * [CreateApp](https://createapp.dev/)
 * [ScaffoldHub](https://scaffoldhub.io/)
-* [Nest.js](https://nestjs.com/)
 * [Next.js](https://nextjs.org/)
+* [Nest.js](https://nestjs.com/)
 * [Nuxt.js](https://nuxtjs.org/)
 * [React.js](https://reactjs.org/docs/getting-started.html), [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 * [React Online Playground](https://playcode.io/react), [Playcode react sample](https://playcode.io/1004160)
@@ -2573,7 +2575,7 @@ bitcoin-qt
 * [Chrome extensions development](https://developer.chrome.com/docs/extensions/), [Chrome extensions API reference](https://developer.chrome.com/docs/extensions/reference/)
 * [DOSBox](https://www.dosbox.com/)
 * [exercism.io](https://exercism.io/)
-* [codewars](https://www.codewars.com/) [https://leetcode.com/](Leetcode) [Neetcode](https://neetcode.io/) [Hackerrank](https://www.hackerrank.com/)
+* [codewars](https://www.codewars.com/), [Leetcode](https://leetcode.com/), [Neetcode](https://neetcode.io/), [Hackerrank](https://www.hackerrank.com/)
 * [GeoGebra](https://www.geogebra.org/calculator)
 * [LLVM](https://github.com/apple/llvm-project)
 * [windows93](http://www.windows93.net/), [windows93 version1](http://v1.windows93.net/)
