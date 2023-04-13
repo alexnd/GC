@@ -549,6 +549,8 @@ player.draw()
     ```
 * generate UUID, browser
 
+    modern browsers already have `crypto.randomUUID()`
+
     ```
     function uuidv4() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(
