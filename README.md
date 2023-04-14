@@ -2489,7 +2489,7 @@ bitcoin-qt
 * [Material-UI](https://material-ui.com/)
 * [MDBootstrap](https://mdbootstrap.github.io/bootstrap-material-design/docs)
 * [Ant Design](https://ant.design/)
-* [MUI](https://www.muicss.com/), [MUI Core](https://github.com/mui/material-ui/) [MUI X](https://github.com/mui/mui-x)
+* [MUI](https://mui.com/), [MUI Core](https://github.com/mui/material-ui/), [MUI X](https://github.com/mui/mui-x), [MUI Templates](https://mui.com/material-ui/getting-started/templates/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
 * [React Admin](https://marmelab.com/react-admin/)
 * [Shards React](https://designrevision.com/downloads/shards-react/)
