@@ -1190,6 +1190,10 @@ For example: `scp -P 2222 root@IP-ADDR:/root/.bash_profile ./bash_profile.txt`
 
     `dd if=./image.iso of=/dev/sdx` ( should be `sda` or `sdb` or `sdc` )
 
+* Get random seed: `openssl rand 64 | base64` or
+
+    `node -e "console.log(require('crypto').randomBytes(64).toString('base64'))"`
+
 * [xargs](https://shapeshed.com/unix-xargs)
 
 * [xclip](https://opensource.com/article/19/7/xclip)
