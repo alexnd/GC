@@ -1857,6 +1857,17 @@ $endOfDay = strtotime('tomorrow', $beginOfDay) - 1;
 $endOf2Weeks = strtotime('today', strtotime('+2 weeks'));
 ```
 
+* is number don't have float point
+
+```
+if (!function_exists('is_decimal')) {
+    function is_decimal($n)
+    {
+        return is_numeric($n) && floor($n) != $n;
+    }
+}
+```
+
 * Parse .json file
 
 ```
