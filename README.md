@@ -1688,6 +1688,7 @@ git push -u origin master
         mkdir /mountpath
         sshfs username@hostname:/ /mountpath
         ```
+
     - Unmount
 
         `umount /mountpath` or `diskutil umount force /mountpath`
@@ -1727,6 +1728,13 @@ git push -u origin master
 * [TextEdit as ASCII editor](https://apple.stackexchange.com/questions/188240/built-in-gui-based-ascii-only-editor-for-os-x)
 
 * [Supporting Associated Domains](https://developer.apple.com/documentation/xcode/supporting-associated-domains)
+
+* [Fix](https://github.com/actions/runner-images/issues/5469) for CLI error
+    ```
+    xcodebuild[3125:22662] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    xcodebuild[3125:22662] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    ```
+    when running `git` (`xcodebuild`) commands
 
 # [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
