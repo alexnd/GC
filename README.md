@@ -1729,7 +1729,7 @@ git push -u origin master
 
 * [Supporting Associated Domains](https://developer.apple.com/documentation/xcode/supporting-associated-domains)
 
-* [Fix](https://github.com/actions/runner-images/issues/5469) for CLI error
+* [Fix](https://developer.apple.com/forums/thread/703233) for CLI error
     ```
     xcodebuild[3125:22662] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
     xcodebuild[3125:22662] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
