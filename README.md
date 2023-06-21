@@ -2184,6 +2184,24 @@ RENAME TABLE olddb.table2 TO newdb.table2;
 DROP DATABASE olddb;
 ```
 
+* Execute dynamic statement (truncate a table only if it exists)
+
+```
+SET @tableName := 'your_table_name';
+SET @schemaName := 'your_schema_name';
+IF EXISTS (
+    SELECT 1
+    FROM information_schema.tables
+    WHERE table_schema = @schemaName
+    AND table_name = @tableName
+) THEN
+    SET @truncateStmt := CONCAT('TRUNCATE TABLE ', @schemaName, '.', @tableName);
+    PREPARE truncateStmt FROM @truncateStmt;
+    EXECUTE truncateStmt;
+    DEALLOCATE PREPARE truncateStmt;
+END IF;
+```
+
 * [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
 # Mongo DB
