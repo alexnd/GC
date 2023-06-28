@@ -2204,6 +2204,19 @@ END IF;
 
 * [reset MySQL root password (ubuntu)](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)
 
+* Install vim inside mysql docker container: `microdnf install -y vim` (then you can `vim /etc/my.cnf`)
+
+* Increase system var value that affects default limit 1024 of GROUP_CONCAT()
+
+  - Show system var: `select @@GLOBAL.group_concat_max_len;`
+
+  - In mysqld config (/etc/my.cnf):
+
+    ```
+    [mysqld]
+    group_concat_max_len = 10000
+    ```
+
 # Mongo DB
 
 * [Mongo for Windows](https://www.mongodb.com/try/download/community)
