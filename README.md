@@ -2362,6 +2362,13 @@ done
 * [Docker Compose](https://docs.docker.com/compose/install/)
 * [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 * [Docker in WSL2](https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2)
+* Fix docker-compose error `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock:`
+- Following [linux docker post-install steps](https://docs.docker.com/engine/install/linux-postinstall/):
+
+    ```
+    usermod -a -G docker $USER
+    newgrp docker
+    ```
 
 # WINDOWS
 
