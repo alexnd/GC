@@ -2516,6 +2516,7 @@ bitcoin-qt
 * [FontSource](https://github.com/fontsource/fontsource)
 * [Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 * [Fonts.Google](https://fonts.google.com)
+* [Google webfonts helper](https://gwfh.mranftl.com/fonts)
 * [FontSpace](https://www.fontspace.com)
 * [1001 Fonts](https://www.1001fonts.com)
 * [FontSquirrel](https://www.fontsquirrel.com)
