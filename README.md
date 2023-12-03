@@ -1100,7 +1100,7 @@ Instant vue prototyping
 * [@nuxtjs/proxy](https://www.npmjs.com/package/@nuxtjs/proxy)
 
 # [BASH](https://learnxinyminutes.com/docs/bash/)
-# [SHELL]
+# SHELL
 
 * Create Symbolic Link: `ln -s source target`
 
