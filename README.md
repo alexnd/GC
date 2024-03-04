@@ -323,6 +323,8 @@ Ok, well, shuffling some another stuff...
 
     `new Date().toISOString().substr(0, 10)`
 
+    Datetime: `new Date().toISOString().substr(0, 19).replace('T', ' ')`
+
 * Unix timestamp for moment: `Date.now()`
 
 * Shift existing Date object by n milliseconds
