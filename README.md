@@ -2371,8 +2371,9 @@ done
 - Following [linux docker post-install steps](https://docs.docker.com/engine/install/linux-postinstall/):
 
     ```
-    usermod -a -G docker $USER
-    newgrp docker
+    sudo groupadd docker
+    sudo usermod -a -G docker $USER
+    sudo newgrp docker
     ```
 
 # WINDOWS
