@@ -1249,6 +1249,13 @@ Edit /etc/php/7.4/fpm/php.ini, set correct path's (like upload_tmp_dir) and othe
 
     -- `sudo systemctl restart networking`
 
+* Update snap packages when it whan't:
+
+```
+sudo killall snap-store
+sudo snap refresh snap-store
+```
+
 * **screen** - terminal multiplexor - keeps your terminal session on server
 
     - `apt install screen`
