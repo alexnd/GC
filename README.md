@@ -1220,6 +1220,8 @@ For example: `scp -P 2222 root@IP-ADDR:/root/.bash_profile ./bash_profile.txt`
 
     `nullmailer mailutils`
 
+* Reconfigure package, running postinstall script again: `sudo dpkg-reconfigure nullmailer`
+
 * Web developer env:
 
 ```
