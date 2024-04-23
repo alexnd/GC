@@ -369,6 +369,14 @@ Ok, well, shuffling some another stuff...
       ...(name && {name}),
    }
    ```
+* JSX conditional attributes
+
+  ```
+  <Link
+    href="some"
+    {...(foo === 'bar' && {className: styles.active})}
+  >Text</Link>
+  ```
 
 * Variables as object keys
 
