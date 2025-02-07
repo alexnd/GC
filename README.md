@@ -2390,6 +2390,10 @@ done
     sudo usermod -a -G docker $USER
     sudo newgrp docker
     ```
+* watch logs: `docker logs -f --tail 50 container-name`
+* clean logs: `truncate -s 0 $(docker inspect --format='{{.LogPath}}' container_name_or_id)`
+
+/var/lib/docker/containers/<CONTAINER>/<CONTAINER>-json.log
 
 # WINDOWS
 
