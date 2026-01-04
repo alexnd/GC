@@ -1410,6 +1410,10 @@ curl -H 'content-type: application/json' \
 -v -X POST -d '{"foo": "Bar", "baz": 0.842}' http://127.0.0.1:3000/api/fun
 ```
 
+* Cut-off audio track from videofile
+
+  `ffmpeg -i input.mov -map 0:v:0 -c copy -an output.mov`
+
 # APT
 
 `dpkg --get-selections | grep foo` - find all packages by name `foo`
