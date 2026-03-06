@@ -2656,6 +2656,7 @@ bitcoin-qt
 * [Ganache](http://truffleframework.com/ganache)
 * [WebRTC streamer](https://snapcraft.io/webrtc-streamer)
 * [Diagrams.net](https://app.diagrams.net/), [Xmind Mindmap editor](https://xmind.works/), [https://xmind.app](https://xmind.app/), [Google Drawings](https://docs.google.com/drawings), [Dbdiagram.io](https://dbdiagram.io/home)
+* [Image to STL](https://imagetostl.com/text-to-stl)
 * [Notion](https://www.notion.so/)
 * [RoamResearch](https://roamresearch.com/)
 * [Syncthing - your own private cloud for files syncronization](https://syncthing.net/)
